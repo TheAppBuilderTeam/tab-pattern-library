@@ -1,0 +1,54 @@
+/* Typography */
+
+body{
+	font-family: "lato", sans-serif;
+	color: $textColor;
+}
+
+@mixin lato-light{
+	font-weight: 300;
+}
+
+@mixin lato-regular{
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+@mixin lato-medium{
+	font-weight: 500;
+}
+
+@mixin lato-semibold{
+	font-weight: 600;
+}
+
+@mixin lato-bold{
+	font-weight: 700;
+	letter-spacing: -0.32px;
+}
+
+@mixin lato-heavy{
+	font-weight: 800;
+}
+
+h1{
+	@include lato-heavy;
+	font-size: 50px;
+	color: $pink;
+	line-height: 1.1em;
+	padding-bottom: 0.6em;
+}
+
+h2{
+	@include lato-bold;
+	font-size: 34px;
+	line-height: 1.2em;
+	padding-bottom: 0.6em;
+}
+
+p{
+	@include lato-regular;
+	font-size: 18px;
+	line-height: 1.4em;
+	padding-bottom: 30px;
+}

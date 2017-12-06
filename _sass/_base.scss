@@ -1,0 +1,63 @@
+/* Base Styling */
+
+@import "typography";
+
+
+*{
+   box-sizing: border-box;
+   -moz-box-sizing:border-box;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -webkit-backface-visibility: hidden;
+}
+
+
+nav.main-nav{
+	position: fixed;
+	width: 225px;
+	height: 100%;
+	background: $purpleBackground;
+	color: $white;
+	display: block;
+	padding: 30px;
+	ul{
+		padding: 20px 0;
+		li{
+			padding: 10px 0;
+			a {
+				@include lato-medium;
+				color: $white;
+				text-decoration:none;
+				&:hover{
+					color: $gold;
+				}
+				&.active{
+					@include lato-heavy;
+					color: $gold;
+				}
+			}
+		}
+	}
+
+}
+
+.main-content{
+    margin-left: 220px;
+}
+
+.container{
+	margin: 0 auto;
+	display: block;
+	width: 90%;
+	max-width: 790px;
+}
+
+.content{
+	max-width: 595px;
+	margin: 0 auto;
+	display: block;
+}
+
+
+
+
