@@ -1,6 +1,7 @@
 /* Typography */
 
 @import "mixins";
+@import "variables";
 
 body{
 	font-family: "lato", sans-serif;
@@ -43,3 +44,75 @@ p{
 	color: $purple__light;
 	display: block;
 }
+
+
+/* Other 
+------------------------------------------------------------------ */
+
+.paragraph--meta{
+	@include latoBold;
+	color: $purple__meta;
+	font-size: 11px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    display: block;
+    span{
+    	padding-right: 10px;
+    }
+}
+
+
+
+/* CMS Styles 
+------------------------------------------------------------------ */
+
+
+.text--pageTitlePrimary{
+	@include latoRegular;
+	font-size: 27px;
+	color: $cmsGrey;
+	letter-spacing: -0.5px;
+	text-transform: none;
+}
+
+.text--pageTitleSecondary{
+	@include latoSemibold;
+	font-size: 18px;
+	color: $cmsGrey;
+	letter-spacing: -0.5px;
+	text-transform: none;
+}
+
+.text--pageParagraph{
+	@include latoRegular;
+	font-size: 15px;
+	color: $cmsGrey;
+	letter-spacing: -0.3px;
+	text-transform: none;
+}
+
+.text--pageMicro{
+	@include latoRegular;
+	font-size: 11px;
+	color: $cmsGrey;
+	letter-spacing: 0.5px;
+	text-transform: none;
+}
+
+.text--pageParagraphWarning{
+	@include latoRegular;
+	font-size: 15px;
+	color: $red;
+	letter-spacing: -0.3px;
+	text-transform: none;
+}
+
+
+
+
+
+
+
+
+

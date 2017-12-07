@@ -3,6 +3,7 @@
 
 @import "mixins";
 @import "typography";
+@import "variables";
 
 
 *{
@@ -119,9 +120,28 @@ footer{
 
 .styling__block{
 	padding: 30px;
-	border: solid 1px #EBEBEB;
+	border: solid 1px $borderColor;
 	border-radius: 7px;
 }
+
+.paragraph--meta--top{
+	padding: 20px 0 10px 0;
+}
+
+.paragraph--meta--bottom{
+	padding: 10px 0 20px 0;
+	border-bottom: solid 1px $borderColor;
+}
+
+ul.styling__block li:first-child .paragraph--meta--top{
+	padding: 0 0 10px 0;
+}
+
+ul.styling__block li:last-child .paragraph--meta--bottom{
+	border: none;
+	padding: 10px 0 0 0;
+}
+
 
 
 

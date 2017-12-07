@@ -332,8 +332,13 @@ a {
   color: inherit; }
 
 /* Variables */
+/* CMS 
+*/
 /* Typography */
 /* Mixins */
+/* Variables */
+/* CMS 
+*/
 body {
   font-family: "lato", sans-serif;
   color: #38344A; }
@@ -368,11 +373,69 @@ p {
   font-size: 17px;
   color: #AFADBA;
   display: block; }
+
+/* Other 
+------------------------------------------------------------------ */
+.paragraph--meta {
+  font-weight: 700;
+  letter-spacing: -0.32px;
+  color: #AFADBA;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  display: block; }
+  .paragraph--meta span {
+    padding-right: 10px; }
+
+/* CMS Styles 
+------------------------------------------------------------------ */
+.text--pageTitlePrimary {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 27px;
+  color: #6A6F75;
+  letter-spacing: -0.5px;
+  text-transform: none; }
+
+.text--pageTitleSecondary {
+  font-weight: 600;
+  font-size: 18px;
+  color: #6A6F75;
+  letter-spacing: -0.5px;
+  text-transform: none; }
+
+.text--pageParagraph {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 15px;
+  color: #6A6F75;
+  letter-spacing: -0.3px;
+  text-transform: none; }
+
+.text--pageMicro {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 11px;
+  color: #6A6F75;
+  letter-spacing: 0.5px;
+  text-transform: none; }
+
+.text--pageParagraphWarning {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 15px;
+  color: #D62D29;
+  letter-spacing: -0.3px;
+  text-transform: none; }
 
 /* Base Styling */
 /* Mixins */
 /* Typography */
 /* Mixins */
+/* Variables */
+/* CMS 
+*/
 body {
   font-family: "lato", sans-serif;
   color: #38344A; }
@@ -408,6 +471,64 @@ p {
   color: #AFADBA;
   display: block; }
 
+/* Other 
+------------------------------------------------------------------ */
+.paragraph--meta {
+  font-weight: 700;
+  letter-spacing: -0.32px;
+  color: #AFADBA;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  display: block; }
+  .paragraph--meta span {
+    padding-right: 10px; }
+
+/* CMS Styles 
+------------------------------------------------------------------ */
+.text--pageTitlePrimary {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 27px;
+  color: #6A6F75;
+  letter-spacing: -0.5px;
+  text-transform: none; }
+
+.text--pageTitleSecondary {
+  font-weight: 600;
+  font-size: 18px;
+  color: #6A6F75;
+  letter-spacing: -0.5px;
+  text-transform: none; }
+
+.text--pageParagraph {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 15px;
+  color: #6A6F75;
+  letter-spacing: -0.3px;
+  text-transform: none; }
+
+.text--pageMicro {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 11px;
+  color: #6A6F75;
+  letter-spacing: 0.5px;
+  text-transform: none; }
+
+.text--pageParagraphWarning {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 15px;
+  color: #D62D29;
+  letter-spacing: -0.3px;
+  text-transform: none; }
+
+/* Variables */
+/* CMS 
+*/
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -505,5 +626,19 @@ footer {
 
 .styling__block {
   padding: 30px;
-  border: solid 1px #EBEBEB;
+  border: solid 1px #E8E8E8;
   border-radius: 7px; }
+
+.paragraph--meta--top {
+  padding: 20px 0 10px 0; }
+
+.paragraph--meta--bottom {
+  padding: 10px 0 20px 0;
+  border-bottom: solid 1px #E8E8E8; }
+
+ul.styling__block li:first-child .paragraph--meta--top {
+  padding: 0 0 10px 0; }
+
+ul.styling__block li:last-child .paragraph--meta--bottom {
+  border: none;
+  padding: 10px 0 0 0; }
