@@ -43,9 +43,3 @@ p{
 	color: $purple__light;
 	display: block;
 }
-
-.block__link__title{
-	@include latoBold;
-	font-size: 17px;
-	display: block;
-}

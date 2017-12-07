@@ -19,14 +19,14 @@ This pattern library will cover design patterns for each component but always be
 <div class="main__content__block">
 	<a href="{{baseurl}}/cms/" class="main__content__block__third">
 		<span class="block__link__subtitle">Style Guide</span>
-		CMS
+		CMS <span class="block__link__icon">&#10142;</span>
 	</a>
 	<a href="{{baseurl}}/native-apps/" class="main__content__block__third">
 		<span class="block__link__subtitle">Style Guide</span>
-		Android + iOS Apps
+		Android &amp; iOS apps <span class="block__link__icon">&#10142;</span>
 	</a>
 	<a href="{{baseurl}}/webapp/" class="main__content__block__third main__content__block__third--last">
 		<span class="block__link__subtitle">Style Guide</span>
-		Webapp
+		Webapp <span class="block__link__icon">&#10142;</span>
 	</a>
 </div>

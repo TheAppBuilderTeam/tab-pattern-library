@@ -76,6 +76,15 @@ a{
 	max-width: 790px;
 }
 
+footer{
+	clear: both;
+	width: 100%;
+	padding: 100px 0 50px 0;
+	color: $purple__light;
+	text-align: center;
+	font-size: 14px;
+}
+
 
 /* Blocks 
 ------------------------------------------------------------------ */
@@ -94,6 +103,7 @@ a{
 	margin: 3% 3% 3% 0;
 	padding: 22px;
 	text-align: center;
+	@include latoBold;
 	&:hover{
 		box-shadow: 0 2px 7px 0 rgba(132,132,132,0.50);
 	}
@@ -103,8 +113,14 @@ a{
 	margin-right: 0;
 }
 
-.block__link--withIcon{
-	
+.block__link__icon{
+	color: $pink;
+}
+
+.styling__block{
+	padding: 30px;
+	border: solid 1px #EBEBEB;
+	border-radius: 7px;
 }
 
 

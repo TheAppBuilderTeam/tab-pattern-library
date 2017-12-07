@@ -369,12 +369,6 @@ p {
   color: #AFADBA;
   display: block; }
 
-.block__link__title {
-  font-weight: 700;
-  letter-spacing: -0.32px;
-  font-size: 17px;
-  display: block; }
-
 /* Base Styling */
 /* Mixins */
 /* Typography */
@@ -412,12 +406,6 @@ p {
   font-weight: 500;
   font-size: 17px;
   color: #AFADBA;
-  display: block; }
-
-.block__link__title {
-  font-weight: 700;
-  letter-spacing: -0.32px;
-  font-size: 17px;
   display: block; }
 
 * {
@@ -481,6 +469,14 @@ a {
   width: 90%;
   max-width: 790px; }
 
+footer {
+  clear: both;
+  width: 100%;
+  padding: 100px 0 50px 0;
+  color: #AFADBA;
+  text-align: center;
+  font-size: 14px; }
+
 /* Blocks 
 ------------------------------------------------------------------ */
 .main__content__block {
@@ -495,9 +491,19 @@ a {
   width: 31%;
   margin: 3% 3% 3% 0;
   padding: 22px;
-  text-align: center; }
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: -0.32px; }
   .main__content__block__third:hover {
     box-shadow: 0 2px 7px 0 rgba(132, 132, 132, 0.5); }
 
 .main__content__block__third--last {
   margin-right: 0; }
+
+.block__link__icon {
+  color: #C1375E; }
+
+.styling__block {
+  padding: 30px;
+  border: solid 1px #EBEBEB;
+  border-radius: 7px; }
