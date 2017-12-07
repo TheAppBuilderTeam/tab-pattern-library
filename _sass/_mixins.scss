@@ -1,0 +1,44 @@
+/* Mixins */
+
+@mixin latoLight{
+	font-weight: 300;
+}
+
+@mixin latoRegular{
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+@mixin latoMedium{
+	font-weight: 500;
+}
+
+@mixin latoSemibold{
+	font-weight: 600;
+}
+
+@mixin latoBold{
+	font-weight: 700;
+	letter-spacing: -0.32px;
+}
+
+@mixin latoHeavy{
+	font-weight: 800;
+}
+
+@mixin sidebarLink{
+	@include latoMedium;
+	color: $white;
+	text-decoration:none;
+	&:hover{
+		color: $gold;
+	}
+	&.active{
+		@include latoHeavy;
+		color: $gold;
+	}
+}
+
+@mixin fadeAnimation{
+	transition: all 0.3s ease 0s;
+}

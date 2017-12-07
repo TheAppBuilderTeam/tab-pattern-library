@@ -41,9 +41,9 @@
 </head>
 
   <body>
-    <nav class="main-nav">
+    <nav class="navigation__primary">
 	<a href="/" class="logo"><img src="/assets/images/tab_logo.svg" alt="TAB logo" /img></a>
-    <ul class="main-navigation__list">
+    <ul class="navigation__primary__list">
        <li><a href="/" class="active">Introduction</a></li>
       <li><a href="/cms/" >CMS</a></li>
       <li><a href="/native-apps/" >Android + iOS Apps</a></li>
@@ -53,19 +53,36 @@
 
 
 
-      <div class="main-content" id="page-home">
+      <div class="main" id="page--home">
         <article class="container">
-          <div class="content">
+          <div class="main__content">
             <h1></h1>
             <h1 id="pattern-library">Pattern Library</h1>
 
 <p>TheAppBuilder product and team has grown so in an effort to help us work more efficiently and intuitively we have put together this centralised hub for showcasing our design rules, principles, and frontend components.</p>
+
+<figure><img src="/assets/images/tab-layouts.jpg" class="main__content__img" /></figure>
 
 <h2 id="our-platform">Our Platform</h2>
 
 <p>TheAppBuilder is made up of four main components - the content management system, Android app, iOS app and web app.</p>
 
 <p>This pattern library will cover design patterns for each component but always be a work in progress and ever-changing, but should help designers and developers on the team collaborate more effectively and build a more solid product together.</p>
+
+<div class="main__content__block">
+	<a href="/cms/" class="main__content__block__third">
+		<span class="block__link__subtitle">Style Guide</span>
+		CMS
+	</a>
+	<a href="/native-apps/" class="main__content__block__third">
+		<span class="block__link__subtitle">Style Guide</span>
+		Android + iOS Apps
+	</a>
+	<a href="/webapp/" class="main__content__block__third main__content__block__third--last">
+		<span class="block__link__subtitle">Style Guide</span>
+		Webapp
+	</a>
+</div>
 
           </div>
         </article>

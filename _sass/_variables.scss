@@ -1,10 +1,12 @@
 /* Variables */
 
-$purpleBackground: #1D173E;
-$purpleFaded: #AFADBA;
-$pink: #C1375E;
-$gold: #D6BD89;
+$purple__background: #1D173E;
+$purple__light: #AFADBA;
+$purple__dark: #38344A;
 
 $white: #ffffff;
 
-$textColor: #38344A;
+$pink: #C1375E;
+$gold: #D6BD89;
+
+$textColor: $purple__dark;
