@@ -627,7 +627,8 @@ footer {
 .styling__block {
   padding: 30px;
   border: solid 1px #E8E8E8;
-  border-radius: 7px; }
+  border-radius: 7px;
+  margin-bottom: 50px; }
 
 .paragraph--meta--top {
   padding: 20px 0 10px 0; }

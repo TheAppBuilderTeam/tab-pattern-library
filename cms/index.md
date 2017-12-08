@@ -61,3 +61,13 @@ The type throughout the content management system uses Google’s Lato font-fami
 	</li>	
 
 </ul>
+
+
+
+## Colour Palette
+
+The colours below are used throughout the CMS and each specifies the hexcode and LESS names for the colour.   
+
+
+
+
