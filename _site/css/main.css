@@ -612,3 +612,30 @@ ul.styling__block li:first-child .paragraph--meta--top {
 ul.styling__block li:last-child .paragraph--meta--bottom {
   border: none;
   padding: 10px 0 0 0; }
+
+.colour__block {
+  width: 23%;
+  margin-right: 2%;
+  height: 135px;
+  float: left;
+  position: relative;
+  border-radius: 7px; }
+  .colour__block--one {
+    background: #575757; }
+  .colour__block--two {
+    background: #9A9FA5; }
+  .colour__block--three {
+    background: #0570B6; }
+  .colour__block--four {
+    background: #CC2525; }
+
+.colour__block__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.2); }
+  .colour__block__info p {
+    color: #ffffff;
+    font-size: 14px; }

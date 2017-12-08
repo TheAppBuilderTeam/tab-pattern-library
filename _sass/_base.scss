@@ -144,6 +144,41 @@ ul.styling__block li:last-child .paragraph--meta--bottom{
 	padding: 10px 0 0 0;
 }
 
+.colour__block{
+	width: 23%;
+	margin-right: 2%;
+	height: 135px;
+	float: left;
+	position: relative;
+	border-radius: 7px;
+	&--one{
+		background: #575757;
+	}
+	&--two{
+		background: #9A9FA5;
+	}
+	&--three{
+		background: #0570B6;
+	}
+	&--four{
+		background: #CC2525;
+	}
+}
+
+.colour__block__info{
+	position: absolute;
+	bottom: 0;
+	left: 0; 
+	right: 0;
+	padding: 5px; 
+	background: rgba(0,0,0,0.2);
+	p{
+		color: $white;
+		font-size: 14px;
+	}
+}
+
+
 
 
 

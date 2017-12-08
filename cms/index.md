@@ -66,6 +66,56 @@ The type throughout the content management system uses Google’s Lato font-fami
 
 The colours below are used throughout the CMS and each specifies the hexcode and LESS names for the colour.   
 
+<ul class="main__content__block"  markdown="0">
+	<h3>Text Colours</h3>
+	<li class="colour__block colour__block--one">
+		<div class="colour__block__info">
+			<p>@textGlobal</p>
+			<p>#6A6F75</p>
+		</div>
+	</li>
+	<li class="colour__block colour__block--two">
+		<div class="colour__block__info">
+			<p>@textGlobal</p>
+			<p>#6A6F75</p>
+		</div>
+	</li>
+	<li class="colour__block colour__block--three">
+		<div class="colour__block__info">
+			<p>@textGlobal</p>
+			<p>#6A6F75</p>
+		</div>
+	</li>
+	<li class="colour__block colour__block--four">
+		<div class="colour__block__info">
+			<p>@textGlobal</p>
+			<p>#6A6F75</p>
+		</div>
+	</li>
+</ul>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
