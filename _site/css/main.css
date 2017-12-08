@@ -331,14 +331,18 @@ a {
   text-decoration: none;
   color: inherit; }
 
-/* Variables */
-/* CMS 
-*/
-/* Typography */
-/* Mixins */
-/* Variables */
-/* CMS 
-*/
+/* Variables
+------------------------------------------------------------------ */
+/* CMS Specific
+------------------------------------------------------------------ */
+/* Typography for Pattern Library site styles
+------------------------------------------------------------------ */
+/* Mixins
+------------------------------------------------------------------ */
+/* Variables
+------------------------------------------------------------------ */
+/* CMS Specific
+------------------------------------------------------------------ */
 body {
   font-family: "lato", sans-serif;
   color: #38344A; }
@@ -429,13 +433,18 @@ p {
   letter-spacing: -0.3px;
   text-transform: none; }
 
-/* Base Styling */
-/* Mixins */
-/* Typography */
-/* Mixins */
-/* Variables */
-/* CMS 
-*/
+/* Base Styling
+------------------------------------------------------------------ */
+/* Mixins
+------------------------------------------------------------------ */
+/* Typography for Pattern Library site styles
+------------------------------------------------------------------ */
+/* Mixins
+------------------------------------------------------------------ */
+/* Variables
+------------------------------------------------------------------ */
+/* CMS Specific
+------------------------------------------------------------------ */
 body {
   font-family: "lato", sans-serif;
   color: #38344A; }
@@ -485,50 +494,10 @@ p {
   .paragraph--meta span {
     padding-right: 10px; }
 
-/* CMS Styles 
+/* Variables
 ------------------------------------------------------------------ */
-.text--pageTitlePrimary {
-  font-weight: 400;
-  letter-spacing: 0;
-  font-size: 27px;
-  color: #6A6F75;
-  letter-spacing: -0.5px;
-  text-transform: none; }
-
-.text--pageTitleSecondary {
-  font-weight: 600;
-  font-size: 18px;
-  color: #6A6F75;
-  letter-spacing: -0.5px;
-  text-transform: none; }
-
-.text--pageParagraph {
-  font-weight: 400;
-  letter-spacing: 0;
-  font-size: 15px;
-  color: #6A6F75;
-  letter-spacing: -0.3px;
-  text-transform: none; }
-
-.text--pageMicro {
-  font-weight: 400;
-  letter-spacing: 0;
-  font-size: 11px;
-  color: #6A6F75;
-  letter-spacing: 0.5px;
-  text-transform: none; }
-
-.text--pageParagraphWarning {
-  font-weight: 400;
-  letter-spacing: 0;
-  font-size: 15px;
-  color: #D62D29;
-  letter-spacing: -0.3px;
-  text-transform: none; }
-
-/* Variables */
-/* CMS 
-*/
+/* CMS Specific
+------------------------------------------------------------------ */
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
