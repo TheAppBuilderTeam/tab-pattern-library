@@ -1,0 +1,44 @@
+
+/* CMS Styles 
+------------------------------------------------------------------ */
+
+
+.text--pageTitlePrimary{
+	@include latoRegular;
+	font-size: 27px;
+	color: $cmsGrey;
+	letter-spacing: -0.5px;
+	text-transform: none;
+}
+
+.text--pageTitleSecondary{
+	@include latoSemibold;
+	font-size: 18px;
+	color: $cmsGrey;
+	letter-spacing: -0.5px;
+	text-transform: none;
+}
+
+.text--pageParagraph{
+	@include latoRegular;
+	font-size: 15px;
+	color: $cmsGrey;
+	letter-spacing: -0.3px;
+	text-transform: none;
+}
+
+.text--pageMicro{
+	@include latoRegular;
+	font-size: 11px;
+	color: $cmsGrey;
+	letter-spacing: 0.5px;
+	text-transform: none;
+}
+
+.text--pageParagraphWarning{
+	@include latoRegular;
+	font-size: 15px;
+	color: $red;
+	letter-spacing: -0.3px;
+	text-transform: none;
+}

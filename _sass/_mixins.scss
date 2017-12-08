@@ -1,4 +1,5 @@
-/* Mixins */
+/* Mixins
+------------------------------------------------------------------ */
 
 @mixin latoLight{
 	font-weight: 300;
@@ -42,3 +43,5 @@
 @mixin fadeAnimation{
 	transition: all 0.3s ease 0s;
 }
+
+
