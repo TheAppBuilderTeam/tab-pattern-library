@@ -1,0 +1,30 @@
+/* Helper Classes
+------------------------------------------------------------------ */
+
+.clear{
+	clear: both;
+}
+
+.float__left{
+	float: left;
+}
+
+.float__right{
+	float: right;
+}
+
+.width__100{
+	width: 100%;
+}
+
+.padding{
+	&__30{
+	padding-bottom: 30px;
+	}
+	&__50{
+	padding-bottom: 50px;
+	}
+	&__100{
+	padding-bottom: 100px;
+	}
+}

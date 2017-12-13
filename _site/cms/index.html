@@ -46,6 +46,20 @@
     <ul class="navigation__primary__list">
        <li><a href="/" >Introduction</a></li>
       <li><a href="/cms/" class="active">CMS</a></li>
+      	<ul>
+      		<li><h5 class="sidebar__link--title">Styles</h5></li>
+      		<li><a href="#cms_type" class="sidebar__link--inner">Type</a></li>
+      		<li><a href="#cms_type" class="sidebar__link--inner">Colour Palette</a></li>
+      		<li><a href="#cms_type" class="sidebar__link--inner">Buttons</a></li>
+      		<li><h5 class="sidebar__link--title">Components</h5></li>
+      		<li><a href="#cms_type" class="sidebar__link--inner">Icons</a></li>
+      		<li><a href="#cms_type" class="sidebar__link--inner">Forms</a></li>
+      		<li><a href="#cms_type" class="sidebar__link--inner">Tables</a></li>
+      		<li><a href="#cms_type" class="sidebar__link--inner">Search</a></li>
+      		<li><h5 class="sidebar__link--title">Layouts</h5></li>
+      		<li><a href="#cms_type" class="sidebar__link--inner">Tabbed Pages</a></li>
+      		<li><a href="#cms_type" class="sidebar__link--inner">Sidebars</a></li>
+      	</ul>
       <li><a href="/native-apps/" >Android + iOS Apps</a></li>
       <li><a href="/webapp/" >Webapp</a></li>
     </ul>
@@ -65,7 +79,7 @@
 
 <p>The type throughout the content management system uses Google’s Lato font-family. Various font styles are used throughout the CMS to establish a sense of hierarchy in the content and controls.</p>
 
-<ul class="main__content__block styling__block">
+<ul class="main__content__block styling__block padding__100">
 	<li class="type__block">
 		<div class="paragraph--meta paragraph--meta--top">Page Title</div>
 		<div class="text--pageTitlePrimary">The quick brown fox jumps over the lazy dog</div>
@@ -99,7 +113,7 @@
 		<div class="paragraph--meta paragraph--meta--bottom">
 			<span>Size: 11px</span>
 			<span>Weight: Regular</span>
-			<span>Letter-Spacing: 0.5px</span>
+			<span>Letter-Spacing: 0</span>
 		</div>
 	</li>
 	<li class="type__block">
@@ -111,39 +125,105 @@
 			<span>Letter-Spacing: -0.3px</span>
 		</div>
 	</li>	
+	<li class="type__block">
+		<div class="paragraph--meta paragraph--meta--top">Link</div>
+		<a href="#" class="text--link">Edit Permissions</a>
+		<div class="paragraph--meta paragraph--meta--bottom">
+			<span>Size: 15px</span>
+			<span>Weight: Regular</span>
+			<span>Letter-Spacing: 0</span>
+		</div>
+	</li>	
+	<li class="type__block">
+		<div class="paragraph--meta paragraph--meta--top">Micro Link</div>
+		<a href="#" class="text--link--micro">12 Groups</a>
+		<div class="paragraph--meta paragraph--meta--bottom">
+			<span>Size: 13px</span>
+			<span>Weight: Regular</span>
+			<span>Letter-Spacing: -0.3px</span>
+		</div>
+	</li>	
 </ul>
 
 <h2 id="colour-palette">Colour Palette</h2>
 
 <p>The colours below are used throughout the CMS and each specifies the hexcode and LESS names for the colour.</p>
 
-<ul class="main__content__block">
-	<h3>Text Colours</h3>
+<ul class="main__content__block padding__30">
+	<h3 class="float__left width__100">Text Colours</h3>
 	<li class="colour__block colour__block--one">
 		<div class="colour__block__info">
-			<p>@textGlobal</p>
+			<p>$cmsGrey</p>
 			<p>#6A6F75</p>
 		</div>
 	</li>
 	<li class="colour__block colour__block--two">
 		<div class="colour__block__info">
-			<p>@textGlobal</p>
+			<p>$cmsPlaceholder</p>
 			<p>#6A6F75</p>
 		</div>
 	</li>
 	<li class="colour__block colour__block--three">
 		<div class="colour__block__info">
-			<p>@textGlobal</p>
-			<p>#6A6F75</p>
+			<p>$cmsLink</p>
+			<p>#0570B6</p>
 		</div>
 	</li>
 	<li class="colour__block colour__block--four">
 		<div class="colour__block__info">
-			<p>@textGlobal</p>
+			<p>$red</p>
 			<p>#6A6F75</p>
 		</div>
 	</li>
 </ul>
+
+<ul class="main__content__block padding__30">
+	<h3 class="float__left width__100">Button Colours</h3>
+	<li class="colour__block colour__block--five">
+		<div class="colour__block__info">
+			<p>$buttonPrimary</p>
+			<p>#00B5EB</p>
+		</div>
+	</li>
+	<li class="colour__block colour__block--six">
+		<div class="colour__block__info">
+			<p>$buttonSecondary</p>
+			<p>#D2D9E1</p>
+		</div>
+	</li>
+	<li class="colour__block colour__block--seven">
+		<div class="colour__block__info">
+			<p>$buttonSecondaryText</p>
+			<p>#657D98</p>
+		</div>
+	</li>
+</ul>
+
+<ul class="main__content__block padding__100">
+	<h3 class="float__left width__100">Background Colours</h3>
+	<li class="colour__block colour__block--eight">
+		<div class="colour__block__info">
+			<p>$tableRow</p>
+			<p>#F7F7F7</p>
+		</div>
+	</li>
+	<li class="colour__block colour__block--nine">
+		<div class="colour__block__info">
+			<p>$textHead</p>
+			<p>#E7F2F9</p>
+		</div>
+	</li>
+	<li class="colour__block colour__block--ten">
+		<div class="colour__block__info">
+			<p>$componentBorder</p>
+			<p>#E1E1E1</p>
+		</div>
+	</li>
+</ul>
+
+<h2 id="buttons">Buttons</h2>
+
+<p>The colours below are used throughout the CMS and each specifies the hexcode and LESS names for the colour.</p>
 
 
           </div>

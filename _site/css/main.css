@@ -331,7 +331,28 @@ a {
   text-decoration: none;
   color: inherit; }
 
-/* Variables
+/* Helper Classes
+------------------------------------------------------------------ */
+.clear {
+  clear: both; }
+
+.float__left {
+  float: left; }
+
+.float__right {
+  float: right; }
+
+.width__100 {
+  width: 100%; }
+
+.padding__30 {
+  padding-bottom: 30px; }
+.padding__50 {
+  padding-bottom: 50px; }
+.padding__100 {
+  padding-bottom: 100px; }
+
+/* Variables 
 ------------------------------------------------------------------ */
 /* CMS Specific
 ------------------------------------------------------------------ */
@@ -339,7 +360,7 @@ a {
 ------------------------------------------------------------------ */
 /* Mixins
 ------------------------------------------------------------------ */
-/* Variables
+/* Variables 
 ------------------------------------------------------------------ */
 /* CMS Specific
 ------------------------------------------------------------------ */
@@ -354,21 +375,28 @@ h1 {
   font-size: 50px;
   color: #C1375E;
   line-height: 1.1em;
-  padding-bottom: 0.6em; }
+  padding-bottom: 0.8em; }
 
 h2 {
   font-weight: 700;
   letter-spacing: -0.32px;
   font-size: 34px;
   line-height: 1.2em;
-  padding-bottom: 0.6em; }
+  padding-bottom: 0.7em; }
+
+h3 {
+  font-weight: 700;
+  letter-spacing: -0.32px;
+  font-size: 21px;
+  line-height: 1.2em;
+  padding-bottom: 0.7em; }
 
 p {
   font-weight: 400;
   letter-spacing: 0;
   font-size: 18px;
   line-height: 1.4em;
-  padding-bottom: 30px; }
+  padding-bottom: 2.5em; }
 
 /* Link Styles 
 ------------------------------------------------------------------ */
@@ -422,7 +450,7 @@ p {
   letter-spacing: 0;
   font-size: 11px;
   color: #6A6F75;
-  letter-spacing: 0.5px;
+  letter-spacing: 0;
   text-transform: none; }
 
 .text--pageParagraphWarning {
@@ -431,7 +459,35 @@ p {
   font-size: 15px;
   color: #D62D29;
   letter-spacing: -0.3px;
-  text-transform: none; }
+  text-transform: none;
+  background-image: url("../assets/images/no-connection.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 20px; }
+
+.text--link {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 15px;
+  color: #0570B6;
+  letter-spacing: 0;
+  padding-bottom: 1px; }
+  .text--link:hover {
+    text-decoration: underline; }
+
+a.text--link--micro {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 13px;
+  color: #0570B6;
+  letter-spacing: -0.3px;
+  text-transform: none;
+  background-image: url("../assets/images/eye.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 17px; }
+  a.text--link--micro:hover {
+    text-decoration: underline; }
 
 /* Base Styling
 ------------------------------------------------------------------ */
@@ -441,7 +497,7 @@ p {
 ------------------------------------------------------------------ */
 /* Mixins
 ------------------------------------------------------------------ */
-/* Variables
+/* Variables 
 ------------------------------------------------------------------ */
 /* CMS Specific
 ------------------------------------------------------------------ */
@@ -456,21 +512,28 @@ h1 {
   font-size: 50px;
   color: #C1375E;
   line-height: 1.1em;
-  padding-bottom: 0.6em; }
+  padding-bottom: 0.8em; }
 
 h2 {
   font-weight: 700;
   letter-spacing: -0.32px;
   font-size: 34px;
   line-height: 1.2em;
-  padding-bottom: 0.6em; }
+  padding-bottom: 0.7em; }
+
+h3 {
+  font-weight: 700;
+  letter-spacing: -0.32px;
+  font-size: 21px;
+  line-height: 1.2em;
+  padding-bottom: 0.7em; }
 
 p {
   font-weight: 400;
   letter-spacing: 0;
   font-size: 18px;
   line-height: 1.4em;
-  padding-bottom: 30px; }
+  padding-bottom: 2.5em; }
 
 /* Link Styles 
 ------------------------------------------------------------------ */
@@ -494,7 +557,7 @@ p {
   .paragraph--meta span {
     padding-right: 10px; }
 
-/* Variables
+/* Variables 
 ------------------------------------------------------------------ */
 /* CMS Specific
 ------------------------------------------------------------------ */
@@ -532,6 +595,13 @@ a {
       .navigation__primary__list li a.active {
         font-weight: 800;
         color: #D6BD89; }
+
+.sidebar__link--title {
+  font-weight: 800;
+  opacity: 0.5;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase; }
 
 /* Main Content Area 
 ------------------------------------------------------------------ */
@@ -571,7 +641,8 @@ footer {
 ------------------------------------------------------------------ */
 .main__content__block {
   width: 100%;
-  clear: both; }
+  clear: both;
+  float: left; }
 
 .main__content__block__third {
   float: left;
@@ -597,7 +668,7 @@ footer {
   padding: 30px;
   border: solid 1px #E8E8E8;
   border-radius: 7px;
-  margin-bottom: 50px; }
+  margin-bottom: 100px; }
 
 .paragraph--meta--top {
   padding: 20px 0 10px 0; }
@@ -621,21 +692,34 @@ ul.styling__block li:last-child .paragraph--meta--bottom {
   position: relative;
   border-radius: 7px; }
   .colour__block--one {
-    background: #575757; }
+    background: #6A6F75; }
   .colour__block--two {
     background: #9A9FA5; }
   .colour__block--three {
     background: #0570B6; }
   .colour__block--four {
-    background: #CC2525; }
+    background: #D62D29; }
+  .colour__block--five {
+    background: #00B5EB; }
+  .colour__block--six {
+    background: #D2D9E1; }
+  .colour__block--seven {
+    background: #657D98; }
+  .colour__block--eight {
+    background: #F7F7F7; }
+  .colour__block--nine {
+    background: #E7F2F9; }
+  .colour__block--ten {
+    background: #E1E1E1; }
 
 .colour__block__info {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 5px;
+  padding: 8px 12px;
   background: rgba(0, 0, 0, 0.2); }
   .colour__block__info p {
     color: #ffffff;
-    font-size: 14px; }
+    font-size: 14px;
+    padding-bottom: 3px; }
