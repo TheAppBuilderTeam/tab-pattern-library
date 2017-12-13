@@ -41,6 +41,15 @@ a{
 			@include sidebarLink;
 		}
 	}
+}
+
+
+.sidebar__link--title{
+	@include latoHeavy;
+	opacity: 0.5;
+	font-size: 12px;
+	color: $white;
+	text-transform: uppercase;
 }	
 
 

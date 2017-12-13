@@ -596,6 +596,13 @@ a {
         font-weight: 800;
         color: #D6BD89; }
 
+.sidebar__link--title {
+  font-weight: 800;
+  opacity: 0.5;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase; }
+
 /* Main Content Area 
 ------------------------------------------------------------------ */
 .main {
