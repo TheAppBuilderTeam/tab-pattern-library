@@ -31,7 +31,7 @@
 	@include latoRegular;
 	font-size: 11px;
 	color: $cmsGrey;
-	letter-spacing: 0.5px;
+	letter-spacing: 0;
 	text-transform: none;
 }
 
@@ -41,4 +41,38 @@
 	color: $red;
 	letter-spacing: -0.3px;
 	text-transform: none;
+	background-image: url('../assets/images/no-connection.svg');
+  	background-position: left center;
+  	background-repeat: no-repeat;
+  	padding-left: 20px; 
 }
+
+.text--link{
+	@include latoRegular;
+	font-size: 15px;
+	color: $cmsLink;
+	letter-spacing: 0;
+	padding-bottom: 1px;
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
+a.text--link--micro{
+	@include latoRegular;
+	font-size: 13px;
+	color: $cmsLink;
+	letter-spacing: -0.3px;
+	text-transform: none;
+	background-image: url('../assets/images/eye.svg');
+  	background-position: left center;
+  	background-repeat: no-repeat;
+  	padding-left: 17px; 
+  	&:hover{
+  		text-decoration: underline;
+  	}
+}
+
+
+
+
