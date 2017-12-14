@@ -8,6 +8,8 @@ selected: cms
 
 Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 
+
+<div><a id="#cms_type"></a></div>
 ## Type
 
 The type throughout the content management system uses Google’s Lato font-family. Various font styles are used throughout the CMS to establish a sense of hierarchy in the content and controls. 
@@ -81,7 +83,8 @@ The type throughout the content management system uses Google’s Lato font-fami
 
 
 
-## Colour Palette
+<div><a id="#cms_colours"></a></div>
+##Colour Palette
 
 The colours below are used throughout the CMS and each specifies the hexcode and LESS names for the colour.   
 
@@ -159,9 +162,36 @@ The colours below are used throughout the CMS and each specifies the hexcode and
 
 
 
+<div><a id="#cms_buttons"></a></div>
 ## Buttons
 
-The colours below are used throughout the CMS and each specifies the hexcode and LESS names for the colour.
+We use buttons throughout the CMS for important actions such as "Save Changes" and "Search." Primary buttons are used for these postive actions, and secondary buttons are used for the neutral options. Mini versions of these buttons are used in search bars. 
+
+<div class="main__content__block padding__100"  markdown="0">
+	<button class="button--primary">Primary Button</button>
+	<button class="button--primary button--disabled">Disabled Button</button>
+	<button class="button--secondary">Secondary Button</button>
+	<br />
+	<button class="button--primary button--mini">Mini Primary Button</button>
+	<button class="button--secondary button--mini">Mini Secondary Button</button>
+</div>	
+
+
+<div><a id="#cms_tags"></a></div>
+## Tags
+
+Tags are used to specify what groups users belong to. When an app editor defines the audience for a list or piece of content they choose the user groups for whom the content is for. 
+
+The groups appear as tags and can be removed from the audience by pressing the "x" on the tag to remove it. If a user group added to the audience but will not be able to access it as they cannot see the parent list/lists this tag will appear in red.  
+
+<ul class="main__content__block padding__100"  markdown="0">
+	<li class="tag">Group that can see this content<a href="#" class="remove"></a></li>
+	<li class="tag">Another group name<a href="#" class="remove"></a></li>
+	<li class="tag">Group<a href="#" class="remove"></a></li>
+	<li class="tag tag--negative">Group with no way to access content<a href="#" class="remove remove--negative"></a></li>
+</ul>
+
+
 
 
 

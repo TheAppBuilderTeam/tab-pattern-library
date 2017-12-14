@@ -44,24 +44,24 @@
     <nav class="navigation__primary">
 	<a href="/" class="logo"><img src="/assets/images/tab_logo.svg" alt="TAB logo" /img></a>
     <ul class="navigation__primary__list">
-       <li><a href="/" >Introduction</a></li>
-      <li><a href="/cms/" class="active">CMS</a></li>
-      	<ul>
+       <li  class="platform"><a href="/" >Introduction</a></li>
+      <li  class="platform"><a href="/cms/" class="active">CMS</a></li>
+      	<ul class="innerList">
       		<li><h5 class="sidebar__link--title">Styles</h5></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Type</a></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Colour Palette</a></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Buttons</a></li>
+      		<li><a href="#cms_type" >Type</a></li>
+      		<li><a href="#cms_colours">Colour Palette</a></li>
+      		<li><a href="#cms_buttons">Buttons</a></li>
       		<li><h5 class="sidebar__link--title">Components</h5></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Icons</a></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Forms</a></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Tables</a></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Search</a></li>
+      		<li><a href="#cms_icons">Icons</a></li>
+      		<li><a href="#cms_forms">Forms</a></li>
+      		<li><a href="#cms_tables">Tables</a></li>
+      		<li><a href="#cms_search">Search</a></li>
       		<li><h5 class="sidebar__link--title">Layouts</h5></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Tabbed Pages</a></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Sidebars</a></li>
+      		<li><a href="#cms_pages">Tabbed Pages</a></li>
+      		<li><a href="#cms_sidebars"">Sidebars</a></li>
       	</ul>
-      <li><a href="/native-apps/" >Android + iOS Apps</a></li>
-      <li><a href="/webapp/" >Webapp</a></li>
+      <li class="platform"><a href="/native-apps/" >Android + iOS Apps</a></li>
+      <li class="platform"><a href="/webapp/" >Webapp</a></li>
     </ul>
 </nav>
 
@@ -75,6 +75,7 @@
 
 <p>Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
 
+<div><a id="#cms_type"></a></div>
 <h2 id="type">Type</h2>
 
 <p>The type throughout the content management system uses Google’s Lato font-family. Various font styles are used throughout the CMS to establish a sense of hierarchy in the content and controls.</p>
@@ -145,7 +146,8 @@
 	</li>	
 </ul>
 
-<h2 id="colour-palette">Colour Palette</h2>
+<div><a id="#cms_colours"></a></div>
+<p>##Colour Palette</p>
 
 <p>The colours below are used throughout the CMS and each specifies the hexcode and LESS names for the colour.</p>
 
@@ -221,9 +223,33 @@
 	</li>
 </ul>
 
+<div><a id="#cms_buttons"></a></div>
 <h2 id="buttons">Buttons</h2>
 
-<p>The colours below are used throughout the CMS and each specifies the hexcode and LESS names for the colour.</p>
+<p>We use buttons throughout the CMS for important actions such as “Save Changes” and “Search.” Primary buttons are used for these postive actions, and secondary buttons are used for the neutral options. Mini versions of these buttons are used in search bars.</p>
+
+<div class="main__content__block padding__100">
+	<button class="button--primary">Primary Button</button>
+	<button class="button--primary button--disabled">Disabled Button</button>
+	<button class="button--secondary">Secondary Button</button>
+	<br />
+	<button class="button--primary button--mini">Mini Primary Button</button>
+	<button class="button--secondary button--mini">Mini Secondary Button</button>
+</div>
+
+<div><a id="#cms_tags"></a></div>
+<h2 id="tags">Tags</h2>
+
+<p>Tags are used to specify what groups users belong to. When an app editor defines the audience for a list or piece of content they choose the user groups for whom the content is for.</p>
+
+<p>The groups appear as tags and can be removed from the audience by pressing the “x” on the tag to remove it. If a user group added to the audience but will not be able to access it as they cannot see the parent list/lists this tag will appear in red.</p>
+
+<ul class="main__content__block padding__100">
+	<li class="tag">Group that can see this content<a href="#" class="remove"></a></li>
+	<li class="tag">Another group name<a href="#" class="remove"></a></li>
+	<li class="tag">Group<a href="#" class="remove"></a></li>
+	<li class="tag tag--negative">Group with no way to access content<a href="#" class="remove remove--negative"></a></li>
+</ul>
 
 
           </div>

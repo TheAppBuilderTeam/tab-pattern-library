@@ -1,24 +1,24 @@
 <nav class="navigation__primary">
 	<a href="{{ site.baseurl }}/" class="logo"><img src="{{ site.baseurl }}/assets/images/tab_logo.svg" alt="TAB logo" /img></a>
     <ul class="navigation__primary__list">
-       <li><a href="{{ site.baseurl }}/" {% if page.selected == "home" %}class="active"{% endif %}>Introduction</a></li>
-      <li><a href="{{ site.baseurl }}/cms/" {% if page.selected == "cms" %}class="active"{% endif %}>CMS</a></li>
-      	<ul>
+       <li  class="platform"><a href="{{ site.baseurl }}/" {% if page.selected == "home" %}class="active"{% endif %}>Introduction</a></li>
+      <li  class="platform"><a href="{{ site.baseurl }}/cms/" {% if page.selected == "cms" %}class="active"{% endif %}>CMS</a></li>
+      	<ul class="innerList">
       		<li><h5 class="sidebar__link--title">Styles</h5></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Type</a></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Colour Palette</a></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Buttons</a></li>
+      		<li><a href="#cms_type" >Type</a></li>
+      		<li><a href="#cms_colours">Colour Palette</a></li>
+      		<li><a href="#cms_buttons">Buttons</a></li>
       		<li><h5 class="sidebar__link--title">Components</h5></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Icons</a></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Forms</a></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Tables</a></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Search</a></li>
+      		<li><a href="#cms_icons">Icons</a></li>
+      		<li><a href="#cms_forms">Forms</a></li>
+      		<li><a href="#cms_tables">Tables</a></li>
+      		<li><a href="#cms_search">Search</a></li>
       		<li><h5 class="sidebar__link--title">Layouts</h5></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Tabbed Pages</a></li>
-      		<li><a href="#cms_type" class="sidebar__link--inner">Sidebars</a></li>
+      		<li><a href="#cms_pages">Tabbed Pages</a></li>
+      		<li><a href="#cms_sidebars"">Sidebars</a></li>
       	</ul>
-      <li><a href="{{ site.baseurl }}/native-apps/" {% if page.selected == "native-apps" %}class="active"{% endif %}>Android + iOS Apps</a></li>
-      <li><a href="{{ site.baseurl }}/webapp/" {% if page.selected == "webapp" %}class="active"{% endif %}>Webapp</a></li>
+      <li class="platform"><a href="{{ site.baseurl }}/native-apps/" {% if page.selected == "native-apps" %}class="active"{% endif %}>Android + iOS Apps</a></li>
+      <li class="platform"><a href="{{ site.baseurl }}/webapp/" {% if page.selected == "webapp" %}class="active"{% endif %}>Webapp</a></li>
     </ul>
 </nav>
 

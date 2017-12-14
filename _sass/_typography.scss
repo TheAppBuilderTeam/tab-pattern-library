@@ -54,6 +54,22 @@ p{
 }
 
 
+.sidebar__link--title{
+	@include latoHeavy;
+	opacity: 0.5;
+	font-size: 12px;
+	color: $white;
+	text-transform: uppercase;
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+
+ul.innerList{
+	padding: 0 0 10px 15px;
+}
+
+
+
 /* Other 
 ------------------------------------------------------------------ */
 
