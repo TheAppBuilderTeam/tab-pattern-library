@@ -12,7 +12,7 @@ Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna,
 <div><a id="#cms_type"></a></div>
 ## Type
 
-The type throughout the content management system uses Google’s Lato font-family. Various font styles are used throughout the CMS to establish a sense of hierarchy in the content and controls. 
+The type throughout the content management system uses Google’s Lato font-family. Various font styles are used throughout the CMS to establish a sense of hierarchy in the content and controls.
 
 
 <ul class="main__content__block styling__block padding__100"  markdown="0">
@@ -60,7 +60,7 @@ The type throughout the content management system uses Google’s Lato font-fami
 			<span>Weight: Regular</span>
 			<span>Letter-Spacing: -0.3px</span>
 		</div>
-	</li>	
+	</li>
 	<li class="type__block">
 		<div class="paragraph--meta paragraph--meta--top">Link</div>
 		<a href="#" class="text--link">Edit Permissions</a>
@@ -69,7 +69,7 @@ The type throughout the content management system uses Google’s Lato font-fami
 			<span>Weight: Regular</span>
 			<span>Letter-Spacing: 0</span>
 		</div>
-	</li>	
+	</li>
 	<li class="type__block">
 		<div class="paragraph--meta paragraph--meta--top">Micro Link</div>
 		<a href="#" class="text--link--micro">12 Groups</a>
@@ -78,13 +78,13 @@ The type throughout the content management system uses Google’s Lato font-fami
 			<span>Weight: Regular</span>
 			<span>Letter-Spacing: -0.3px</span>
 		</div>
-	</li>	
+	</li>
 </ul>
 
 
 
 <div><a id="#cms_colours"></a></div>
-##Colour Palette
+## Colour Palette
 
 The colours below are used throughout the CMS and each specifies the hexcode and LESS names for the colour.   
 
@@ -136,7 +136,7 @@ The colours below are used throughout the CMS and each specifies the hexcode and
 			<p>#657D98</p>
 		</div>
 	</li>
-</ul>	
+</ul>
 
 <ul class="main__content__block padding__100"  markdown="0">
 	<h3 class="float__left width__100">Background Colours</h3>
@@ -158,14 +158,14 @@ The colours below are used throughout the CMS and each specifies the hexcode and
 			<p>#E1E1E1</p>
 		</div>
 	</li>
-</ul>	
+</ul>
 
 
 
 <div><a id="#cms_buttons"></a></div>
 ## Buttons
 
-We use buttons throughout the CMS for important actions such as "Save Changes" and "Search." Primary buttons are used for these postive actions, and secondary buttons are used for the neutral options. Mini versions of these buttons are used in search bars. 
+We use buttons throughout the CMS for important actions such as "Save Changes" and "Search." Primary buttons are used for these postive actions, and secondary buttons are used for the neutral options. Mini versions of these buttons are used in search bars.
 
 <div class="main__content__block padding__100"  markdown="0">
 	<button class="button--primary">Primary Button</button>
@@ -174,13 +174,13 @@ We use buttons throughout the CMS for important actions such as "Save Changes" a
 	<br />
 	<button class="button--primary button--mini">Mini Primary Button</button>
 	<button class="button--secondary button--mini">Mini Secondary Button</button>
-</div>	
+</div>
 
 
 <div><a id="#cms_tags"></a></div>
 ## Tags
 
-Tags are used to specify what groups users belong to. When an app editor defines the audience for a list or piece of content they choose the user groups for whom the content is for. 
+Tags are used to specify what groups users belong to. When an app editor defines the audience for a list or piece of content they choose the user groups for whom the content is for.
 
 The groups appear as tags and can be removed from the audience by pressing the "x" on the tag to remove it. If a user group added to the audience but will not be able to access it as they cannot see the parent list/lists this tag will appear in red.  
 
@@ -191,26 +191,17 @@ The groups appear as tags and can be removed from the audience by pressing the "
 	<li class="tag tag--negative">Group with no way to access content<a href="#" class="remove remove--negative"></a></li>
 </ul>
 
+<div><a id="#cms_forms"></a></div>
+## Form Elements
 
+Some info on forms
 
+<div class="form-group">
+    <label class="" for="FirstName">First Name</label>
+     <input autocomplete="off" class="" id="FirstName" name="FirstName" placeholder="First Name" type="text" value="first" />
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="form-group">
+    <label class="" for="FirstName">First Name</label>
+     <input autocomplete="off" class="" id="FirstName" name="FirstName" placeholder="First Name" type="text" value="first" />
+</div>

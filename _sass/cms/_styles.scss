@@ -142,6 +142,25 @@ a.remove--negative{
 	background-image: url('../assets/images/remove-red.svg'); 
 }
 
+label{
+	@include latoBold;
+	font-size: 12px;
+	color: $buttonSecondaryText;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 0.2px;
+	padding-bottom: 3px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{	
+	height: 34px;
+    padding: 6px 8px;
+    vertical-align: middle;
+	width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
 
 
 
