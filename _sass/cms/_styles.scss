@@ -73,6 +73,95 @@ a.text--link--micro{
   	}
 }
 
+button{
+	@include fadeAnimation;
+	@include latoSemibold;
+	font-size: 15px;
+	padding: 10px 16px;
+	border-radius: 5px;
+	border: none;
+	margin: 15px 15px 15px 0;
+}
+
+.button--primary{
+	color: $white;
+	background: $buttonPrimary;
+	border: $buttonPrimary;
+	&:hover{
+		background: darken($buttonPrimary, 5%);
+	}
+}
+
+.button--secondary{
+	color: $buttonSecondaryText;
+	background: $white;
+	border: 1px solid $buttonSecondary;
+	&:hover{
+		background: darken($white, 3%);
+	}
+}
+
+.button--mini{
+	font-size: 13px;
+	padding: 6px 12px;
+}
+
+.button--disabled{
+	background: $buttonDisabled;
+	cursor: not-allowed;
+	&:hover{
+		background: $buttonDisabled;
+	}
+}
+
+.tag{
+	font-size: 13px;
+	display: inline-block;
+	margin: 0 4px 8px;
+	color: $cmsLink;
+	background: lighten($cmsLink, 60%);
+	border-radius: 5px;
+	border: solid 1px $cmsLink;
+	padding: 6px 12px;
+}
+
+.tag--negative{
+	color: $red;
+	background: lighten($red, 46%);
+	border: solid 1px $red;
+}
+
+a.remove{
+	background-image: url('../assets/images/remove-blue.svg');
+  	background-position: 10px 6px;
+  	background-repeat: no-repeat;
+  	padding-right: 20px; 
+}
+
+a.remove--negative{
+	background-image: url('../assets/images/remove-red.svg'); 
+}
+
+label{
+	@include latoBold;
+	font-size: 12px;
+	color: $buttonSecondaryText;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 0.2px;
+	padding-bottom: 3px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{	
+	height: 34px;
+    padding: 6px 8px;
+    vertical-align: middle;
+	width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
 
 
 

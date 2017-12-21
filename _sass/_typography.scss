@@ -26,6 +26,7 @@ h2{
 	font-size: 34px;
 	line-height: 1.2em;
 	padding-bottom: 0.7em;
+	clear: both;
 }
 
 h3{
@@ -43,7 +44,7 @@ p{
 }
 
 
-/* Link Styles 
+/* Link Styles
 ------------------------------------------------------------------ */
 
 .block__link__subtitle{
@@ -54,7 +55,23 @@ p{
 }
 
 
-/* Other 
+.sidebar__link--title{
+	@include latoHeavy;
+	opacity: 0.5;
+	font-size: 12px;
+	color: $white;
+	text-transform: uppercase;
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+
+ul.innerList{
+	padding: 0 0 10px 15px;
+}
+
+
+
+/* Other
 ------------------------------------------------------------------ */
 
 .paragraph--meta{
@@ -69,15 +86,3 @@ p{
     	padding-right: 10px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
