@@ -3,11 +3,70 @@
 ------------------------------------------------------------------ */
 
 
-.text--pageTitlePrimary{
+.text--pageBlockquote{
 	@include latoRegular;
-	font-size: 27px;
+	font-size: 23px;
+	color: $cmsGrey;
+	letter-spacing: 0px;
+	text-transform: none;
+	font-style: italic;
+}
+
+
+.text--pageTitle-Header-One{
+	@include latoRegular;
+	font-size: 24px;
 	color: $cmsGrey;
 	letter-spacing: -0.5px;
+	text-transform: none;
+
+}
+
+.text--pageTitle-Header-Two{
+	@include latoRegular;
+	font-size: 22px;
+	color: $cmsGrey;
+	text-transform: none;
+
+}
+
+.text--pageTitle-Header-Three{
+	@include latoRegular;
+	font-size: 20px;
+	color: $cmsGrey;
+	text-transform: none;
+
+}
+
+
+.text--pageTitle-Header-Four{
+	@include latoRegular;
+	font-size: 16px;
+	color: $cmsGrey;
+	text-transform: none;
+
+}
+
+.text--pageTitle-Header-Five{
+	@include latoRegular;
+	font-size: 14px;
+	color: $cmsGrey;
+	text-transform: none;
+
+}
+
+.text--pageTitle-Header-Six{
+	@include latoRegular;
+	font-size: 12px;
+	color: $cmsGrey;
+	text-transform: none;
+
+}
+
+.text--pageParagraph{
+	@include latoRegular;
+	font-size: 19px;
+	color: $cmsGrey;
 	text-transform: none;
 }
 
@@ -20,13 +79,9 @@
 
 }
 
-.text--pageParagraph{
-	@include latoRegular;
-	font-size: 15px;
-	color: $cmsGrey;
-	letter-spacing: -0.3px;
-	text-transform: none;
-}
+
+
+
 
 .text--pageMicro{
 	@include latoRegular;

@@ -723,3 +723,87 @@ ul.styling__block li:last-child .paragraph--meta--bottom {
     color: #ffffff;
     font-size: 14px;
     padding-bottom: 3px; }
+
+/* Webapp Styles 
+------------------------------------------------------------------ */
+.text--pageBlockquote {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 23px;
+  color: #6A6F75;
+  letter-spacing: 0px;
+  text-transform: none;
+  font-style: italic; }
+
+.text--pageTitle-Header-One {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 24px;
+  color: #6A6F75;
+  letter-spacing: -0.5px;
+  text-transform: none; }
+
+.text--pageTitle-Header-Two {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 22px;
+  color: #6A6F75;
+  text-transform: none; }
+
+.text--pageTitle-Header-Three {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 20px;
+  color: #6A6F75;
+  text-transform: none; }
+
+.text--pageTitle-Header-Four {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 16px;
+  color: #6A6F75;
+  text-transform: none; }
+
+.text--pageTitle-Header-Five {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 14px;
+  color: #6A6F75;
+  text-transform: none; }
+
+.text--pageTitle-Header-Six {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 12px;
+  color: #6A6F75;
+  text-transform: none; }
+
+.text--pageParagraph {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 19px;
+  color: #6A6F75;
+  text-transform: none; }
+
+.text--pageTitleSecondary {
+  font-weight: 600;
+  font-size: 18px;
+  color: purple;
+  letter-spacing: -0.5px;
+  text-transform: none; }
+
+.text--pageMicro {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 11px;
+  color: #6A6F75;
+  letter-spacing: 0.5px;
+  text-transform: none; }
+
+.text--pageParagraphWarning {
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 15px;
+  color: #D62D29;
+  letter-spacing: -0.3px;
+  text-transform: none; }
