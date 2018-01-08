@@ -1,5 +1,5 @@
 
-/* CMS Styles 
+/* CMS Styles
 ------------------------------------------------------------------ */
 
 
@@ -44,7 +44,7 @@
 	background-image: url('../assets/images/no-connection.svg');
   	background-position: left center;
   	background-repeat: no-repeat;
-  	padding-left: 20px; 
+  	padding-left: 20px;
 }
 
 .text--link{
@@ -67,7 +67,7 @@ a.text--link--micro{
 	background-image: url('../assets/images/eye.svg');
   	background-position: left center;
   	background-repeat: no-repeat;
-  	padding-left: 17px; 
+  	padding-left: 17px;
   	&:hover{
   		text-decoration: underline;
   	}
@@ -135,11 +135,11 @@ a.remove{
 	background-image: url('../assets/images/remove-blue.svg');
   	background-position: 10px 6px;
   	background-repeat: no-repeat;
-  	padding-right: 20px; 
+  	padding-right: 20px;
 }
 
 a.remove--negative{
-	background-image: url('../assets/images/remove-red.svg'); 
+	background-image: url('../assets/images/remove-red.svg');
 }
 
 label{
@@ -152,16 +152,16 @@ label{
 	padding-bottom: 3px;
 }
 
-input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{	
+input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
 	height: 34px;
-    padding: 6px 8px;
-    vertical-align: middle;
+  padding: 6px 8px;
+  vertical-align: middle;
 	width: 250px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
-
-
-
-
+.form-group{
+	display: inline-block;
+	margin-right: 20px;
+}
