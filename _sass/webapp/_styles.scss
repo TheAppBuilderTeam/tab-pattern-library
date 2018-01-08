@@ -1,5 +1,5 @@
 
-/* Webapp Styles 
+/* Webapp Styles
 ------------------------------------------------------------------ */
 
 
@@ -128,26 +128,33 @@
 	&--WebappSeven{
 		background: $webappProfileUpload;
 	}
+ &--WebappEight{
+	 background: $webappButtonSaveChanges;
+ }
 }
 
 
 
+/* Webapp Buttons
+--------------------------------------------------------------------*/
 
 
+.button--WebappPrimary{
+	color: $white;
+	background: $webappButtonSaveChanges;
+	border: $webappButtonSaveChanges;
+	padding: 6px 15px;
+	&:hover{
+		background: darken($webappButtonSaveChanges, 5%);
+	}
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.webappButton--disabled{
+	color: white;
+	background: $buttonDisabled;
+	padding: 6px 15px;
+	cursor: not-allowed;
+	&:hover{
+		background: $buttonDisabled;
+	}
+}
