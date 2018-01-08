@@ -165,3 +165,43 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 	display: inline-block;
 	margin-right: 20px;
 }
+
+
+/*Tables Section
+-----------------------------------------------------------------------------------------------------*/
+table{
+	border-collapse: collapse;
+}
+
+.table-columnOne{
+
+	color: $tableColumnOnce;
+}
+
+tr{
+
+		color: #707070;
+}
+
+tr:nth-child(even) {
+    background-color: #F7F7F7;
+
+}
+
+table th{
+	background-color:rgba(6, 123, 190, 0.10);
+	color: #0099cf;
+	text-align: left;
+	font-weight: 800;
+
+
+}
+
+td, th{
+padding: 15px;
+}
+
+th{
+  padding-top: 5px;
+	padding-bottom: 5px;
+}
