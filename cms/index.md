@@ -220,7 +220,7 @@ Below are the styles used throughout the tables on the CMS.
 
 		<tbody>
 
-		<tr>
+		<tr class="table-RowOne">
 
 				<th>
 					Username ▲
@@ -236,6 +236,10 @@ Below are the styles used throughout the tables on the CMS.
 
 				<th>
 					Job Role
+				</th>
+
+				<th>
+
 				</th>
 
 		</tr>
@@ -264,6 +268,14 @@ Below are the styles used throughout the tables on the CMS.
 			  IT Manager
 
 			</td>
+
+			<td class="table-columnFive">
+
+
+							<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+
+			</td>
+
 		</tr>
 
 
@@ -291,6 +303,13 @@ Below are the styles used throughout the tables on the CMS.
 				Global Director
 
 			</td>
+
+			<td class="table-columnFive">
+
+				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+
+			</td>
+
 		</tr>
 
 		<tr>
@@ -317,6 +336,13 @@ Below are the styles used throughout the tables on the CMS.
 				Public Relations
 
 			</td>
+
+			<td class="table-columnFive">
+
+				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+
+			</td>
+
 		</tr>
 
 
@@ -344,6 +370,13 @@ Below are the styles used throughout the tables on the CMS.
 				HR Manager
 
 			</td>
+
+			<td class="table-columnFive">
+
+				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+
+			</td>
+
 		</tr>
 
 
@@ -371,6 +404,13 @@ Below are the styles used throughout the tables on the CMS.
 				Managing Director
 
 			</td>
+
+			<td class="table-columnFive">
+
+				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+
+			</td>
+
 		</tr>
 
 
@@ -398,6 +438,13 @@ Below are the styles used throughout the tables on the CMS.
 				Creative Director
 
 			</td>
+
+			<td class="table-columnFive">
+
+				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+
+			</td>
+
 		</tr>
 
 		</tbody>
