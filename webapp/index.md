@@ -12,7 +12,7 @@ Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna,
 
 ## Type
 
-The type throughout the webapp uses Google’s Lato font-family. Various font styles are used throughout the webapp to establish a sense of hierarchy in the content and controls. 
+The type throughout the webapp uses Google’s Lato font-family. Various font styles are used throughout the webapp to establish a sense of hierarchy in the content and controls.
 
 <ul class="main__content__block styling__block"  markdown="0">
 	<li class="type__block">
@@ -68,7 +68,7 @@ The type throughout the webapp uses Google’s Lato font-family. Various font st
 			<span>Weight: Regular</span>
 			<span>Letter-Spacing: 0px</span>
 		</div>
-	</li>	
+	</li>
 	<li class="type__block">
 		<div class="paragraph--meta paragraph--meta--top">Header 6</div>
 		<div class="text--pageTitle-Header-Six">The quick brown fox jumps over the lazy dog</div>
@@ -77,7 +77,7 @@ The type throughout the webapp uses Google’s Lato font-family. Various font st
 			<span>Weight: Regular</span>
 			<span>Letter-Spacing: 0px</span>
 		</div>
-	</li>	
+	</li>
 		<li class="type__block">
 		<div class="paragraph--meta paragraph--meta--top">Paragraph</div>
 		<div class="text--pageParagraph">The quick brown fox jumps over the lazy dog</div>
@@ -86,65 +86,83 @@ The type throughout the webapp uses Google’s Lato font-family. Various font st
 			<span>Weight: Regular</span>
 			<span>Letter-Spacing: 0px</span>
 		</div>
-	</li>	
+	</li>
 </ul>
 
 
 
 ## Colour Palette
 
-The colours below are used throughout the CMS and each specifies the hexcode and LESS names for the colour.   
-
-<ul class="main__content__block"  markdown="0">
-	<h3>Text Colours</h3>
-	<li class="colour__block colour__block--one">
+The colours below are used throughout the Webapp and each specifies the hexcode and LESS names for the colour.   
+<ul class="main__content__block padding__30"  markdown="0">
+	<h3 class="float__left width__100">Text Colours</h3>
+	<li class="colour__block colour__block--WebappOne">
 		<div class="colour__block__info">
-			<p>@textGlobal</p>
-			<p>#6A6F75</p>
+			<p>$webappTitleText</p>
+			<p>#213444</p>
 		</div>
 	</li>
-	<li class="colour__block colour__block--two">
+	<li class="colour__block colour__block--WebappTwo">
 		<div class="colour__block__info">
-			<p>@textGlobal</p>
-			<p>#6A6F75</p>
+			<p>$webappSidebarText</p>
+			<p>#63728A</p>
 		</div>
 	</li>
-	<li class="colour__block colour__block--three">
+	<li class="colour__block colour__block--WebappThree">
 		<div class="colour__block__info">
-			<p>@textGlobal</p>
-			<p>#6A6F75</p>
+			<p>$webappLink</p>
+			<p>#337ab7</p>
 		</div>
 	</li>
-	<li class="colour__block colour__block--four">
+	<li class="colour__block colour__block--WebappFour">
 		<div class="colour__block__info">
-			<p>@textGlobal</p>
-			<p>#6A6F75</p>
+			<p>$webappTime</p>
+			<p>#818181</p>
 		</div>
 	</li>
-</ul>	
+</ul>
 
 
+<ul class="main__content__block padding__30"  markdown="0">
+	<h3 class="float__left width__100">Background Colours</h3>
+	<li class="colour__block colour__block--WebappFive">
+		<div class="colour__block__info">
+			<p>$webappSidebarActive</p>
+			<p>#EDEFF2</p>
+		</div>
+	</li>
+	<li class="colour__block colour__block--WebappSix">
+		<div class="colour__block__info">
+			<p>$webappProfileHighlight</p>
+			<p>#F0F1F3</p>
+		</div>
+	</li>
+	<li class="colour__block colour__block--WebappSeven">
+		<div class="colour__block__info">
+			<p>$webappProfileUpload</p>
+			<p>#939FB3</p>
+		</div>
 
+	</li>
 
+</ul>
 
+<ul class="main__content__block padding__100"  markdown="0">
+	<h3 class="float__left width__100">Button Colours</h3>
+	<li class="colour__block colour__block--WebappEight">
+		<div class="colour__block__info">
+			<p>$buttonSaveChanges</p>
+			<p>#3EAF35</p>
+		</div>
+	</li>
 
+</ul>
 
+## Buttons
 
+We use buttons throughout the Webapp for important actions such as "Save Changes" and "Search." Primary buttons are used for these positive actions.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="main__content__block padding__100"  markdown="0">
+	<button class="button--WebappPrimary ">Save Changes</button>
+	<button class="webappButton--disabled ">Save Changes</button>
+</div>

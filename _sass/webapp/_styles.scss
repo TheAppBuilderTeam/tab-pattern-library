@@ -72,10 +72,6 @@
 
 
 
-
-
-
-
 .text--pageMicro{
 	@include latoRegular;
 	font-size: 11px;
@@ -91,3 +87,70 @@
 	letter-spacing: -0.3px;
 	text-transform: none;
 }
+<<<<<<< HEAD
+=======
+
+
+/* Webapp Colour Palette
+------------------------------------------------------------------ */
+
+
+.colour__block{
+	width: 23%;
+	margin-right: 2%;
+	height: 135px;
+	float: left;
+	position: relative;
+	border-radius: 7px;
+	&--WebappOne{
+		background: $webappTitleText;
+	}
+	&--WebappTwo{
+		background: $webappSidebarText;
+	}
+	&--WebappThree{
+		background: $webappLink;
+	}
+	&--WebappFour{
+		background: $webappTime;
+	}
+	&--WebappFive{
+		background: $webappSidebarActive;
+	}
+	&--WebappSix{
+		background: $webappProfileHighlight;
+	}
+	&--WebappSeven{
+		background: $webappProfileUpload;
+	}
+ &--WebappEight{
+	 background: $webappButtonSaveChanges;
+ }
+}
+
+
+
+/* Webapp Buttons
+--------------------------------------------------------------------*/
+
+
+.button--WebappPrimary{
+	color: $white;
+	background: $webappButtonSaveChanges;
+	border: $webappButtonSaveChanges;
+	padding: 6px 15px;
+	&:hover{
+		background: darken($webappButtonSaveChanges, 5%);
+	}
+}
+
+.webappButton--disabled{
+	color: white;
+	background: $buttonDisabled;
+	padding: 6px 15px;
+	cursor: not-allowed;
+	&:hover{
+		background: $buttonDisabled;
+	}
+}
+>>>>>>> db5019fec2a5deb0196a95318eded1cd09e183c3

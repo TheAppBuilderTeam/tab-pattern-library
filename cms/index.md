@@ -194,6 +194,13 @@ The groups appear as tags and can be removed from the audience by pressing the "
 <div><a id="#cms_forms"></a></div>
 ## Form Elements
 
+<<<<<<< HEAD
+=======
+Some info on forms
+
+<div class="main__content__block padding__100">
+
+>>>>>>> db5019fec2a5deb0196a95318eded1cd09e183c3
 <div class="form-group">
     <label class="" for="FirstName">First Name</label>
      <input autocomplete="off" class="" id="FirstName" name="FirstName" placeholder="First Name" type="text" value="first" />
@@ -203,3 +210,247 @@ The groups appear as tags and can be removed from the audience by pressing the "
     <label class="" for="LastName">Last Name</label>
      <input autocomplete="off" class="" id="LastName" name="LastName" placeholder="Last Name Name" type="text" value="last" />
 </div>
+
+</div>
+
+## Tables
+
+Below are the styles used throughout the tables on the CMS.
+
+
+<table class="table-allUsers">
+
+
+		<tbody>
+
+		<tr class="table-RowOne">
+
+				<th>
+					Username ▲
+				</th>
+
+				<th>
+					First Name
+				</th>
+
+				<th>
+					Last Name
+				</th>
+
+				<th>
+					Job Role
+				</th>
+
+				<th>
+
+				</th>
+
+		</tr>
+
+		<tr>
+			<td class="table-columnOne">
+
+				john.morisson@theappbuilder.com
+
+			</td>
+
+			<td>
+
+				John
+
+			</td>
+
+			<td>
+
+				Morisson
+
+			</td>
+
+			<td>
+
+			  IT Manager
+
+			</td>
+
+			<td class="table-columnFive">
+
+
+							<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+
+			</td>
+
+		</tr>
+
+
+		<tr>
+			<td class="table-columnOne">
+
+				peter.graham@theappbuilder.com
+
+			</td>
+
+			<td>
+
+				Peter
+
+			</td>
+
+			<td>
+
+				Graham
+
+			</td>
+
+			<td>
+
+				Global Director
+
+			</td>
+
+			<td class="table-columnFive">
+
+				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+
+			</td>
+
+		</tr>
+
+		<tr>
+			<td class="table-columnOne">
+
+				alison.beattie@theappbuilder.com
+
+			</td>
+
+			<td>
+
+				Alison
+
+			</td>
+
+			<td>
+
+				Beattie
+
+			</td>
+
+			<td>
+
+				Public Relations
+
+			</td>
+
+			<td class="table-columnFive">
+
+				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+
+			</td>
+
+		</tr>
+
+
+		<tr>
+			<td class="table-columnOne">
+
+				mark.mccaigue@theappbuilder.com
+
+			</td>
+
+			<td>
+
+				Mark
+
+			</td>
+
+			<td>
+
+				McCaigue
+
+			</td>
+
+			<td>
+
+				HR Manager
+
+			</td>
+
+			<td class="table-columnFive">
+
+				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+
+			</td>
+
+		</tr>
+
+
+		<tr>
+			<td class="table-columnOne">
+
+				jake.curry@theappbuilder.com
+
+			</td>
+
+			<td>
+
+				Jake
+
+			</td>
+
+			<td>
+
+				Curry
+
+			</td>
+
+			<td>
+
+				Managing Director
+
+			</td>
+
+			<td class="table-columnFive">
+
+				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+
+			</td>
+
+		</tr>
+
+
+		<tr>
+			<td class="table-columnOne">
+
+				melissa.keizer@theappbuilder.com
+
+			</td>
+
+			<td>
+
+				Melissa
+
+			</td>
+
+			<td>
+
+				Keizer
+
+			</td>
+
+			<td>
+
+				Creative Director
+
+			</td>
+
+			<td class="table-columnFive">
+
+				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+
+			</td>
+
+		</tr>
+
+		</tbody>
+
+
+</table>
