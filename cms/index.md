@@ -4,9 +4,9 @@ page: cms
 selected: cms
 ---
 
-# Content Management System HI
+# Content Management System
 
-Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+This section houses various user interface design elements and defines how they behave, what they look like and in some cases how they are coded. It also documents how various elements behave in different context, use of language and common flow patterns through the apps.
 
 
 <div><a id="#cms_type"></a></div>
@@ -194,14 +194,12 @@ The groups appear as tags and can be removed from the audience by pressing the "
 <div><a id="#cms_forms"></a></div>
 ## Form Elements
 
-Some info on forms
-
 <div class="form-group">
     <label class="" for="FirstName">First Name</label>
      <input autocomplete="off" class="" id="FirstName" name="FirstName" placeholder="First Name" type="text" value="first" />
 </div>
 
 <div class="form-group">
-    <label class="" for="FirstName">First Name</label>
-     <input autocomplete="off" class="" id="FirstName" name="FirstName" placeholder="First Name" type="text" value="first" />
+    <label class="" for="LastName">Last Name</label>
+     <input autocomplete="off" class="" id="LastName" name="LastName" placeholder="Last Name Name" type="text" value="last" />
 </div>
