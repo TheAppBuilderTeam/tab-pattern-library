@@ -214,6 +214,8 @@ Some info on forms
 
 Below are the styles used throughout the tables on the CMS.
 
+<div class="main__content__block padding__100">
+
 
 <table class="table-allUsers">
 
@@ -451,3 +453,30 @@ Below are the styles used throughout the tables on the CMS.
 
 
 </table>
+
+</div>
+
+
+## Search Users
+
+Below are the styles used throughout the search fields across the cms.
+
+<div class="main__content__block padding__100">
+
+
+	<div class="search__users">
+
+		<form>
+
+			<label for="Search">Search</label>
+			<input name="Search" placeholder="Search by ID, name, job role, status" type="text">
+			<input type="submit">
+			<input type="Reset">
+
+		</form>
+
+
+	</div>
+
+
+</div>
