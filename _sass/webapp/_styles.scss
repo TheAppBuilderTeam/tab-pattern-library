@@ -70,14 +70,7 @@
 	text-transform: none;
 }
 
-.text--pageTitleSecondary{
-	@include latoSemibold;
-	font-size: 18px;
-	color: purple;
-	letter-spacing: -0.5px;
-	text-transform: none;
 
-}
 
 .text--pageMicro{
 	@include latoRegular;
@@ -94,6 +87,8 @@
 	letter-spacing: -0.3px;
 	text-transform: none;
 }
+<<<<<<< HEAD
+=======
 
 
 /* Webapp Colour Palette
@@ -158,3 +153,4 @@
 		background: $buttonDisabled;
 	}
 }
+>>>>>>> db5019fec2a5deb0196a95318eded1cd09e183c3
