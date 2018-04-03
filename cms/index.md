@@ -194,13 +194,10 @@ The groups appear as tags and can be removed from the audience by pressing the "
 <div><a id="#cms_forms"></a></div>
 ## Form Elements
 
-<<<<<<< HEAD
-=======
 Some info on forms
 
 <div class="main__content__block padding__100">
 
->>>>>>> db5019fec2a5deb0196a95318eded1cd09e183c3
 <div class="form-group">
     <label class="" for="FirstName">First Name</label>
      <input autocomplete="off" class="" id="FirstName" name="FirstName" placeholder="First Name" type="text" value="first" />
@@ -466,20 +463,25 @@ Below are the styles used throughout the search fields across the cms.
 
 <div class="main__content__block padding__100">
 
-
-	<div class="search__users">
-
-		<form>
-
-			<label for="Search">Search</label>
-			<input name="Search" placeholder="Search by ID, name, job role, status" type="text">
-			<input type="submit">
-			<input type="Reset">
-
-		</form>
+	<div class="searchUsers__block width__100">
 
 
-	</div>
+	<form>
+
+	<label class="searchUsers--label" for="search">Search</label>
+
+	<input class="searchUsers--searchBox" name="Search" placeholder="Search by ID, name, job role, status" type="text">
+
+	<button class="searchUsers--closeIcon" type="reset">X</button>
+
+	<input class="searchUsers--submitButton" value="Search" type="submit">
+
+	<input class="searchUsers--resetButton" value="Reset" type="button">
+
+	</form>
 
 
-</div>
+
+
+
+	</div><!--end of searchUsers__block div-->

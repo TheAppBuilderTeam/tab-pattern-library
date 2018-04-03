@@ -227,7 +227,88 @@ th{
 
 /*Search Users
 -----------------------------------------------------------------------------------------------------*/
-.search__users{
-background-color: #F7F7F7;
-padding: 10px;
+
+.searchUsers__block{
+vertical-align: middle;
+background: #F7F7F7;
+border: 1px solid #E1E1E1;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+}
+
+.searchUsers--label{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 18px;
+	color: #6A6F75;
+	letter-spacing: 0;
+	vertical-align: middle;
+	text-transform: none;
+	font-weight: 400;
+
+}
+
+
+input[type="text"].searchUsers--searchBox{
+background: #FFFFFF;
+border: 1px solid #E1E1E1;
+width: 528px;
+height: 45px;
+border-radius: 0;
+font-size: 18px;
+outline: 0;
+
+
+}
+
+
+.searchUsers--closeIcon{
+position: relative;
+right: 32px;
+padding: 0;
+vertical-align: middle;
+color: #E1E1E1;
+outline: 0;
+
+}
+
+
+
+
+.searchUsers--submitButton{
+	color: #ffffff;
+	background: #00B5EB;
+	border-radius: 4px;
+	border: none;
+	vertical-align: middle;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 1.1em;
+	outline: 0;
+	position: relative;
+	right: 20px;
+
+}
+
+
+.searchUsers--resetButton{
+	color: #657D98;
+	background: #F7F7F7;
+	border: 1px solid #E1E1E1;
+	border-radius: 4px;
+	vertical-align: middle;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 1.1em;
+	outline: 0;
+	position: relative;
+	right: 20px;
+
 }
