@@ -463,25 +463,224 @@ Below are the styles used throughout the search fields across the cms.
 
 <div class="main__content__block padding__100">
 
-	<div class="searchUsers__block width__100">
+		<div class="searchUsers__block width__100">
 
 
-	<form>
+		<form>
 
-	<label class="searchUsers--label" for="search">Search</label>
+		<label class="searchUsers--label" for="search">Search</label>
 
-	<input class="searchUsers--searchBox" name="Search" placeholder="Search by ID, name, job role, status" type="text">
+		<input class="searchUsers--searchBox" name="Search" placeholder="Search by ID, name, job role, status" type="text">
 
-	<button class="searchUsers--closeIcon" type="reset">X</button>
+		<button class="searchUsers--closeIcon" type="reset">X</button>
 
-	<input class="searchUsers--submitButton" value="Search" type="submit">
+		<input class="searchUsers--submitButton" value="Search" type="submit">
 
-	<input class="searchUsers--resetButton" value="Reset" type="button">
+		<input class="searchUsers--resetButton" value="Reset" type="button">
 
-	</form>
-
-
+		</form>
 
 
+		</div><!--end of searchUsers__block div-->
 
-	</div><!--end of searchUsers__block div-->
+	</div><!--en of main__content__block div-->
+
+
+<!--Search and Select Groups------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Search and Select groups
+
+<div class="main__content__block padding__100">
+
+<form class="searchSelectGroups--block">
+  <input class="searchSelectGroups--input" type="text" placeholder="Search for Groups" name="search" onkeyup="this.setAttribute('value', this.value);" value="">
+  <button class="searchSelectGroups--addButton" type="submit">Add</button>
+</form>
+
+</div>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+## Iconography
+
+Below are the typical icons used throughout the CMS to give clear visual direction to what the button or section is about.
+
+<div class="main__content__block padding__100">
+
+
+
+	<div>
+
+
+		<table class="iconography--block">
+
+			<tr>
+
+						<td>
+
+							<img class="iconograhy--icons greenTick" src="../assets/images/greenTick.svg"/>
+
+						</td>
+
+						<td>
+
+							tick in the checkbox
+
+						</td>
+
+
+						<td>
+
+							<img class="iconograhy--icons" src="../assets/images/tableRedRemove.svg"/>
+
+						</td>
+
+						<td>
+
+							remove from table
+
+						</td>
+
+						<td>
+
+							<img class="iconograhy--icons deleteTrashCan" src="../assets/images/deleteTrashCan.svg"/>
+
+						</td>
+
+						<td>
+
+						delete
+
+						</td>
+
+
+			</tr>
+
+<!--end of first table row-->
+
+			<tr>
+
+
+					<td>
+
+						<img class="iconograhy--icons eyeIcon" src="../assets/images/eyeIcon.svg"/>
+
+					</td>
+
+					<td>
+
+						group access
+
+					</td>
+
+					<td>
+
+						<img class="iconograhy--icons userSearchClearIcon" src="../assets/images/userSearchClearIcon.svg"/>
+
+					</td>
+
+					<td>
+
+						close modal
+
+					</td>
+
+
+					<td>
+
+						<img class="iconograhy--icons clearSearch" src="../assets/images/clearSearch.svg"/>
+
+					</td>
+
+					<td>
+
+						clear search
+
+					</td>
+
+
+			</tr>
+
+<!--end of second table row-->
+
+			<tr>
+
+			<td>
+
+				<img class="iconograhy--icons locked" src="../assets/images/locked.svg"/>
+
+			</td>
+
+			<td>
+
+				user group locked
+
+			</td>
+
+
+			<td>
+
+				<img class="iconograhy--icons" src="../assets/images/unlocked.svg"/>
+
+			</td>
+
+			<td>
+
+				user group unlocked
+
+			</td>
+
+			<td>
+
+				<img class="iconograhy--icons warningIcon " src="../assets/images/warningIcon.svg"/>
+
+			</td>
+
+			<td>
+
+				error or warning
+
+			</td>
+
+
+			</tr>
+
+<!--end of third table row-->
+
+
+<!--end of fourth table row-->
+
+<tr>
+
+
+
+
+		<td>
+
+			<img class="iconograhy--icons remove-blue" src="../assets/images/remove-blue.svg"/>
+
+		</td>
+
+		<td>
+
+			blue remove icon
+
+		</td>
+
+
+</tr>
+
+<!--end of fith table row-->
+
+		</table>
+
+
+
+
+
+
+
+
+
+
+	</div><!--end of iconography--block div-->

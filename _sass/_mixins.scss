@@ -45,3 +45,12 @@
 }
 
 
+@mixin buttonPrimaryHover{
+
+	color: $white;
+	background: $buttonPrimary;
+	border: $buttonPrimary;
+	&:hover{
+		background: darken($buttonPrimary, 5%);
+	}
+}
