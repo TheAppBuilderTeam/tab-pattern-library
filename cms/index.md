@@ -200,67 +200,45 @@ Some info on forms
 <div class="main__content__block padding__100">
 
 <div class="form-group">
-    <label for="FirstName">First Name</label>
+     <label for="FirstName">First Name</label>
      <input autocomplete="off" class="" id="FirstName" name="FirstName" placeholder="First Name" type="text" value="first"/>
 </div>
 
 <div class="form-group">
-    <label for="LastName">Last Name</label>
+     <label for="LastName">Last Name</label>
      <input autocomplete="off" class="" id="LastName" name="LastName" placeholder="Last Name" type="text" value="last"/>
 </div>
 
 <div>
 
 	<div class="form--dataFields">
-
 		<h4 class="form--dataFieldsHeading">Form Data Fields</h4>
-
 		<label>Username</label>
-
 		user@emailaddress.com
-
 	</div>
 
 	<div class="form--dataFields">
-
 		<h4 class="form--dataFieldsHeading">Form Data Fields</h4>
-
 		<label>Password</label>
-
 		<p class="form--dataFieldsReset">Reset Password</p>
-
 	</div>
 
-
 <div class="form--dataFieldsCheckbox">
-
 	<h4 class="form--dataFieldsHeading">Checkbox</h4>
-
   <input type="checkbox" checked="checked">
-
 	Can be access by all users in the organization.
-
 </div>
 
 </div>
-
 
 <div class="form--dropdown">
-
 	<h4 class="form--dataFieldsHeading">Dropdown</h4>
-
 	<select>
-
-	 <option value="App Name">App Name</option>
-   <option value="Author">Author</option>
-   <option value="App Grid">App Grid</option>
-
+		<option value="App Name">App Name</option>
+	  <option value="Author">Author</option>
+	  <option value="App Grid">App Grid</option>
 	</select>
-
 </div>
-
-
-
 
 </div>
 
@@ -269,243 +247,127 @@ Some info on forms
 Below are the styles used throughout the tables on the CMS.
 
 <div class="main__content__block padding__100">
-
-
-<table class="table-allUsers">
-
-
+	<table class="table-allUsers">
 		<tbody>
-
 		<tr class="table-RowOne">
-
 				<th>
 					Username ▲
 				</th>
-
 				<th>
 					First Name
 				</th>
-
 				<th>
 					Last Name
 				</th>
-
 				<th>
 					Job Role
 				</th>
-
 				<th>
-
 				</th>
-
 		</tr>
-
 		<tr>
 			<td class="table-columnOne">
-
 				john.morisson@theappbuilder.com
-
 			</td>
-
 			<td>
-
 				John
-
 			</td>
-
 			<td>
-
 				Morisson
-
 			</td>
-
 			<td>
-
 			  IT Manager
-
 			</td>
-
 			<td class="table-columnFive">
-
-
 							<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
-
 			</td>
-
 		</tr>
-
-
 		<tr>
 			<td class="table-columnOne">
-
 				peter.graham@theappbuilder.com
-
 			</td>
-
 			<td>
-
 				Peter
-
 			</td>
-
 			<td>
-
 				Graham
-
 			</td>
-
 			<td>
-
 				Global Director
-
 			</td>
-
 			<td class="table-columnFive">
-
 				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
-
 			</td>
-
 		</tr>
-
 		<tr>
 			<td class="table-columnOne">
-
 				alison.beattie@theappbuilder.com
-
 			</td>
-
 			<td>
-
 				Alison
-
 			</td>
-
 			<td>
-
 				Beattie
-
 			</td>
-
 			<td>
-
 				Public Relations
-
 			</td>
-
 			<td class="table-columnFive">
-
 				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
-
 			</td>
-
 		</tr>
-
-
 		<tr>
 			<td class="table-columnOne">
-
 				mark.mccaigue@theappbuilder.com
-
 			</td>
-
 			<td>
-
 				Mark
-
 			</td>
-
 			<td>
-
 				McCaigue
-
 			</td>
-
 			<td>
-
 				HR Manager
-
 			</td>
-
 			<td class="table-columnFive">
-
 				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
-
 			</td>
-
 		</tr>
-
-
 		<tr>
 			<td class="table-columnOne">
-
 				jake.curry@theappbuilder.com
-
 			</td>
-
 			<td>
-
 				Jake
-
 			</td>
-
 			<td>
-
 				Curry
-
 			</td>
-
 			<td>
-
 				Managing Director
-
 			</td>
-
 			<td class="table-columnFive">
-
 				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
-
 			</td>
-
 		</tr>
-
-
 		<tr>
 			<td class="table-columnOne">
-
 				melissa.keizer@theappbuilder.com
-
 			</td>
-
 			<td>
-
 				Melissa
-
 			</td>
-
 			<td>
-
 				Keizer
-
 			</td>
-
 			<td>
-
 				Creative Director
-
 			</td>
-
 			<td class="table-columnFive">
-
 				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
-
 			</td>
-
 		</tr>
-
 		</tbody>
-
-
 </table>
 
 </div>
@@ -516,29 +378,16 @@ Below are the styles used throughout the tables on the CMS.
 Below are the styles used throughout the search fields across the cms.
 
 <div class="main__content__block padding__100">
-
 		<div class="searchUsers__block width__100">
-
-
-		<form>
-
-		<label class="searchUsers--label" for="search">Search</label>
-
-		<input class="searchUsers--searchBox" name="Search" placeholder="Search by ID, name, job role, status" type="text">
-
-		<button class="searchUsers--closeIcon" type="reset">X</button>
-
-		<input class="searchUsers--submitButton" value="Search" type="submit">
-
-		<input class="searchUsers--resetButton" value="Reset" type="button">
-
-		</form>
-
-
+			<form>
+				<label class="searchUsers--label" for="search">Search</label>
+				<input class="searchUsers--searchBox" name="Search" placeholder="Search by ID, name, job role, status" type="text">
+				<button class="searchUsers--closeIcon" type="reset">X</button>
+				<input class="searchUsers--submitButton" value="Search" type="submit">
+				<input class="searchUsers--resetButton" value="Reset" type="button">
+			</form>
 		</div><!--end of searchUsers__block div-->
-
 	</div><!--en of main__content__block div-->
-
 
 <!--Search and Select Groups------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -560,171 +409,87 @@ Below are the styles used throughout the search fields across the cms.
 Below are the typical icons used throughout the CMS to give clear visual direction to what the button or section is about.
 
 <div class="main__content__block padding__100">
-
-
-
 	<div>
-
-
 		<table class="iconography--block">
-
 			<tr>
-
-						<td>
-
-							<img class="iconograhy--icons greenTick" src="../assets/images/greenTick.svg"/>
-
-						</td>
-
-						<td>
-
-							tick in the checkbox
-
-						</td>
-
-
-						<td>
-
-							<img class="iconograhy--icons" src="../assets/images/tableRedRemove.svg"/>
-
-						</td>
-
-						<td>
-
-							remove from table
-
-						</td>
-
-						<td>
-
-							<img class="iconograhy--icons deleteTrashCan" src="../assets/images/deleteTrashCan.svg"/>
-
-						</td>
-
-						<td>
-
+					<td>
+						<img class="iconograhy--icons greenTick" src="../assets/images/greenTick.svg"/>
+					</td>
+					<td>
+						tick in the checkbox
+					</td>
+					<td>
+						<img class="iconograhy--icons" src="../assets/images/tableRedRemove.svg"/>
+					</td>
+					<td>
+						remove from table
+					</td>
+					<td>
+						<img class="iconograhy--icons deleteTrashCan" src="../assets/images/deleteTrashCan.svg"/>
+					</td>
+					<td>
 						delete
-
-						</td>
-
-
+					</td>
 			</tr>
 
 <!--end of first table row-->
 
 			<tr>
-
-
 					<td>
-
 						<img class="iconograhy--icons eyeIcon" src="../assets/images/eyeIcon.svg"/>
-
 					</td>
-
 					<td>
-
 						group access
-
 					</td>
-
 					<td>
-
 						<img class="iconograhy--icons userSearchClearIcon" src="../assets/images/userSearchClearIcon.svg"/>
-
 					</td>
-
 					<td>
-
 						close modal
-
 					</td>
-
-
 					<td>
-
 						<img class="iconograhy--icons clearSearch" src="../assets/images/clearSearch.svg"/>
-
 					</td>
-
 					<td>
-
 						clear search
-
 					</td>
-
-
 			</tr>
 
 <!--end of second table row-->
 
 			<tr>
-
-			<td>
-
-				<img class="iconograhy--icons locked" src="../assets/images/locked.svg"/>
-
-			</td>
-
-			<td>
-
-				user group locked
-
-			</td>
-
-
-			<td>
-
-				<img class="iconograhy--icons" src="../assets/images/unlocked.svg"/>
-
-			</td>
-
-			<td>
-
-				user group unlocked
-
-			</td>
-
-			<td>
-
-				<img class="iconograhy--icons warningIcon " src="../assets/images/warningIcon.svg"/>
-
-			</td>
-
-			<td>
-
-				error or warning
-
-			</td>
-
-
+				<td>
+					<img class="iconograhy--icons locked" src="../assets/images/locked.svg"/>
+				</td>
+				<td>
+					user group locked
+			  </td>
+				<td>
+					<img class="iconograhy--icons" src="../assets/images/unlocked.svg"/>
+		  	</td>
+			  <td>
+					user group unlocked
+				</td>
+			  <td>
+					<img class="iconograhy--icons warningIcon " src="../assets/images/warningIcon.svg"/>
+				</td>
+			  <td>
+					error or warning
+			  </td>
 			</tr>
 
 <!--end of third table row-->
 
-
-<tr>
-
-
-
-
-		<td>
-
-			<img class="iconograhy--icons remove-blue" src="../assets/images/remove-blue.svg"/>
-
-		</td>
-
-		<td>
-
-			blue remove icon
-
-		</td>
-
-
-</tr>
+			<tr>
+				<td>
+					<img class="iconograhy--icons remove-blue" src="../assets/images/remove-blue.svg"/>
+				</td>
+				<td>
+					blue remove icon
+				</td>
+			</tr>
 
 <!--end of fourth table row-->
 
 		</table>
-
-
 	</div><!--end of iconography--block div-->

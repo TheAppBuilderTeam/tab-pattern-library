@@ -235,7 +235,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 }
 
 .table-allUsers tr:nth-child(even) {
-    background-color: #F7F7F7;
+  background-color: #F7F7F7;
 }
 
 .table-allUsers th{
@@ -243,12 +243,10 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 	color: #0099cf;
 	text-align: left;
 	font-weight: 800;
-
-
 }
 
 .table-allUsers td, th{
-padding: 15px;
+	padding: 15px;
 }
 
 .table-allUsers th{
@@ -260,14 +258,12 @@ padding: 15px;
 -----------------------------------------------------------------------------------------------------*/
 
 .searchUsers__block{
-vertical-align: middle;
-background: #F7F7F7;
-border: 1px solid #E1E1E1;
-padding-top: 10px;
-padding-bottom: 10px;
-position: relative;
-
-
+	vertical-align: middle;
+	background: #F7F7F7;
+	border: 1px solid #E1E1E1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
 }
 
 .searchUsers--label{
@@ -280,34 +276,26 @@ position: relative;
 	vertical-align: middle;
 	text-transform: none;
 	font-weight: 400;
-
 }
-
 
 input[type="text"].searchUsers--searchBox{
-background: #FFFFFF;
-border: 1px solid #E1E1E1;
-width: 528px;
-height: 45px;
-border-radius: 0;
-font-size: 18px;
-outline: 0;
-
-
+	background: #FFFFFF;
+	border: 1px solid #E1E1E1;
+	width: 528px;
+	height: 45px;
+	border-radius: 0;
+	font-size: 18px;
+	outline: 0;
 }
-
 
 .searchUsers--closeIcon{
-position: relative;
-right: 32px;
-padding: 0;
-vertical-align: middle;
-color: #E1E1E1;
-outline: 0;
-
+	position: relative;
+	right: 32px;
+	padding: 0;
+	vertical-align: middle;
+	color: #E1E1E1;
+	outline: 0;
 }
-
-
 
 .searchUsers--submitButton{
 	border-radius: 4px;
@@ -323,8 +311,6 @@ outline: 0;
 	right: 20px;
 	@include buttonPrimaryHover;
 }
-
-
 
 .searchUsers--resetButton{
 	border-radius: 4px;
@@ -344,28 +330,22 @@ outline: 0;
 	&:hover{
 		background: darken($white, 3%);
 	}
-
 }
 
 
 /*Search and Select Users
 -----------------------------------------------------------------------------------------------------*/
-
 .searchSelectGroups--block input[type="text"]{
 	 padding: 10px;
 	 width: 60%;
 	 height: 40px;
 	 border-radius: 4px 0 0 4px;
 	 outline: 0;
-
 }
 
 .searchSelectGroups--block input[type="text"]:not([value=""]) + button{
 	@include buttonPrimaryHover;
-
 }
-
-
 
 .searchSelectGroups--addButton{
 	 height: 40px;
@@ -380,79 +360,51 @@ outline: 0;
 	 position: relative;
 	 right: 5px;
 	 outline: 0;
-
 }
 
 
 /*Iconograhy
 -----------------------------------------------------------------------------------------------------*/
-
-
 .iconography--block tr{
 	height: 60px;
-
-
-
 }
-
-
 
 .iconography--block td:nth-child(odd){
-width: 70px;
-vertical-align: middle;
-
+	width: 70px;
+	vertical-align: middle;
 }
-
-
 
 .iconograhy--icons{
-height: 20px;
-vertical-align: middle;
-
+	height: 20px;
+	vertical-align: middle;
 }
-
-
-
 
 .greenTick{
 	height: 13px;
-
-
 }
-
 
 .deleteTrashCan{
 	height: 18px;
-
 }
-
 
 .eyeIcon{
 	height: 13px;
-
 }
-
 
 .userSearchClearIcon{
 	height: 18px;
-
 }
 
 .clearSearch{
 	height: 12px;
-
 }
 
 .locked{
-
-height: 18px;
-
+	height: 18px;
 }
-
 
 .warningIcon{
 	height: 14px;
-
 }
 
 .remove-blue{
