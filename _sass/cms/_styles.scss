@@ -161,9 +161,49 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
   border-radius: 4px;
 }
 
+
+
+/*Forms Section
+-----------------------------------------------------------------------------------------------------*/
 .form-group{
 	display: inline-block;
 	margin-right: 20px;
+	clear: both;
+}
+
+.form--dataFields{
+	display: inline-block;
+	padding-right: 105px;
+	padding-top: 30px;
+}
+
+.form--dataFieldsHeading{
+	padding-bottom: 15px;
+}
+
+.form--dataFieldsReset{
+	color: $tableColumnOnce;
+}
+
+.form--dataFieldsCheckbox input{
+  -webkit-transform: scale(1.3);
+	margin-right: 6px;
+}
+
+
+.form--dataFieldsCheckbox input:checked{
+  -webkit-transform: scale(1.3);
+	margin-right: 6px;
+}
+
+.form--dropdown{
+	padding-top: 50px;
+}
+
+.form--dropdown select{
+	background-color: #fff;
+	color: #6A6F75;
+	width: 200px;
 }
 
 
@@ -174,37 +214,28 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 }
 
 .table-columnOne{
-
 	color: $tableColumnOnce;
 }
 
 .table-columnFive{
-
-width: 50px;
-padding-left: 15px;
-
+	width: 50px;
+	padding-left: 15px;
 }
 
 .table-RedRemove:hover{
 	cursor: pointer;
-
 }
 
 .table-RowOne{
 	cursor: pointer;
 }
 
-
-
-
 .table-allUsers tr{
-
 		color: #707070;
 }
 
 .table-allUsers tr:nth-child(even) {
     background-color: #F7F7F7;
-
 }
 
 .table-allUsers th{
@@ -358,11 +389,11 @@ outline: 0;
 
 
 .iconography--block tr{
-	padding-top: 25px;
+	height: 60px;
+
 
 
 }
-
 
 
 

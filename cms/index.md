@@ -192,6 +192,7 @@ The groups appear as tags and can be removed from the audience by pressing the "
 </ul>
 
 <div><a id="#cms_forms"></a></div>
+
 ## Form Elements
 
 Some info on forms
@@ -199,14 +200,67 @@ Some info on forms
 <div class="main__content__block padding__100">
 
 <div class="form-group">
-    <label class="" for="FirstName">First Name</label>
-     <input autocomplete="off" class="" id="FirstName" name="FirstName" placeholder="First Name" type="text" value="first" />
+    <label for="FirstName">First Name</label>
+     <input autocomplete="off" class="" id="FirstName" name="FirstName" placeholder="First Name" type="text" value="first"/>
 </div>
 
 <div class="form-group">
-    <label class="" for="LastName">Last Name</label>
-     <input autocomplete="off" class="" id="LastName" name="LastName" placeholder="Last Name Name" type="text" value="last" />
+    <label for="LastName">Last Name</label>
+     <input autocomplete="off" class="" id="LastName" name="LastName" placeholder="Last Name" type="text" value="last"/>
 </div>
+
+<div>
+
+	<div class="form--dataFields">
+
+		<h4 class="form--dataFieldsHeading">Form Data Fields</h4>
+
+		<label>Username</label>
+
+		user@emailaddress.com
+
+	</div>
+
+	<div class="form--dataFields">
+
+		<h4 class="form--dataFieldsHeading">Form Data Fields</h4>
+
+		<label>Password</label>
+
+		<p class="form--dataFieldsReset">Reset Password</p>
+
+	</div>
+
+
+<div class="form--dataFieldsCheckbox">
+
+	<h4 class="form--dataFieldsHeading">Checkbox</h4>
+
+  <input type="checkbox" checked="checked">
+
+	Can be access by all users in the organization.
+
+</div>
+
+</div>
+
+
+<div class="form--dropdown">
+
+	<h4 class="form--dataFieldsHeading">Dropdown</h4>
+
+	<select>
+
+	 <option value="App Name">App Name</option>
+   <option value="Author">Author</option>
+   <option value="App Grid">App Grid</option>
+
+	</select>
+
+</div>
+
+
+
 
 </div>
 
@@ -648,8 +702,6 @@ Below are the typical icons used throughout the CMS to give clear visual directi
 <!--end of third table row-->
 
 
-<!--end of fourth table row-->
-
 <tr>
 
 
@@ -670,17 +722,9 @@ Below are the typical icons used throughout the CMS to give clear visual directi
 
 </tr>
 
-<!--end of fith table row-->
+<!--end of fourth table row-->
 
 		</table>
-
-
-
-
-
-
-
-
 
 
 	</div><!--end of iconography--block div-->
