@@ -199,7 +199,7 @@ Some info on forms
 
 <div class="main__content__block padding__100">
 
-<div class="form-group">
+<div class="form-group ">
      <label for="FirstName">First Name</label>
      <input autocomplete="off" class="" id="FirstName" name="FirstName" placeholder="First Name" type="text" value="first"/>
 </div>
@@ -372,7 +372,6 @@ Below are the styles used throughout the tables on the CMS.
 
 </div>
 
-
 ## Search Users
 
 Below are the styles used throughout the search fields across the cms.
@@ -406,10 +405,13 @@ Below are the styles used throughout the search fields across the cms.
 
 ## Iconography
 
+
 Below are the typical icons used throughout the CMS to give clear visual direction to what the button or section is about.
 
+
+
 <div class="main__content__block padding__100">
-	<div>
+
 		<table class="iconography--block">
 			<tr>
 					<td>
@@ -490,6 +492,47 @@ Below are the typical icons used throughout the CMS to give clear visual directi
 			</tr>
 
 <!--end of fourth table row-->
-
 		</table>
-	</div><!--end of iconography--block div-->
+
+</div><!--end of iconography--block div-->
+
+
+
+## Navigation
+
+In page tabs
+
+<div class="main__content__block padding__100">
+
+	<div>
+		<ul class="navigation__list">
+			<li><a class="navigation__listItem" id="navigation__listItem--1" href="#navigation__listItem--1">Channel Overview</a></li>
+			<li><a class="navigation__listItem" id="navigation__listItem--2" href="#navigation__listItem--2">User Groups</a></li>
+			<li><a class="navigation__listItem" id="navigation__listItem--3" href="#navigation__listItem--3">Users</a></li>
+			<li><a class="navigation__listItem" id="navigation__listItem--4" href="#navigation__listItem--4">User Profile</a></li>
+			<li><a class="navigation__listItem" id="navigation__listItem--5" href="#navigation__listItem--5">Channels</a></li>
+			<li><a class="navigation__listItem" id="navigation__listItem--6" href="#navigation__listItem--6">Admin Details</a></li>
+		</ul>
+	</div>
+
+<h4>Sidebar</h4>
+
+
+
+	<div class="sidebar__container">
+
+		<ul class="navigation__sidebar--title">
+		 	<li>TheAppBuilder</li>
+		</ul>
+
+		<ul class="navigation__sidebar">
+			<a id="sidebar__listItem--1" href="#sidebar__listItem--1"><li>Users</li></a>
+			<li><a id="sidebar__listItem--2" href="#sidebar__listItem--2">User Groups</a></li>
+			<li><a id="sidebar__listItem--3" href="#sidebar__listItem--3">Builds</a></li>
+			<li><a id="sidebar__listItem--4" href="#sidebar__listItem--4">Channels</a></li>
+			<li><a id="sidebar__listItem--5" href="#sidebar__listItem--5">Branding</a></li>
+		</ul>
+	</div>
+
+
+</div>

@@ -54,3 +54,20 @@
 		background: darken($buttonPrimary, 5%);
 	}
 }
+
+@mixin sidebarTitle{
+	color: #6A6F75;
+	@include latoBold;
+	text-align: center;
+	font-size: 14px;
+
+}
+
+
+@mixin sidebarPrimary{
+	font-size: 13px;
+	color: $tableEmailText;
+	@include latoRegular;
+
+
+}

@@ -42,9 +42,9 @@
 	letter-spacing: -0.3px;
 	text-transform: none;
 	background-image: url('../assets/images/no-connection.svg');
-  	background-position: left center;
-  	background-repeat: no-repeat;
-  	padding-left: 20px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
 }
 
 .text--link{
@@ -214,7 +214,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 }
 
 .table-columnOne{
-	color: $tableColumnOnce;
+	color: $tableEmailText;
 }
 
 .table-columnFive{
@@ -409,5 +409,88 @@ input[type="text"].searchUsers--searchBox{
 
 .remove-blue{
 	height:12px;
+
+}
+
+
+/*Navigation
+-----------------------------------------------------------------------------------------------------*/
+.navigation__list{
+	border-top: 1px solid #D2D9E1;
+	border-bottom: 1px solid #D2D9E1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+
+.navigation__list li{
+	display: inline;
+	margin-right: 26px;
+	color: $tableEmailText;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.navigation__listItem:focus{
+	font-weight: 700;
+	outline: 0;
+	height: 500px;
+	border-bottom: 2px solid #067BBE;
+	padding-bottom: 9px;
+}
+
+
+.navigation__sidebar{
+	border: 1px solid #F3F3F3;
+	border-radius: 11px;
+	width: 140px;
+	background-color: #fff;
+  box-shadow: 0 5px 0 #ddd;
+	@include sidebarPrimary;
+
+}
+
+.navigation__sidebar li{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #E7E7E7;
+	text-align: left;
+	color: $tableEmailText;
+	padding-left: 25px;
+
+}
+
+.navigation__sidebar li a:last-child{
+	border-bottom: 0px solid white;
+	border-radius:0 0 11px 11px;
+
+}
+
+.navigation__sidebar li:first-child{
+	border-radius: 11px 11px 0 0;
+}
+
+
+.navigation__sidebar a:focus{
+	font-weight: 700;
+	outline: 0;
+	// background-color:rgba(62, 173, 222, 0.1);
+	// working on trying to get the focus background colour to appear;
+}
+
+
+.navigation__sidebar--title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #E7E7E7;
+	@include sidebarTitle;
+	border: 1px solid #F3F3F3;
+	border-radius: 11px;
+	width: 140px;
+	background-color: #fff;
+	box-shadow: 0 5px 0 #ddd;
+	margin-top: 10px;
+	margin-bottom: 28px;
 
 }
