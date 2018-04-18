@@ -15,7 +15,7 @@ body{
 
 h1{
 	@include latoHeavy;
-	font-size: 50px;
+	font-size: 46px;
 	color: $pink;
 	line-height: 1.1em;
 	padding-bottom: 0.8em;
@@ -23,7 +23,7 @@ h1{
 
 h2{
 	@include latoBold;
-	font-size: 34px;
+	font-size: 33px;
 	line-height: 1.2em;
 	padding-bottom: 0.7em;
 	clear: both;
@@ -31,7 +31,7 @@ h2{
 
 h3{
 	@include latoBold;
-	font-size: 21px;
+	font-size: 22px;
 	line-height: 1.2em;
 	padding-bottom: 0.7em;
 }

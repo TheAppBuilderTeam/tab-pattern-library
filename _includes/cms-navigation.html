@@ -1,23 +1,13 @@
-<nav class="navigation__primary">
-	<a href="{{ site.baseurl }}/" class="logo"><img src="{{ site.baseurl }}/assets/images/tab_logo.svg" alt="TAB logo" /img></a>
-    <ul class="navigation__primary__list">
-       <li  class="platform"><a href="{{ site.baseurl }}/" {% if page.selected == "home" %}class="active"{% endif %}>Introduction</a></li>
-      <li  class="platform"><a href="{{ site.baseurl }}/cms/" {% if page.selected == "cms" %}class="active"{% endif %}>CMS</a></li>
-      	<ul class="innerList">
-      		<li><h5 class="sidebar__link--title">Styles</h5></li>
-      		<li><a href="/cms/type/" >Type</a></li>
-      		<li><a href="/cms/colours/">Colour Palette</a></li>
-      		<li><a href="/cms/buttons/ ">Buttons</a></li>
-      		<li><h5 class="sidebar__link--title">Components</h5></li>
-      		<li><a href="/cms/icons/">Icons</a></li>
-      		<li><a href="/cms/forms/">Forms</a></li>
-      		<li><a href="/cms/tables/">Tables</a></li>
-      		<li><a href="/cms/search/">Search</a></li>
-      		<li><h5 class="sidebar__link--title">Layouts</h5></li>
-      		<li><a href="/cms/pages/">Tabbed Pages</a></li>
-      		<li><a href="/cms/sidebars/">Sidebars</a></li>
-      	</ul>
-      <li class="platform"><a href="{{ site.baseurl }}/native-apps/" {% if page.selected == "native-apps" %}class="active"{% endif %}>Android + iOS Apps</a></li>
-      <li class="platform"><a href="{{ site.baseurl }}/webapp/" {% if page.selected == "webapp" %}class="active"{% endif %}>Webapp</a></li>
+<nav class="navigation__secondary">
+    <ul class="navigation__secondary__list">
+  		<li><a href="/cms/type/" {% if page.selected == "cms-type" %}class="active"{% endif %} >Type</a></li>
+  		<li><a href="/cms/colours/" {% if page.selected == "cms-colours" %}class="active"{% endif %} >Colour Palette</a></li>
+  		<li><a href="/cms/buttons/" {% if page.selected == "cms-buttons" %}class="active"{% endif %} >Buttons</a></li>
+  		<li><a href="/cms/icons/" {% if page.selected == "cms-icons" %}class="active"{% endif %} >Icons</a></li>
+  		<li><a href="/cms/forms/" {% if page.selected == "cms-forms" %}class="active"{% endif %} >Forms</a></li>
+  		<li><a href="/cms/tables/" {% if page.selected == "cms-tables" %}class="active"{% endif %} >Tables</a></li>
+  		<li><a href="/cms/search/" {% if page.selected == "cms-search" %}class="active"{% endif %} >Search</a></li>
+  		<li><a href="/cms/pages/" {% if page.selected == "cms-pages" %}class="active"{% endif %} >Tabbed Pages</a></li>
+  		<li><a href="/cms/sidebars/" {% if page.selected == "cms-sidebars" %}class="active"{% endif %} >Sidebars</a></li>
     </ul>
 </nav>

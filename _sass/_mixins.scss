@@ -28,15 +28,16 @@
 }
 
 @mixin sidebarLink{
-	@include latoMedium;
-	color: $white;
+	@include latoRegular;
+	color: $purple__dark;
 	text-decoration:none;
+	font-size: 18px;
 	&:hover{
-		color: $gold;
+		color: $pink;
 	}
 	&.active{
-		@include latoHeavy;
-		color: $gold;
+		color: $pink;
+		@include latoBold;
 	}
 }
 
@@ -46,7 +47,6 @@
 
 
 @mixin buttonPrimaryHover{
-
 	color: $white;
 	background: $buttonPrimary;
 	border: $buttonPrimary;
@@ -68,6 +68,5 @@
 	font-size: 13px;
 	color: $tableEmailText;
 	@include latoRegular;
-
 
 }
