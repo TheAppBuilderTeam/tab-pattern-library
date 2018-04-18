@@ -190,10 +190,10 @@ ul.styling__block li:last-child .paragraph--meta--bottom{
 }
 
 .colour__block{
-	width: 23%;
+	width: 22.5%;
 	margin-right: 2%;
 	height: 135px;
-	float: left;
+  display: inline-block;
 	position: relative;
 	border-radius: 7px;
 	&--one{
