@@ -7,13 +7,39 @@ title: Buttons & Links
 ---
 <p>Throughout the Org Admin screens in the content management system we the primary button to allow users to perform core actions such as saving changes to forms or adding users to user groups or channels. </p>
 
+<h2>Primary button</h2>
+<p>The primary button should only be used for positive, progressive actions. The primary button will appear grey (disabled state) until the user takes an action like updating the form on the page, then it will be blue to indicate changes have been made and that they are able to save them.</p>
 
+[IMG Primary and secondary buttons on Org admin screen - before and after changes made]
 
-<div class="main__content__block padding__100"  markdown="0">
+<h2>Secondary button</h2>
+<p>The primary button will be accompanied by a secondary button, most of the time this is a cancel button that allows them to discard their changes.</p>
+
+<p>The button elements are shown below. Note that the background of the secondary button is transparent rather than white. </p>
+
+<div class="main__content__block padding__50"  markdown="0">
 	<button class="button--primary">Primary Button</button>
 	<button class="button--primary button--disabled">Disabled Button</button>
 	<button class="button--secondary">Secondary Button</button>
-	<br />
+</div>
+
+<p>We also have mini versions of the primary and secondary buttons. These are used in the search bars above tables in the Org Admin screens.</p>
+
+<div class="main__content__block padding__50"  markdown="0">
 	<button class="button--primary button--mini">Mini Primary Button</button>
 	<button class="button--secondary button--mini">Mini Secondary Button</button>
 </div>
+
+<h2>Links</h2>
+<p>Links are used instead of buttons for many other actions a user can take on a screen. For example, adding new users to channels or user groups. These blue links will often had a “+” in front of the text to indicate the adding action.</p>
+
+<p>Micro links are also used in the Editor section of the CMS to display  the number of groups that can view content and link to the audience tab for that content.</p>
+
+<div class="main__content__block padding__50">
+	<a href="#" class="text--link padding__right15">Edit Permissions</a>
+	<a href="#" class="text--link padding__right15">+ Add New User</a>
+	<a href="#" class="text--link--micro padding__right15">12 Groups</a>
+	<a href="#" class="text--link--micro">Everyone</a>
+</div>
+
+[IMG link shown in table - edit permissions and + add users]
