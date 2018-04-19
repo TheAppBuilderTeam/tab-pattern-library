@@ -7,9 +7,10 @@
 @import "helper";
 @import "variables";
 @import "typography";
-@import "cms/styles";
-
 
 @import "base";
 
 @import "webapp/styles";
+@import "cms/styles";
+
+@import "responsify";

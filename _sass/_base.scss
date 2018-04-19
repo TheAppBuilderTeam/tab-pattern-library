@@ -89,7 +89,7 @@ body{
 }
 
 .main__content{
-	padding-top: 80px;
+	padding: 80px 0;
   float: left;
   background: $white;
   margin-top: -75px;
@@ -107,6 +107,7 @@ body{
 .main__content p, .main__content h1, .main__content h2{
 	max-width: 595px;
 	margin: 0 auto;
+  width: 80%;
 }
 
 .main__content img{
@@ -139,6 +140,10 @@ footer{
   width: 80%;
   display: block;
   margin: 0 auto;
+}
+
+.textWidth{
+  max-width: 595px;
 }
 
 .main__content__block__third{

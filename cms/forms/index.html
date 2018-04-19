@@ -6,21 +6,66 @@ selected: cms-forms
 title: Forms
 ---
 
-<p>Some info on forms</p>
+<p>Forms are used a lot throughout the org admin screens in the content management system to manage user, user group and channel information. </p>
 
-<div class="main__content__block padding__100">
+<h2>Form layout</h2>
+<p>Forms should be logical and be in a predictable order. In most cases, the inputs should sit in 2 columns and go from left to right, working your way now. For example, the user details page shows first input (first name) top left, then second input to the right of that (second name), followed by third input (job role) below etc.</p>
 
-<div class="form-group ">
-     <label for="FirstName">First Name</label>
-     <input autocomplete="off" class="" id="FirstName" name="FirstName" placeholder="First Name" type="text" value="first"/>
+<!-- [IMG - User overview page] -->
+
+<p>Group related fields together under a heading to provide context to the user and make the page more scannable. </p>
+
+<!-- [IMG - Channel overview page showing user access, social controls etc] -->
+
+<h2>Form components</h2>
+
+<p>Input fields should always have informative labels and helpful placeholder text. Error messages should show below the field in red and input border should also be red. </p>
+
+<div class="main__content__block textWidth padding__50 clearfix">
+  <div class="form-group ">
+       <label for="FirstName">First Name</label>
+       <input autocomplete="off" class="" id="FirstName" name="FirstName" placeholder="First Name" type="text"/>
+  </div>
+  <div class="form-group">
+       <label for="LastName">Last Name</label>
+       <input autocomplete="off" class="" id="LastName" name="LastName" placeholder="Last Name" type="text"/>
+  </div>
+  <div class="form-group">
+       <label for="LastName">Display Name</label>
+       <input autocomplete="off" class="warning" id="LastName" name="LastName" placeholder="Display Name" type="text" value="Ke$ha"/>
+       <p class="text--formWarning">This is not a valid display name</p>
+  </div>
+  <div class="form-group">
+       <label for="LastName">Job Role</label>
+       <input autocomplete="off" class="error" id="LastName" name="LastName" placeholder="Job Role" type="text" value=""/>
+  </div>
 </div>
 
-<div class="form-group">
-     <label for="LastName">Last Name</label>
-     <input autocomplete="off" class="" id="LastName" name="LastName" placeholder="Last Name" type="text" value="last"/>
+<p>When a field is pre-populated and not editable via the CMS, but instead only by CSV upload, the data appears under the label as text only, not in an input field. </p>
+
+<p>Since a user’s password cannot be changed manually by another user, the reset link is supplied under the password label. </p>
+
+<div class="main__content__block textWidth padding__50 clearfix">
+  <div class="form-group form--dataFields">
+    <label>Username</label>
+    user@emailaddress.com
+  </div>
+  <div class="form-group form--dataFields">
+    <label>Password</label>
+    <p class="form--dataFieldsReset">Reset Password</p>
+  </div>
 </div>
 
-<div>
+<p>Checkboxes are used instances where something can be turned on or off. Radio buttons are used if the user must make a single choice between multiple values. </p>
+
+<!-- [ELEMENT checkbox and radio button examples] -->
+
+<p>Dropdowns are used when there are many values for users to choose from and when it appears on a data row to save room.</p>
+
+<!-- [ELEMENT dropdown] -->
+
+
+<!--
 
 	<div class="form--dataFields">
 		<h4 class="form--dataFieldsHeading">Form Data Fields</h4>
@@ -51,4 +96,4 @@ title: Forms
 	</select>
 </div>
 
-</div>
+</div> -->

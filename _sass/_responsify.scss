@@ -1,0 +1,70 @@
+/* Responsive Styling */
+
+
+@media only screen and (min-width: 1800px) {
+
+
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .logo{
+    width: 100%;
+    img{
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  .navigation__primary{
+    padding: 30px 0 106px 0;
+  }
+
+  .navigation__primary__list, .navigation__secondary{
+    display: none;
+  }
+
+  .container{
+    width: 95%;
+  }
+
+  .main__content{
+    width: 100%;
+    padding: 50px 0;
+  }
+
+  .main__content__block{
+    width: 90%;
+  }
+
+  .main__content p, .main__content h1, .main__content h2, .main__content h3{
+    width: 85%;
+  }
+
+  .main__content img{
+  	width: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .main__content{
+    width: 100%;
+    padding: 35px 0;
+  }
+
+  h1{
+    font-size: 28px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 16px;
+  }
+
+}
