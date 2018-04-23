@@ -6,9 +6,9 @@ selected: cms-tables
 title: Tables
 ---
 
-Below are the styles used throughout the tables on the CMS.
+<p>Tables are used to display data about users, user groups and channels. The number of columns shown on a table varies depending on the table content. </p>
 
-<div class="main__content__block padding__100">
+<div class="main__content__block padding__30">
 	<table class="table-allUsers">
 		<tbody>
 		<tr class="table-RowOne">
@@ -41,7 +41,7 @@ Below are the styles used throughout the tables on the CMS.
 			  IT Manager
 			</td>
 			<td class="table-columnFive">
-							<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+							<img class="table-RedRemove" src="{{ site.baseurl }}/assets/images/tableRedRemove.svg"/>
 			</td>
 		</tr>
 		<tr>
@@ -58,7 +58,7 @@ Below are the styles used throughout the tables on the CMS.
 				Global Director
 			</td>
 			<td class="table-columnFive">
-				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+				<img class="table-RedRemove" src="{{ site.baseurl }}/assets/images/tableRedRemove.svg"/>
 			</td>
 		</tr>
 		<tr>
@@ -75,7 +75,7 @@ Below are the styles used throughout the tables on the CMS.
 				Public Relations
 			</td>
 			<td class="table-columnFive">
-				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+				<img class="table-RedRemove" src="{{ site.baseurl }}/assets/images/tableRedRemove.svg"/>
 			</td>
 		</tr>
 		<tr>
@@ -92,7 +92,7 @@ Below are the styles used throughout the tables on the CMS.
 				HR Manager
 			</td>
 			<td class="table-columnFive">
-				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+				<img class="table-RedRemove" src="{{ site.baseurl }}/assets/images/tableRedRemove.svg"/>
 			</td>
 		</tr>
 		<tr>
@@ -109,7 +109,7 @@ Below are the styles used throughout the tables on the CMS.
 				Managing Director
 			</td>
 			<td class="table-columnFive">
-				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+				<img class="table-RedRemove" src="{{ site.baseurl }}/assets/images/tableRedRemove.svg"/>
 			</td>
 		</tr>
 		<tr>
@@ -123,13 +123,24 @@ Below are the styles used throughout the tables on the CMS.
 				Keizer
 			</td>
 			<td>
-				Creative Director
+				Design Lead
 			</td>
 			<td class="table-columnFive">
-				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+				<img class="table-RedRemove" src="{{ site.baseurl }}/assets/images/tableRedRemove.svg"/>
 			</td>
 		</tr>
 		</tbody>
 </table>
 
 </div>
+
+<h2>Table Data</h2>
+<p>The unique name or ID of the data should be the data in the first column of any table, so for example a user’s username would be at the start of the row. This should also be a link to the user/user group/channel detail page, note that it should also be styled as a link. </p>
+
+<p>The table data should be left-aligned. There should be a small amount of padding on the very first column and very last column so the data is close to the edges of the table, but not touching it. The columns between the first and last columns should use equal spacing between them and the table should feel balanced visually. </p>
+
+<!-- [IMG normal table] -->
+
+<p>There are however a few exceptions this. For example, in the table showing User Groups for a Channel, there are only 2 columns of data. The first is aligned to the left, however the second column of data is right-aligned, and a remove icon is shown on each row. This approach is used when there are only 2-3 columns of data for the table. </p>
+
+<!-- [IMG user groups on a channel table] -->

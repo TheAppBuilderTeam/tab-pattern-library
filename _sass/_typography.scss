@@ -40,7 +40,15 @@ p{
 	@include latoRegular;
 	font-size: 18px;
 	line-height: 1.4em;
-	padding-bottom: 2.5em;
+	padding-bottom: 2em;
+}
+
+.main__content__ul li{
+	@include latoRegular;
+	font-size: 18px;
+	line-height: 1.4em;
+	padding-bottom: 0.5em;
+	list-style:inside;
 }
 
 

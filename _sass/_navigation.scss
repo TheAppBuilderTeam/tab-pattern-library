@@ -1,0 +1,123 @@
+
+/* Navigation Main Top Nav
+------------------------------------------------------------------ */
+
+.navigation__primary{
+  width: 100%;
+  background: $purple__dark;
+  padding: 40px 0 130px 0;
+  border-bottom: 3px $gold;
+}
+
+.navigation__primary__list{
+  float: right;
+  padding-top: 30px;
+  li{
+    display: inline-block;
+    padding-left: 23px;
+    a{
+      @include latoHeavy;
+      font-size: 13px;
+      text-transform: uppercase;
+      color: $purple__light;
+      letter-spacing: 0.5px;
+      &:hover{
+        color: $white;
+      }
+    }
+  }
+}
+
+
+.navigation__primary__list li a.active{
+  color: $white;
+}
+
+
+/* Navigation Sidebar Area
+------------------------------------------------------------------ */
+
+.navigation__secondary{
+  float: left;
+  width: 20%;
+}
+
+.navigation__secondary__list{
+	padding: 45px 0;
+	li{
+		padding: 9px 0;
+    list-style: none;
+		&.platform{
+			padding: 15px 0;
+		}
+		a {
+			@include sidebarLink;
+		}
+	}
+}
+
+.navigation__mobile{
+  visibility: hidden;
+  z-index: 1000;
+  position: fixed;
+  background: $purple__dark;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 8%;
+  overflow: scroll;
+  opacity: 0;
+  @include menuAnimation;
+    &.visible{
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.navigation__mobile__list{
+  padding: 20px 0;
+  li{
+    padding: 5px 0;
+    &.platform {
+      padding-top: 18px;
+      a{
+      @include latoBold;
+      letter-spacing: 0.3px;
+      color: lighten($purple__dark, 50%);
+      }
+    }
+    a{
+      @include sidebarLink;
+      color: $white;
+      &:hover{
+        color: $gold;
+      }
+      &.active{
+        color: $gold;
+      }
+    }
+  }
+}
+
+#menu__close {
+	position: absolute;
+	top: 0;
+	right: 1rem;
+	-webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+	text-decoration: none;
+	color: $white;
+}
+
+#menu__close:focus,
+#menu__close:hover,
+#menu__close:active {
+    text-decoration: none;
+}
+
+#menu__close:after {
+	content: "+";
+	font-size: 2rem;
+}

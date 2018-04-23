@@ -181,6 +181,9 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 	display: inline-block;
 	margin: 10px 20px 10px 0;
 	vertical-align: top;
+	p{
+		width: 100%;
+	}
 }
 
 .form--dataFields{
@@ -221,6 +224,11 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 
 /*Tables Section
 -----------------------------------------------------------------------------------------------------*/
+
+table{
+   margin: 0 auto;
+}
+
 .table-allUsers table{
 	border-collapse: collapse;
 }

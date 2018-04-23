@@ -70,3 +70,9 @@
 	@include latoRegular;
 
 }
+
+@mixin menuAnimation{
+	transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+}

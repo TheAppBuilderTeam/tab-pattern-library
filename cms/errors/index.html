@@ -1,0 +1,33 @@
+---
+layout: default
+platform: cms
+page: cms-errors
+selected: cms-errors
+title: Errors
+---
+
+<p>Depending on the context, error messages related to data put into an input field or textarea can be displayed in different places.</p>
+
+<h2>Text input or textarea errors</h2>
+<p>Generally error messages will appear directly under a text input and the border of the input will also be red to highlight the error. No warning icon is shown. </p>
+
+<div class="main__content__block textWidth padding__30 clearfix">
+  <div class="form-group">
+       <label for="LastName">Display Name</label>
+       <input autocomplete="off" class="warning" id="LastName" name="LastName" placeholder="Display Name" type="text" value="Ke$ha"/>
+       <p class="text--formWarning">This is not a valid display name</p>
+  </div>
+  <div class="form-group">
+       <label for="LastName">Job Role</label>
+       <input autocomplete="off" class="error" id="LastName" name="LastName" placeholder="Job Role" type="text" value=""/>
+  </div>
+</div>
+
+<p>However there are times when errors or warnings are shown above the field. For example if the field or textarea in the only data input on the page or on the modal, the warning will appear above it with the warning icon appended to the beginning of the text.</p>
+
+<!-- [IMG modal warning example - bulk names to channel] -->
+
+<h2>Page warning</h2>
+<p>If a warning relates to an entire section, for example, when an admin can changes the user groups a user belongs to but the user is not currently active, this shows as a page warning. A warning message will show at the top of the page content and will be red with a red warning icon appended to the beginning of the text.</p>
+
+<!-- [IMG page warning example] -->

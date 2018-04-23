@@ -279,7 +279,7 @@ Below are the styles used throughout the tables on the CMS.
 			  IT Manager
 			</td>
 			<td class="table-columnFive">
-							<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+							<img class="table-RedRemove" src="{{ site.baseurl }}/assets/images/tableRedRemove.svg"/>
 			</td>
 		</tr>
 		<tr>
@@ -296,7 +296,7 @@ Below are the styles used throughout the tables on the CMS.
 				Global Director
 			</td>
 			<td class="table-columnFive">
-				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+				<img class="table-RedRemove" src="{{ site.baseurl }}/assets/images/tableRedRemove.svg"/>
 			</td>
 		</tr>
 		<tr>
@@ -313,7 +313,7 @@ Below are the styles used throughout the tables on the CMS.
 				Public Relations
 			</td>
 			<td class="table-columnFive">
-				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+				<img class="table-RedRemove" src="{{ site.baseurl }}/assets/images/tableRedRemove.svg"/>
 			</td>
 		</tr>
 		<tr>
@@ -330,7 +330,7 @@ Below are the styles used throughout the tables on the CMS.
 				HR Manager
 			</td>
 			<td class="table-columnFive">
-				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+				<img class="table-RedRemove" src="{{ site.baseurl }}/assets/images/tableRedRemove.svg"/>
 			</td>
 		</tr>
 		<tr>
@@ -347,7 +347,7 @@ Below are the styles used throughout the tables on the CMS.
 				Managing Director
 			</td>
 			<td class="table-columnFive">
-				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+				<img class="table-RedRemove" src="{{ site.baseurl }}/assets/images/tableRedRemove.svg"/>
 			</td>
 		</tr>
 		<tr>
@@ -364,7 +364,7 @@ Below are the styles used throughout the tables on the CMS.
 				Creative Director
 			</td>
 			<td class="table-columnFive">
-				<img class="table-RedRemove" src="../assets/images/tableRedRemove.svg"/>
+				<img class="table-RedRemove" src="{{ site.baseurl }}/assets/images/tableRedRemove.svg"/>
 			</td>
 		</tr>
 		</tbody>
@@ -421,7 +421,7 @@ Below are the typical icons used throughout the CMS to give clear visual directi
 						tick in the checkbox
 					</td>
 					<td>
-						<img class="iconograhy--icons" src="../assets/images/tableRedRemove.svg"/>
+						<img class="iconograhy--icons" src="{{ site.baseurl }}/assets/images/tableRedRemove.svg"/>
 					</td>
 					<td>
 						remove from table
