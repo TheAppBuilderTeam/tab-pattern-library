@@ -1,8 +1,8 @@
 <nav class="navigation__mobile">
 	<a href="#" id="menu__close"></a>
-	<a href="{{ site.baseurl }}/" class="logo logo--main"><img src="{{ site.baseurl }}/assets/images/tab_logo.svg" alt="TAB logo" /img></a>
+	<a href="{{ site.baseurl }}/" class="logo logo--main logo--mobileMenu"><img src="{{ site.baseurl }}/assets/images/tab_logo.svg" alt="TAB logo" /img></a>
     <ul class="navigation__mobile__list">
-      <li  class="platform"><a href="{{ site.baseurl }}/cms/" {% if platform.selected == "cms" %}class="active"{% endif %} >Content Management System</a></li>
+      <!-- <li  class="platform"><a href="{{ site.baseurl }}/cms/" {% if platform.selected == "cms" %}class="active"{% endif %} >Content Management System</a></li> -->
 			<li><a href="/cms/typography/" {% if page.selected == "cms-typography" %}class="active"{% endif %} >Typography</a></li>
   		<li><a href="/cms/buttons/" {% if page.selected == "cms-buttons" %}class="active"{% endif %} >Buttons &amp; Links</a></li>
       <li><a href="/cms/tags/" {% if page.selected == "cms-tags" %}class="active"{% endif %} >Tags</a></li>
@@ -13,8 +13,8 @@
   		<li><a href="/cms/search/" {% if page.selected == "cms-search" %}class="active"{% endif %} >Search</a></li>
   		<li><a href="/cms/page/" {% if page.selected == "cms-page" %}class="active"{% endif %} >Styling a Page</a></li>
   		<li><a href="/cms/modals/" {% if page.selected == "cms-modals" %}class="active"{% endif %} >Modals</a></li>
-      <li><a href="/cms/icons/" {% if page.selected == "cms-icons" %}class="active"{% endif %} >Icons</a></li>
+      <!-- <li><a href="/cms/icons/" {% if page.selected == "cms-icons" %}class="active"{% endif %} >Icons</a></li>
       <li class="platform"><a href="{{ site.baseurl }}/native-apps/" {% if platform.selected == "mobileapp" %}class="active"{% endif %}>Mobile Apps</a></li>
-      <li class="platform"><a href="{{ site.baseurl }}/webapp/" {% if platform.selected == "webapp" %}class="active"{% endif %}>Webapp</a></li>
+      <li class="platform"><a href="{{ site.baseurl }}/webapp/" {% if platform.selected == "webapp" %}class="active"{% endif %}>Webapp</a></li> -->
     </ul>
 </nav>

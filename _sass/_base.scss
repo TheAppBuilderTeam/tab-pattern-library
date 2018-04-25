@@ -36,6 +36,7 @@ body{
   border-radius: 3px;
   border: 1px solid #EFEFEF;
   box-shadow: 0 2px 4px 2px rgba(132,132,132,0.18);
+  min-height: 500px;
 }
 
 
@@ -69,7 +70,7 @@ body{
 footer{
 	clear: both;
 	width: 100%;
-	padding: 60px 0;
+	padding: 5% 0 5% 0;
 	color: $purple__light;
 	text-align: center;
 	font-size: 14px;
