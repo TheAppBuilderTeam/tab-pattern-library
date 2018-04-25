@@ -3,7 +3,7 @@
 	<a href="{{ site.baseurl }}/" class="logo logo--main logo--mobileMenu"><img src="{{ site.baseurl }}/assets/images/tab_logo.svg" alt="TAB logo" /img></a>
     <ul class="navigation__mobile__list">
       <!-- <li  class="platform"><a href="{{ site.baseurl }}/cms/" {% if platform.selected == "cms" %}class="active"{% endif %} >Content Management System</a></li> -->
-			<li><a href="/cms/typography/" {% if page.selected == "cms-typography" %}class="active"{% endif %} >Typography</a></li>
+			<li><a href="{{ '/cms/typography/' | prepend: site.baseurl }}" {% if page.selected == "cms-typography" %}class="active"{% endif %} >Typography</a></li>
   		<li><a href="/cms/buttons/" {% if page.selected == "cms-buttons" %}class="active"{% endif %} >Buttons &amp; Links</a></li>
       <li><a href="/cms/tags/" {% if page.selected == "cms-tags" %}class="active"{% endif %} >Tags</a></li>
       <li><a href="/cms/colours/" {% if page.selected == "cms-colours" %}class="active"{% endif %} >Colour Palette</a></li>
