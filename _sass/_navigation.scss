@@ -2,6 +2,13 @@
 /* Navigation Main Top Nav
 ------------------------------------------------------------------ */
 
+
+.logo--main{
+  img{
+    max-width: 220px;
+  }
+}
+
 .navigation__primary{
   width: 100%;
   background: $purple__dark;
@@ -11,7 +18,7 @@
 
 .navigation__primary__list{
   float: right;
-  padding-top: 30px;
+  padding-top: 20px;
   li{
     display: inline-block;
     padding-left: 23px;
@@ -54,6 +61,22 @@
 			@include sidebarLink;
 		}
 	}
+}
+
+.hamburgerMenu{
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  background: $pink;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  img{
+    width: 30px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+  }
 }
 
 .navigation__mobile{
