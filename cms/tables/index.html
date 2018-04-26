@@ -144,3 +144,32 @@ title: Tables
 <p>There are however a few exceptions this. For example, in the table showing User Groups for a Channel, there are only 2 columns of data. The first is aligned to the left, however the second column of data is right-aligned, and a remove icon is shown on each row. This approach is used when there are only 2-3 columns of data for the table. </p>
 
 <!-- [IMG user groups on a channel table] -->
+
+
+<h2>Pagination</h2>
+<p>Tables should limit the rows of data to 20 rows total, with the rest of the data accessed by using the pagination buttons below the table on the left side. If there are less than 21 rows of data the pagination should not be shown. </p>
+
+<!-- [IMG table with pagination] -->
+
+<p>Tabular data shown inside modal windows should behave differently. There should be no pagination but instead load more rows of data as the user scrolls down the table within the modal window. Note that the modal does not change size, the table should use overflow: hidden; to keep the extra rows contained. </p>
+
+ <!--
+[IMG table in Modal] -->
+
+<h2>Table Actions</h2>
+<p>A user may be presented with a link to perform a specific action related to a table, for example, adding new users to a channel. This link will be left aligned underneath the table if there is no pagination, however links should be right-aligned underneath the table if pagination is present. </p>
+
+<!-- [IMG links under table] -->
+
+<h2>Table Search</h2>
+<p>On the overview page for Users, User Groups and Channels, the table shown on the page will have a search box above it, allowing the org admin to filter the table based off their search criteria. Once they type something into the search text input they must click “Search” or hit enter on their keyboard to show the filtered table results. By clicking on “Reset” the input is cleared and they are shown the full table again. </p>
+
+<p>As the user types into the search box a dropdown with suggestions should appear. Users can clear the text they typed by clicking on the “x” at the end of the search box or the Reset button. </p>
+ <!--
+[IMG search box above table]  -->
+
+
+<h2>Styling a Table</h2>
+<p>The table head should always be light blue (#E7F2F9) with blue (#067BBE) coloured text. Tables should be candy-striped, with every odd numbered row being grey (#F7F7F7) and every even numbered row white. </p>
+
+<p>The table data should be Lato regular, size 14px. In most cases the text should be left-aligned and inline vertically with the table heading.</p>

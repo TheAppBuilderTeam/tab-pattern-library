@@ -11,6 +11,7 @@ $white: #ffffff;
 $pink: #C1375E;
 $gold: #D6BD89;
 $red: #D62D29;
+$blue: #067BBE;
 
 $textColor: $purple__dark;
 
@@ -30,12 +31,12 @@ $buttonSecondaryText: #657D98;
 $buttonDisabled: #D2D9E1;
 
 $tableRow: #F7F7F7;
-$tableHead: #E7F2F9;
+$tableHead: $blue;
 $componentBorder: #E1E1E1;
 
 $tableColumnOnce: #00B5EB;
 
-$tableEmailText: #067BBE;
+$tableEmailText: $blue;
 
 /* Webapp Specific
 ------------------------------------------------------------------ */
