@@ -234,7 +234,9 @@ table{
 }
 
 .table-columnOne{
-	color: $tableEmailText;
+	color: #067BBE;
+
+
 }
 
 .table-columnFive{
@@ -251,6 +253,7 @@ table{
 }
 
 .table-allUsers tr{
+		font-size: 14px;
 		color: #707070;
 }
 
@@ -260,13 +263,14 @@ table{
 
 .table-allUsers th{
 	background-color:rgba(6, 123, 190, 0.10);
-	color: #0099cf;
+	color: #067BBE;
 	text-align: left;
 	font-weight: 800;
+	font-size: 15px;
 }
 
 .table-allUsers td, th{
-	padding: 15px;
+	padding: 10px 15px;
 }
 
 .table-allUsers th{
