@@ -179,7 +179,6 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 -----------------------------------------------------------------------------------------------------*/
 .form-group{
 	display: inline-block;
-	margin: 10px 20px 10px 0;
 	vertical-align: top;
 	p{
 		width: 100%;
@@ -188,16 +187,19 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 
 .form--dataFields{
 	display: inline-block;
-	padding-right: 105px;
-	padding-top: 30px;
+	padding-right: 70px;
 }
 
 .form--dataFieldsHeading{
 	padding-bottom: 15px;
+	color: $dataFeildsHeading;
+	font-weight: 800;
+
 }
 
 .form--dataFieldsReset{
 	color: $blue;
+	font-size: 16px;
 }
 
 .form--dataFieldsCheckbox input{
@@ -205,14 +207,14 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 	margin-right: 6px;
 }
 
+.form--dataFields__username{
+	color: #6A6F75;
+
+}
 
 .form--dataFieldsCheckbox input:checked{
   -webkit-transform: scale(1.3);
 	margin-right: 6px;
-}
-
-.form--dropdown{
-	padding-top: 50px;
 }
 
 .form--dropdown select{

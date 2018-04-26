@@ -45,12 +45,14 @@ title: Forms
 
 <p>Since a user’s password cannot be changed manually by another user, the reset link is supplied under the password label. </p>
 
-<div class="main__content__block textWidth clearfix">
-  <div class="form-group">
+<div class="main__content__block textWidth clearfix" >
+  <div class=" form-group form--dataFields">
+    <h4 class="form--dataFieldsHeading">Form Data Fields</h4>
     <label>Username</label>
-    user@emailaddress.com
+    <p class="form--dataFields__username">user@emailaddress.com</p>
   </div>
-  <div class="form-group">
+  <div class="form-group form--dataFields">
+    <h4 class="form--dataFieldsHeading">Form Data Fields - with link</h4>
     <label>Password</label>
     <p class="form--dataFieldsReset">Reset Password</p>
   </div>
@@ -60,32 +62,20 @@ title: Forms
 
 <!-- [ELEMENT checkbox and radio button examples] -->
 
+
+<div class="main__content__block textWidth padding__50 clearfix">
+  <div class="form--dataFieldsCheckbox">
+  	<h4 class="form--dataFieldsHeading">Checkbox</h4>
+    <input type="checkbox" checked="checked">
+  	Can be access by all users in the organization.
+  </div>
+</div>
+
 <p>Dropdowns are used when there are many values for users to choose from and when it appears on a data row to save room.</p>
 
-<!-- [ELEMENT dropdown] -->
 
 
-
-
-	<div class="form--dataFields">
-		<h4 class="form--dataFieldsHeading">Form Data Fields</h4>
-		<label>Username</label>
-		user@emailaddress.com
-	</div>
-
-	<div class="form--dataFields">
-		<h4 class="form--dataFieldsHeading">Form Data Fields</h4>
-		<label>Password</label>
-		<p class="form--dataFieldsReset">Reset Password</p>
-	</div>
-
-<div class="form--dataFieldsCheckbox">
-	<h4 class="form--dataFieldsHeading">Checkbox</h4>
-  <input type="checkbox" checked="checked">
-	Can be access by all users in the organization.
-</div>
-
-</div>
+<div class="main__content__block textWidth padding__50 clearfix">
 
 <div class="form--dropdown">
 	<h4 class="form--dataFieldsHeading">Dropdown</h4>
@@ -95,5 +85,9 @@ title: Forms
 	  <option value="App Grid">App Grid</option>
 	</select>
 </div>
+
+
+
+
 
 </div>
