@@ -197,3 +197,23 @@ li.colour__block{
     width: 100%;
 	}
 }
+
+
+/* Main Content Images
+------------------------------------------------------------------ */
+
+.imageContainer{
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+}
+.imageContainer--two{
+  img{
+    width: 49%;
+    padding-right: 2%;
+    display: inline-block;
+    .last{
+      padding: 0;
+    }
+  }
+}

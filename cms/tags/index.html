@@ -3,14 +3,32 @@ layout: default
 platform: cms
 page: cms-tags
 selected: cms-tags
-title: Audience Tags
+title: Tags
 ---
 
-<p>Tags are used to show what user groups can access a particular piece of content and are found within the “audience” tab. Each user group is shown as a tag and app editors can remove user groups from the audience by clicking on the “x” on the tag. If a user group is added to the audience of a piece of content but the users have no way to access it because they are not able to view the parent list, the tag will appear in red. </p>
+<p>Tags are used in two cirumstances; to show what user groups can access a particular piece of content and to set "watchers" to content. </p>
 
-<ul class="main__content__block textpadding__100 widerThanText"  markdown="0">
-	<li class="tag">Group that can see this content<a href="#" class="remove"></a></li>
-	<li class="tag">Another group name<a href="#" class="remove"></a></li>
-	<li class="tag">Group<a href="#" class="remove"></a></li>
-	<li class="tag tag--negative">Group with no way to access content<a href="#" class="remove remove--negative"></a></li>
-</ul>
+<h2>Audience Tags</h2>
+ <p>A piece of content published into the app can be made to only be viewable by some users or user groups. The App Editor can set these user groups in the “audience” tab of a piece of content.</p>
+
+ <div class="imageContainer imageContainer--one padding__50">
+ 	 <img src="{{ site.baseurl }}/assets/images/cms/tags/audience.jpg" alt="Defining the audience of a piece of content" /img>
+ 	 <p class="caption">Defining the audience of a piece of content</p>
+ </div>
+
+<p>Each user group is shown as a tag and app editors can remove user groups from the audience by clicking on the “x” on the tag. If a user group is added to the audience of a piece of content but the users have no way to access it because they are not able to view the parent list, the tag will appear in red. </p>
+
+ <ul class="main__content__block textpadding__100 widerThanText"  markdown="0">
+ 	<li class="tag">Group that can see this content<a href="#" class="remove"></a></li>
+ 	<li class="tag">Another group name<a href="#" class="remove"></a></li>
+ 	<li class="tag">Group<a href="#" class="remove"></a></li>
+ 	<li class="tag tag--negative">Group with no way to access content<a href="#" class="remove remove--negative"></a></li>
+ </ul>
+
+<h2>Watchers</h2>
+<p>In the Editor section of the CMS the App Editor can choose to add users as watchers on individual pieces of content. These watchers will be notified about social activity on the piece of content. Choosing users as watchers works similarly to adding user groups to the audience of a piece of content.</p>
+
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/cms/tags/watchers.jpg" alt="Adding users as watchers to content" /img>
+	<p class="caption">Adding users as watchers to published content</p>
+</div>
