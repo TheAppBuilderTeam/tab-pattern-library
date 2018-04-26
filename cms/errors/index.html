@@ -3,10 +3,10 @@ layout: default
 platform: cms
 page: cms-errors
 selected: cms-errors
-title: Errors
+title: Errors & Warnings
 ---
 
-<p>Depending on the context, error messages related to data put into an input field or textarea can be displayed in different places.</p>
+<p>The placement of error messages or warnings is dependant on the context. For example, in some cases a warning will show at the top of a page, however error messages often appear directly underneath an input field.</p>
 
 <h2>Text input or textarea errors</h2>
 <p>Generally error messages will appear directly under a text input and the border of the input will also be red to highlight the error. No warning icon is shown. </p>
@@ -25,9 +25,15 @@ title: Errors
 
 <p>However there are times when errors or warnings are shown above the field. For example if the field or textarea in the only data input on the page or on the modal, the warning will appear above it with the warning icon appended to the beginning of the text.</p>
 
-<!-- [IMG modal warning example - bulk names to channel] -->
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/cms/errors/errors-on-modal.jpg" alt="Error message showing above field in modal" /img>
+	<p class="caption">Error message showing above field in modal</p>
+</div>
 
 <h2>Page warning</h2>
 <p>If a warning relates to an entire section, for example, when an admin can changes the user groups a user belongs to but the user is not currently active, this shows as a page warning. A warning message will show at the top of the page content and will be red with a red warning icon appended to the beginning of the text.</p>
 
-<!-- [IMG page warning example] -->
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/cms/errors/warning-on-user-page.jpg" alt="Warning message at the top of the page" /img>
+	<p class="caption">A issue affecting the whole section is indicated by a warning message shown at the top of the page</p>
+</div>
