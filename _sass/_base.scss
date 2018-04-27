@@ -94,12 +94,12 @@ footer{
   max-width: 595px;
 }
 
-.main__content__block__third{
+.main__content__block__half, .main__content__block__third{
+  width: 47%;
 	float: left;
 	border: 1px solid #F4F4F4;
 	box-shadow: 0 2px 3px 0 rgba(208,208,208,0.50);
 	border-radius: 7px;
-	width: 31%;
 	margin: 3% 3% 3% 0;
 	padding: 22px;
 	text-align: center;
@@ -107,6 +107,10 @@ footer{
 	&:hover{
 		box-shadow: 0 2px 7px 0 rgba(132,132,132,0.50);
 	}
+}
+
+.main__content__block__third{
+  width: 31%;
 }
 
 .main__content__block__third--last{
@@ -210,9 +214,9 @@ li.colour__block{
     border-radius: 3px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.6,.25,1);
-    &:hover{
-      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    }
+    // &:hover{
+    //   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    // }
   }
 }
 .imageContainer--two{
