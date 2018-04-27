@@ -51,6 +51,14 @@ p{
 	list-style:inside;
 }
 
+.main__content p a{
+  border-bottom: 1px solid;
+	border-color: darken($borderColor, 15%);
+  &:hover{
+    border-color: $pink;
+  }
+}
+
 
 /* Link Styles
 ------------------------------------------------------------------ */
