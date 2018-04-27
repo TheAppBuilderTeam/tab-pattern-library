@@ -139,34 +139,51 @@ title: Tables
 
 <p>The table data should be left-aligned. There should be a small amount of padding on the very first column and very last column so the data is close to the edges of the table, but not touching it. The columns between the first and last columns should use equal spacing between them and the table should feel balanced visually. </p>
 
-<!-- [IMG normal table] -->
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/cms/tables/user-table.jpg" alt="User table" /img>
+	<p class="caption">Users listed on a table</p>
+</div>
 
 <p>There are however a few exceptions this. For example, in the table showing User Groups for a Channel, there are only 2 columns of data. The first is aligned to the left, however the second column of data is right-aligned, and a remove icon is shown on each row. This approach is used when there are only 2-3 columns of data for the table. </p>
 
-<!-- [IMG user groups on a channel table] -->
-
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/cms/tables/user-groups-for-channel.jpg" alt="User groups on a channel table" /img>
+	<p class="caption">User groups on a channel table</p>
+</div>
 
 <h2>Pagination</h2>
 <p>Tables should limit the rows of data to 20 rows total, with the rest of the data accessed by using the pagination buttons below the table on the left side. If there are less than 21 rows of data the pagination should not be shown. </p>
 
-<!-- [IMG table with pagination] -->
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/cms/tables/channel-users-pagination.jpg" alt="Table showing pagination" /img>
+	<p class="caption">Pagination will appear under tables with more than 20 rows of data</p>
+</div>
 
 <p>Tabular data shown inside modal windows should behave differently. There should be no pagination but instead load more rows of data as the user scrolls down the table within the modal window. Note that the modal does not change size, the table should use overflow: hidden; to keep the extra rows contained. </p>
 
- <!--
-[IMG table in Modal] -->
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/cms/tables/table-inside-modal.jpg" alt="table inside modal window" /img>
+	<p class="caption">Table shown inside a modal</p>
+</div>
 
 <h2>Table Actions</h2>
 <p>A user may be presented with a link to perform a specific action related to a table, for example, adding new users to a channel. This link will be left aligned underneath the table if there is no pagination, however links should be right-aligned underneath the table if pagination is present. </p>
 
-<!-- [IMG links under table] -->
+<div class="imageContainer imageContainer--two padding__50">
+	<img src="{{ site.baseurl }}/assets/images/cms/tables/table-actions-left.jpg" alt="Table actions are shown under the table on the left by default" /img>
+	<img src="{{ site.baseurl }}/assets/images/cms/tables/table-actions-right.jpg" alt="Table actions more to the right side under the table if pagination is displayed" class="last" /img>
+	<p class="caption">Table actions are usually presented on the left side under the table, unless pagination is present</p>
+</div>
 
 <h2>Table Search</h2>
 <p>On the overview page for Users, User Groups and Channels, the table shown on the page will have a search box above it, allowing the org admin to filter the table based off their search criteria. Once they type something into the search text input they must click “Search” or hit enter on their keyboard to show the filtered table results. By clicking on “Reset” the input is cleared and they are shown the full table again. </p>
 
 <p>As the user types into the search box a dropdown with suggestions should appear. Users can clear the text they typed by clicking on the “x” at the end of the search box or the Reset button. </p>
- <!--
-[IMG search box above table]  -->
+
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/cms/tables/user-search-on-table.jpg" alt="User search on a table" /img>
+	<p class="caption">Searching for users in a table</p>
+</div>
 
 
 <h2>Styling a Table</h2>
