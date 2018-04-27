@@ -287,30 +287,35 @@ table{
 	vertical-align: middle;
 	background: #F7F7F7;
 	border: 1px solid #E1E1E1;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	position: relative;
+	margin: 0 auto;
+	width: 745px;
 }
 
 .searchUsers--label{
 	display: inline-block;
 	padding-left: 10px;
 	padding-right: 10px;
-	font-size: 18px;
-	color: #6A6F75;
-	letter-spacing: 0;
 	vertical-align: middle;
 	text-transform: none;
 	font-weight: 400;
+	font-family: Lato-Regular;
+	font-size: 14px;
+	color: #6A6F75;
+	letter-spacing: 0;
 }
 
 input[type="text"].searchUsers--searchBox{
 	background: #FFFFFF;
 	border: 1px solid #E1E1E1;
 	width: 528px;
-	height: 45px;
+	height: 38px;
 	border-radius: 0;
-	font-size: 18px;
+	font-family: Lato-Regular;
+	font-size: 14px;
+	color: rgba(112,112,112,0.57);
+	letter-spacing: 0;
+	line-height: 27px;
 	outline: 0;
 }
 
@@ -327,28 +332,31 @@ input[type="text"].searchUsers--searchBox{
 	border-radius: 4px;
 	border: none;
 	vertical-align: middle;
-	padding-left: 12px;
-	padding-right: 12px;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	font-size: 1.1em;
+	padding: 6px 6px;
 	outline: 0;
+	width: 56px;
 	position: relative;
 	right: 20px;
 	@include buttonPrimaryHover;
+	font-family: Lato-Bold;
+	font-size: 13px;
+	color: #FFFFFF;
+	letter-spacing: 0;
 }
 
 .searchUsers--resetButton{
 	border-radius: 4px;
 	vertical-align: middle;
-	padding-left: 12px;
-	padding-right: 12px;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	font-size: 1.1em;
+	padding: 6px 6px;
+	width: 56px;
 	outline: 0;
 	position: relative;
 	right: 20px;
+	font-family: Lato-Bold;
+	font-size: 13px;
+	color: #657D98;
+	letter-spacing: 0;
+
 
 	color: $buttonSecondaryText;
 	background: $white;
@@ -447,6 +455,8 @@ input[type="text"].searchUsers--searchBox{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
+	width: 100%;
+	margin: 0 auto;
 
 }
 
@@ -523,13 +533,126 @@ input[type="text"].searchUsers--searchBox{
 
 
 
-/*Modals
+/*Standard Modal
 -----------------------------------------------------------------------------------------------------*/
-.modal__table tr{
 
+
+.modal__container{
+	background: #FFFFFF;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	border-radius: 10px;
+	height: 455px;
+	width: 617px;
+	margin: 0 auto;
+	margin-top: 0;
+	margin-bottom: 30px;
+
+}
+
+.modal__scrollbar::-webkit-scrollbar{
+  width: 7px;
+	background-color: 0;
+
+}
+.modal__scrollbar::-webkit-scrollbar-thumb {
+	background-color: #D2D9E1;
+	border-radius: 10px;
+}
+.modal__container--header{
+	margin: 0 auto;
+	width: 90%;
+	font-size: 16px;
+	color: #707070;
+	font-weight: 800;
+
+}
+
+.modal__container--title{
+	display: inline-block;
+	width: 480px;
+	padding-top: 10px;
+
+
+}
+.modal__button--close{
+	float: right;
+	display: block;
+	margin-right: 0;
+}
+
+
+
+.modal__table td:nth-child(even){
+	text-align: right;
+	color: #067BBE;
+	font-size: 14px;
+}
+
+.modal__table td:nth-child(odd){
+	color: #6A6F75;
+	font-size: 14px;
+}
+
+.modal__table td{
+	position: relative;
+}
+
+.modal__table--container{
+	height: 300px;
+	width: 90%;
+	margin: 0 auto;
+	overflow: scroll;
+	overflow-x: hidden;
+
+}
+
+.modal__tick{
+	position: absolute;
+	left: 100px;
+	bottom: 13px;
 
 }
 
 .modal__table{
 	width: 100%;
+
+}
+
+.modal__container--footer{
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.modal__container hr{
+	opacity: 0.1;
+	width: 95%;
+
+}
+
+.modal__container--footer button{
+	padding: 8px 15px;
+
+}
+
+
+/*Mini Modal
+-----------------------------------------------------------------------------------------------------*/
+
+.miniModal__container{
+	height: 275px;
+	width: 446px;
+	background: #FFFFFF;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: left;
+}
+
+.miniModal__header{
+	font-family: Lato-Semibold;
+	font-size: 18px;
+	color: #6A6F75;
+	letter-spacing: -0.36px;
 }
