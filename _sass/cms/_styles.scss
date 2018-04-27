@@ -455,6 +455,8 @@ input[type="text"].searchUsers--searchBox{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
+	width: 100%;
+	margin: 0 auto;
 
 }
 
@@ -531,8 +533,9 @@ input[type="text"].searchUsers--searchBox{
 
 
 
-/*Modals
+/*Standard Modal
 -----------------------------------------------------------------------------------------------------*/
+
 
 .modal__container{
 	background: #FFFFFF;
@@ -541,6 +544,9 @@ input[type="text"].searchUsers--searchBox{
 	height: 455px;
 	width: 617px;
 	margin: 0 auto;
+	margin-top: 0;
+	margin-bottom: 30px;
+
 }
 
 .modal__scrollbar::-webkit-scrollbar{
@@ -553,25 +559,25 @@ input[type="text"].searchUsers--searchBox{
 	border-radius: 10px;
 }
 .modal__container--header{
-	height: 5%;
 	margin: 0 auto;
 	width: 90%;
 	font-size: 16px;
 	color: #707070;
 	font-weight: 800;
-	padding-top: 20px;
+
 }
 
 .modal__container--title{
 	display: inline-block;
+	width: 480px;
+	padding-top: 10px;
+
 
 }
 .modal__button--close{
 	float: right;
-	display: inline-block;
-	position: relative;
-	bottom: 40px;
-	left: 40px;
+	display: block;
+	margin-right: 0;
 }
 
 
@@ -600,7 +606,6 @@ input[type="text"].searchUsers--searchBox{
 
 }
 
-
 .modal__tick{
 	position: absolute;
 	left: 100px;
@@ -614,19 +619,40 @@ input[type="text"].searchUsers--searchBox{
 }
 
 .modal__container--footer{
-	height: 100px;
 	width: 90%;
 	margin: 0 auto;
 
 }
 
 .modal__container hr{
-opacity: 0.1;
-width: 95%;
+	opacity: 0.1;
+	width: 95%;
 
 }
 
 .modal__container--footer button{
 	padding: 8px 15px;
 
+}
+
+
+/*Mini Modal
+-----------------------------------------------------------------------------------------------------*/
+
+.miniModal__container{
+	height: 275px;
+	width: 446px;
+	background: #FFFFFF;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: left;
+}
+
+.miniModal__header{
+	font-family: Lato-Semibold;
+	font-size: 18px;
+	color: #6A6F75;
+	letter-spacing: -0.36px;
 }
