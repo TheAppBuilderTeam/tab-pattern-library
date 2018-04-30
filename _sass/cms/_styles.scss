@@ -561,23 +561,31 @@ input[type="text"].searchUsers--searchBox{
 .modal__container--header{
 	margin: 0 auto;
 	width: 90%;
-	font-size: 16px;
-	color: #707070;
 	font-weight: 800;
+	font-family: Lato-Semibold;
+	font-size: 18px;
+	color: #6A6F75;
+	letter-spacing: -0.36px;
+	height: 10%;
 
 }
 
 .modal__container--title{
 	display: inline-block;
 	width: 480px;
-	padding-top: 10px;
+	padding-top: 15px;
 
 
 }
 .modal__button--close{
+	padding: 0 2px;
+	margin: 0;
+	font-size: 20px;
+	color: #9A9FA5;
 	float: right;
-	display: block;
-	margin-right: 0;
+	position: relative;
+	left: 18px;
+	top: 4px;
 }
 
 
@@ -598,8 +606,8 @@ input[type="text"].searchUsers--searchBox{
 }
 
 .modal__table--container{
-	height: 300px;
-	width: 90%;
+	height: 75%;
+	width: 92%;
 	margin: 0 auto;
 	overflow: scroll;
 	overflow-x: hidden;
@@ -619,8 +627,10 @@ input[type="text"].searchUsers--searchBox{
 }
 
 .modal__container--footer{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
+	border-top: 1px solid #ECECEC;
+	padding-left: 16px;
 
 }
 
