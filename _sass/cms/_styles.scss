@@ -648,6 +648,7 @@ input[type="text"].searchUsers--searchBox{
 	margin: 0 auto;
 	padding: 20px;
 	text-align: left;
+	margin-bottom: 30px;
 }
 
 .miniModal__header{
@@ -655,4 +656,58 @@ input[type="text"].searchUsers--searchBox{
 	font-size: 18px;
 	color: #6A6F75;
 	letter-spacing: -0.36px;
+	border-bottom: 1px solid #ECECEC;
+	padding-bottom: 15px;
+}
+
+.miniModal__header button{
+	float: right;
+	padding: 0 2px;
+	margin: 0;
+	font-size: 20px;
+	color: #9A9FA5;
+}
+
+.miniModal__header--title{
+	float: left;
+	width: 85%;
+}
+
+
+
+.testfix::after {
+	clear: both;
+	display: table;
+	content: "";
+}
+
+.miniModal__contentArea{
+	height: 60%;
+}
+
+.miniModal__contentArea ul{
+	width: 100%;
+	padding-top: 20px;
+	@include latoRegular;
+	font-size: 15px;
+	color: #707070;
+	letter-spacing: 0;
+	line-height: 27px;
+}
+
+.miniModal__contentArea--boldData{
+	font-family: Lato-Bold;
+	font-size: 15px;
+	color: #707070;
+	letter-spacing: 0;
+	line-height: 27px;
+}
+
+.miniModal__contentArea--plus{
+	color: #6EB81D;
+	font-weight: 800;
+}
+
+.miniModal__contentArea--mark{
+	color: #D52521;
 }
