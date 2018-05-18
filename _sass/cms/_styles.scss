@@ -259,12 +259,12 @@ table{
 		color: #707070;
 }
 
-.table-allUsers tr:nth-child(even) {
+.table-allUsers tr:nth-child(odd) {
   background-color: #F7F7F7;
 }
 
 .table-allUsers th{
-	background-color:rgba(6, 123, 190, 0.10);
+	background-color: #E6F2FA;
 	color: #067BBE;
 	text-align: left;
 	font-weight: 800;
@@ -562,7 +562,7 @@ input[type="text"].searchUsers--searchBox{
 	margin: 0 auto;
 	width: 90%;
 	font-weight: 800;
-	font-family: Lato-Semibold;
+	font-family: Lato;
 	font-size: 18px;
 	color: #6A6F75;
 	letter-spacing: -0.36px;
@@ -662,7 +662,8 @@ input[type="text"].searchUsers--searchBox{
 }
 
 .miniModal__header{
-	font-family: Lato-Semibold;
+	font-weight: 500;
+	font-family: Lato;
 	font-size: 18px;
 	color: #6A6F75;
 	letter-spacing: -0.36px;
@@ -706,7 +707,8 @@ input[type="text"].searchUsers--searchBox{
 }
 
 .miniModal__contentArea--boldData{
-	font-family: Lato-Bold;
+	font-family: Lato;
+	font-weight: 800;
 	font-size: 15px;
 	color: #707070;
 	letter-spacing: 0;

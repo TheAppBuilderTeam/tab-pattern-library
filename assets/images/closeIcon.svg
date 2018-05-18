@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="App-Editor-Layouts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Send-Push-Notification-2" transform="translate(-702.000000, -376.000000)" fill="#C2C2C2">
+            <g id="modal-window" transform="translate(280.000000, 360.000000)">
+                <path d="M425.902657,19.6140748 L425.902657,15.3149712 L428.482119,15.3149712 L428.482119,19.6140748 L432.781223,19.6140748 L432.781223,22.193537 L428.482119,22.193537 L428.482119,26.4926407 L425.902657,26.4926407 L425.902657,22.193537 L421.603553,22.193537 L421.603553,19.6140748 L425.902657,19.6140748 Z" id="Combined-Shape" transform="translate(427.192388, 20.903806) rotate(-45.000000) translate(-427.192388, -20.903806) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
