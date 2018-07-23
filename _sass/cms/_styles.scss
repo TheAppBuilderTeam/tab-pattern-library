@@ -166,11 +166,35 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
   padding: 6px 8px;
   vertical-align: middle;
 	width: 250px;
+    color: $cmsGrey;
   border: 1px solid #ddd;
   border-radius: 4px;
 	&.warning{
 		border-color: $red;
 	}
+}
+
+/*---- Placeholder -----*/
+
+.form-group ::-webkit-input-placeholder {
+    
+    color: $cmsPlaceholder;
+}
+
+
+.form-group ::-moz-placeholder {
+    
+    color: $cmsPlaceholder;
+}
+
+
+.form-group :-ms-input-placeholder {
+    
+    color: $cmsPlaceholder;
+}
+
+.form-group :-moz-placeholder{
+    color: $cmsPlaceholder;
 }
 
 
@@ -192,7 +216,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 
 .form--dataFieldsHeading{
 	padding-bottom: 15px;
-	color: $dataFeildsHeading;
+	color: $dataFieldsHeading;
 	font-weight: 800;
 
 }

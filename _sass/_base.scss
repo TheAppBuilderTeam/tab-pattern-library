@@ -186,6 +186,9 @@ li.colour__block{
 	&--ten{
 		background: $componentBorder;
 	}
+    &--eleven{
+		background: $buttonPublish;
+	}
 }
 
 .colour__block__info{
