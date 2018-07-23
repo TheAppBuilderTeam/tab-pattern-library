@@ -1,0 +1,43 @@
+/* Typography for Web App
+------------------------------------------------------------------ */
+
+@import "webapp_variables";
+
+
+
+/* Main Text Styles
+------------------------------------------------------------------ */
+
+.webappText--heading1{
+  color: $textNavy;
+  font-size: 28px;
+  @include latoSemibold;
+}
+
+.webappText--heading2{
+  color: $textNavy;
+  font-size: 23px;
+  @include latoSemibold;
+}
+
+.webappText--heading3{
+  color: $textNavy;
+  font-size: 19px;
+  @include latoSemibold;
+}
+
+
+
+/* Link Styles
+------------------------------------------------------------------ */
+
+
+
+
+
+/* Other
+------------------------------------------------------------------ */
+
+p.caption{
+
+}
