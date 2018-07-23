@@ -1,5 +1,6 @@
 <nav class="navigation__secondary">
     <ul class="navigation__secondary__list">
+      <li><a href="{{ site.baseurl }}/cms/" {% if page.selected == "cms-home" %}class="active"{% endif %} >Introduction</a></li>
   		<li><a href="{{ site.baseurl }}/cms/typography/" {% if page.selected == "cms-typography" %}class="active"{% endif %} >Typography</a></li>
   		<li><a href="{{ site.baseurl }}/cms/buttons/" {% if page.selected == "cms-buttons" %}class="active"{% endif %} >Buttons &amp; Links</a></li>
       <li><a href="{{ site.baseurl }}/cms/tags/" {% if page.selected == "cms-tags" %}class="active"{% endif %} >Tags</a></li>
