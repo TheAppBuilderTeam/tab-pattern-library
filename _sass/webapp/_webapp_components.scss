@@ -1,0 +1,92 @@
+/* Components Social Elements and List Cards for Webapp
+------------------------------------------------------------------ */
+
+.listCard{
+  // width: 33%;
+  display: inline-block;
+  max-width: 286px;
+  border: 1px solid $borderGrey;
+  background: $white;
+  padding: 0;
+  vertical-align: top;
+}
+
+
+
+.listCard__image{
+  height: auto;
+  border-bottom: 4px solid #D65760;
+  position: relative;
+}
+
+.main__content .listCard__image img{
+  width: 100%;
+}
+
+.listCard__text{
+  padding: 15px;
+}
+
+.listCard h2{
+  @include latoSemibold;
+  font-size: 19px;
+  width: 100%;
+}
+
+
+.listCard p{
+  width: 100%;
+  font-size: 16px;
+}
+
+.listCard__contentType{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  p{
+    color: $white;
+    font-size: 13px;
+    @include latoBold;
+    text-transform: uppercase;
+    padding-bottom: 0;
+  }
+}
+
+@mixin textSocialStat{
+  font-size: 14px;
+  color: $textGrey;
+}
+
+.listCard__stats{
+  position: relative;
+}
+
+.listCard__stats{
+  float: left;
+  width: 100%;
+  padding-bottom: 20px;
+  @include textSocialStat;
+}
+
+.listCard__stats--likes{
+  background-image: url('../assets/images/webapp/iconLike.svg');
+  background-repeat: no-repeat;
+  padding: 0px 10px 0 22px;
+}
+
+.listCard__stats--comments{
+  background-image: url('../assets/images/webapp/iconComment.svg');
+  background-repeat: no-repeat;
+  padding: 0px 10px 0 22px;
+}
+
+.listCard__stats--postTime{
+  float: right;
+}
+
+.listCard--featured{
+  max-width: 612px;
+  h2{
+    font-size: 28px;
+  }
+}
