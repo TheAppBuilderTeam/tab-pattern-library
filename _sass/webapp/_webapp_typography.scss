@@ -25,6 +25,69 @@
   font-size: 19px;
   @include latoSemibold;
 }
+/* Main Text Styles
+------------------------------------------------------------------ */
+
+.webappText--heading4 {
+  color: $textNavy;
+  font-size: 18px;
+  font-weight: bold; }
+
+.webappText--heading4 {
+font-family: Lato-Bold;
+font-size: 18px;
+color: #6D7C99;
+letter-spacing: 1px; }
+
+.webappText--paragraph {
+  color: $textnavy;
+  font-size: 19px;
+  font-weight: 600; }
+
+.webappText--paragraphlink {
+  color: $textNavy;
+  font-size: 19px;
+  font-weight: 600; }
+
+.webappText--blockquote {
+  color: $textNavy;
+  font-size: 23px;
+  font-weight: lighter;
+    font-style: italic; }
+
+.webappText--sharelink {
+  color: $textNavy;
+  font-size: 23px;
+  font-weight: lighter;
+    font-style: italic; }
+
+.webappText--minitext {
+  color: $textNavy;
+  font-size: 15px;
+  font-weight: 600; }
+
+///* “This is a blockquot: */
+//font-family: Lato-LightItalic;
+//font-size: 23px;
+//color: #1A2D4C;
+//line-height: 32px;
+
+///* Rectangle: */
+//background: #00346F;
+//box-shadow: 0 2px 6px 2px rgba(193,193,193,0.50);
+//border-radius: 100px;
+//
+//.webapp-PrimaryButton{
+//background: $red;
+//box-shadow: 0 2px 6px 2px rgba(193,193,193,0.50);
+//border-radius: 100px;
+//    :hover{
+//        background: lighten($red, 5%); 
+//    }
+//    :pressed, :active{
+//        background: darken($red, 5%);
+//    }
+//}
 
 
 
