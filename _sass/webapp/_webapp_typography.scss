@@ -26,6 +26,160 @@
   @include latoSemibold;
 }
 
+.webappText--heading4 {
+    color: $textGrey;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    @include latoBold;  
+    letter-spacing: 1px; }
+
+.webappText--paragraph {
+  color: $textNavy;
+  font-size: 19px; }
+
+.webappText--paragraphlink {
+    font-size: 19px; }
+
+.webappText--paragraphlink a {
+    border-bottom: 1px solid;
+	border-color: darken($borderColor, 15%);
+    &:hover{
+    border-color: $pink;
+        cursor: pointer;
+  }
+}
+.webappText--blockquote {
+  @include latoLight;
+  color: $textNavy;
+  font-size: 23px;
+  font-style: italic;
+}
+
+.webappText--sharelink {
+  color: $webappLink; 
+  font-size: 19px; 
+  position: relative; }
+
+.webappText--sharelink img {
+    max-width: 25px;
+    position: absolute;
+    left: 130px;
+    bottom: 1px;
+}
+.webappText--minitext {
+  color: $textGrey;
+  font-size: 15px;
+   }
+
+.webappText--socialinteraction--title {
+    color: $textGrey;
+    font-size: 15px;
+    
+}
+.webappText--socialinteraction--replies {
+    color: $webappLink;
+    font-size: 15px; }
+
+.webappText--socialinteraction--like  {
+    display: inline-block;
+//    position: relative;
+    color: $textGrey} 
+
+.webappText--socialinteraction--like img {
+    max-width: 20px;
+//    position: absolute;
+//    left: 150px;
+//    bottom: 1px;
+    display: inline-block;
+}
+
+.socialinteraction--like img {
+    max-width: 20px;
+//    top: 2px;
+//    bottom: 1px;
+   display: inline-block;
+    margin-right: 10px;
+}
+
+.socialinteraction--addcomment img {
+    max-width: 20px;
+//    top: 2px;
+//    bottom: 1px;
+   display: inline-block;
+    margin-right: 10px;
+}
+
+.socialinteraction--likes img {
+    max-width: 20px;
+    top: 2px;
+    bottom: 1px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.socialinteraction--comment img {
+    max-width: 20px;
+    top: 1px;
+    bottom: 1px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.webappText--socialinteraction--comment {
+     position: relative;
+    color: $textGrey} 
+.webappText--socialinteraction--body {
+    color: $textNavy;
+  font-size: 17px; 
+}
+
+.socialinteraction--like, .socialinteraction--addcomment{
+    display: inline-block;
+}
+
+
+.social__action{
+    display: inline-block;
+    color: $textGrey;
+   background-repeat: no-repeat;
+    background-position-y:1px;
+    padding: 4px 20px 4px 35px;
+}
+
+.social__action--likethis{
+    background-image: url(../assets/images/webapp/like-icon.svg);
+}
+
+.social__action--addcomment{
+    background-image: url(../assets/images/webapp/comment-icon.svg);
+    padding: 4px 15px 4px 37px;
+}
+
+
+
+///* “This is a blockquot: */
+//font-family: Lato-LightItalic;
+//font-size: 23px;
+//color: #1A2D4C;
+//line-height: 32px;
+
+///* Rectangle: */
+//background: #00346F;
+//box-shadow: 0 2px 6px 2px rgba(193,193,193,0.50);
+//border-radius: 100px;
+//
+//.webapp-PrimaryButton{
+//background: $red;
+//box-shadow: 0 2px 6px 2px rgba(193,193,193,0.50);
+//border-radius: 100px;
+//    :hover{
+//        background: lighten($red, 5%); 
+//    }
+//    :pressed, :active{
+//        background: darken($red, 5%);
+//    }
+//}
+
 
 
 /* Link Styles

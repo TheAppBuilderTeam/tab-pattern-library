@@ -31,3 +31,14 @@
 	padding-right: 15px;
 	}
 }
+
+.margin, .main__content ul.margin{
+    &__50{
+        margin-bottom: 50px;
+    }
+    &__100{
+        margin-bottom: 100px;
+    }
+}
+
+
