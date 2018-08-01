@@ -53,7 +53,8 @@
   @include latoLight;
   color: $textNavy;
   font-size: 23px;
-  font-weight: lighter; }
+  font-style: italic;
+}
 
 .webappText--sharelink {
   color: $webappLink; 
@@ -81,30 +82,31 @@
     font-size: 15px; }
 
 .webappText--socialinteraction--like  {
-    position: relative;
+    display: inline-block;
+//    position: relative;
     color: $textGrey} 
 
 .webappText--socialinteraction--like img {
     max-width: 20px;
-    position: absolute;
-    left: 150px;
-    bottom: 1px;
-    float: left;
+//    position: absolute;
+//    left: 150px;
+//    bottom: 1px;
+    display: inline-block;
 }
 
 .socialinteraction--like img {
     max-width: 20px;
-    top: 2px;
-    bottom: 1px;
-    float: left;
+//    top: 2px;
+//    bottom: 1px;
+   display: inline-block;
     margin-right: 10px;
 }
 
 .socialinteraction--addcomment img {
     max-width: 20px;
-    top: 2px;
-    bottom: 1px;
-    float: left;
+//    top: 2px;
+//    bottom: 1px;
+   display: inline-block;
     margin-right: 10px;
 }
 
@@ -112,7 +114,7 @@
     max-width: 20px;
     top: 2px;
     bottom: 1px;
-    float: left;
+    display: inline-block;
     margin-right: 10px;
 }
 
@@ -120,7 +122,7 @@
     max-width: 20px;
     top: 1px;
     bottom: 1px;
-    float: left;
+    display: inline-block;
     margin-right: 10px;
 }
 .webappText--socialinteraction--comment {
@@ -130,6 +132,30 @@
     color: $textNavy;
   font-size: 17px; 
 }
+
+.socialinteraction--like, .socialinteraction--addcomment{
+    display: inline-block;
+}
+
+
+.social__action{
+    display: inline-block;
+    color: $textGrey;
+   background-repeat: no-repeat;
+    background-position-y:1px;
+    padding: 4px 20px 4px 35px;
+}
+
+.social__action--likethis{
+    background-image: url(../assets/images/webapp/like-icon.svg);
+}
+
+.social__action--addcomment{
+    background-image: url(../assets/images/webapp/comment-icon.svg);
+    padding: 4px 15px 4px 37px;
+}
+
+
 
 ///* “This is a blockquot: */
 //font-family: Lato-LightItalic;
