@@ -94,6 +94,11 @@
     display: inline-block;
 }
 
+.social__interactions {
+    padding-left: 20px;
+    
+}
+
 .socialinteraction--like img {
     max-width: 20px;
 //    top: 2px;
@@ -115,19 +120,8 @@
     top: 2px;
     bottom: 1px;
     display: inline-block;
-    margin-right: 10px;
-}
+    margin-right: 10px; }
 
-.socialinteraction--comment img {
-    max-width: 20px;
-    top: 1px;
-    bottom: 1px;
-    display: inline-block;
-    margin-right: 10px;
-}
-.webappText--socialinteraction--comment {
-     position: relative;
-    color: $textGrey} 
 .webappText--socialinteraction--body {
     color: $textNavy;
   font-size: 17px; 
@@ -137,8 +131,7 @@
     display: inline-block;
 }
 
-
-.social__action{
+.social__action {
     display: inline-block;
     color: $textGrey;
    background-repeat: no-repeat;
@@ -148,13 +141,26 @@
 
 .social__action--likethis{
     background-image: url(../assets/images/webapp/like-icon.svg);
+     padding: 4px 20px 4px 35px;
 }
 
 .social__action--addcomment{
     background-image: url(../assets/images/webapp/comment-icon.svg);
     padding: 4px 15px 4px 37px;
+    background-position-y: 1px;
 }
 
+.social__action--likes {
+    background-image: url(../assets/images/webapp/like-small.svg);
+    padding: 4px 10px 4px 22px;
+    background-position-y: 8px;
+}
+
+.social__action--replies {
+    background-image: url(../assets/images/webapp/reply.svg);
+    padding: 4px 10px 4px 25px;
+    background-position-y: 6px;
+}
 
 
 ///* “This is a blockquot: */
