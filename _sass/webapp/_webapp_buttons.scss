@@ -60,22 +60,46 @@
 }
 
 
-.webappButton--icon{
+.webappButton--icon {
 	color: $white;
-     background-image: url('../assets/images/add-to-contact.svg');
 	background: $buttonIcon;
     &:active {
     color: $white;
-	background: $buttonActive;  }
+	background: $buttonIcon;  }
     box-shadow: 0 2px 6px 2px;
-	border: $buttonActive;
+	border: $buttonIcon;
 	&:hover{
-    background: lighten($buttonActive, 5%);
+    background: lighten($buttonIcon, 5%);
 	}
-    
+    position: relative;
 }
 
+.webappButton--icon {
+    padding: 12px 50px;
+}
 
+.webappButton--icon img {
+    width: 30px;
+    margin-left: 5px;
+    margin-top: -1px;
+}
+/*----------
+.webappButton--icon img {
+    max-height: 25px;
+    float: left;
+    margin-left: -40px;
+    display: inline-block;
+    left: 20px;
+}
+------*/
+.contact {
+    position: absolute;
+    left: 15px;
+}
+
+.download {
+  margin-left: 10px;
+}
 /*---------- end of buttons --------*/
 
 
