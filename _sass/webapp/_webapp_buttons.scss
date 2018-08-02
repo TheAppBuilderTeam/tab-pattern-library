@@ -12,7 +12,7 @@
 	font-size: 15px;
 	padding: 10px 44px;
     border-radius: 100px;
-	margin: 20px 25px 10px 0;
+	margin: 20px 25px 5px 0;
 }
 
 .webappButton--disabled {
@@ -72,10 +72,11 @@
     background: lighten($buttonIcon, 5%);
 	}
     position: relative;
+    padding-top: 10px;
 }
 
 .webappButton--icon {
-    padding: 12px 50px;
+    padding: 10px 40px;
 }
 
 .webappButton--icon img {
@@ -83,22 +84,14 @@
     margin-left: 5px;
     margin-top: -1px;
 }
-/*----------
-.webappButton--icon img {
-    max-height: 25px;
-    float: left;
-    margin-left: -40px;
-    display: inline-block;
-    left: 20px;
-}
-------*/
+
 .contact {
     position: absolute;
     left: 15px;
 }
 
 .download {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 /*---------- end of buttons --------*/
 
@@ -114,22 +107,6 @@
 	padding: 6px 12px;
 }
 
-.tag--negative{
-	color: $red;
-	background: lighten($red, 46%);
-	border: solid 1px $red;
-}
-
-a.remove{
-	background-image: url('../assets/images/remove-blue.svg');
-  	background-position: 10px 6px;
-  	background-repeat: no-repeat;
-  	padding-right: 20px;
-}
-
-a.remove--negative{
-	background-image: url('../assets/images/remove-red.svg');
-}
 
 label{
 	@include latoBold;
@@ -141,14 +118,4 @@ label{
 	padding-bottom: 3px;
 }
 
-input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
-	height: 34px;
-  padding: 6px 8px;
-  vertical-align: middle;
-	width: 250px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-	&.warning{
-		border-color: $red;
-	}
-    }
+    
