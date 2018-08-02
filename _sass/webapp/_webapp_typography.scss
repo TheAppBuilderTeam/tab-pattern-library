@@ -46,7 +46,7 @@
 	border-color: darken($borderColor, 15%);
     &:hover{
     border-color: $pink;
-        cursor: pointer;
+    cursor: pointer;
   }
 }
 .webappText--blockquote {
@@ -59,14 +59,17 @@
 .webappText--sharelink {
   color: $webappLink; 
   font-size: 19px; 
-  position: relative; }
+ }
 
-.webappText--sharelink img {
-    max-width: 25px;
-    position: absolute;
-    left: 130px;
-    bottom: 1px;
-}
+.webappText--sharethispost {
+    background-image: url(../assets/images/webapp/share-icon.svg);
+    background-repeat: no-repeat;
+    /*padding: 50px 40px 50px 40px;*/
+    padding-bottom: 0px;
+    padding-top: 30px;
+    padding-left: 50px;
+    margin-left: 130px; }
+
 .webappText--minitext {
   color: $textGrey;
   font-size: 15px;
@@ -86,44 +89,14 @@
 //    position: relative;
     color: $textGrey} 
 
-.webappText--socialinteraction--like img {
-    max-width: 20px;
-//    position: absolute;
-//    left: 150px;
-//    bottom: 1px;
-    display: inline-block;
-}
 
 .social__interactions {
     padding-left: 20px;
     
 }
 
-.socialinteraction--like img {
-    max-width: 20px;
-//    top: 2px;
-//    bottom: 1px;
-   display: inline-block;
-    margin-right: 10px;
-}
-
-.socialinteraction--addcomment img {
-    max-width: 20px;
-//    top: 2px;
-//    bottom: 1px;
-   display: inline-block;
-    margin-right: 10px;
-}
-
-.socialinteraction--likes img {
-    max-width: 20px;
-    top: 2px;
-    bottom: 1px;
-    display: inline-block;
-    margin-right: 10px; }
-
 .webappText--socialinteraction--body {
-    color: $textNavy;
+  color: $textNavy;
   font-size: 17px; 
 }
 
@@ -139,12 +112,12 @@
     padding: 4px 20px 4px 35px;
 }
 
-.social__action--likethis{
+.social__action--likethis {
     background-image: url(../assets/images/webapp/like-icon.svg);
      padding: 4px 20px 4px 35px;
 }
 
-.social__action--addcomment{
+.social__action--addcomment {
     background-image: url(../assets/images/webapp/comment-icon.svg);
     padding: 4px 15px 4px 37px;
     background-position-y: 1px;
