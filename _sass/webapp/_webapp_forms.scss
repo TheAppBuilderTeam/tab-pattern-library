@@ -1,0 +1,207 @@
+.text--pageParagraphWarning{
+	@include latoRegular;
+	font-size: 15px;
+	color: $red;
+	letter-spacing: -0.3px;
+	text-transform: none;
+	background-image: url('../assets/images/no-connection.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.text--formWarning{
+	@include latoRegular;
+	font-size: 13px;
+	color: $red;
+	letter-spacing: -0.3px;
+	text-transform: none;
+	padding-bottom: 0;
+}
+
+.text--link{
+	@include latoRegular;
+	font-size: 15px;
+	color: $cmsLink;
+	letter-spacing: 0;
+	padding-bottom: 1px;
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
+a.text--link--micro{
+	@include latoRegular;
+	font-size: 13px;
+	color: $cmsLink;
+	letter-spacing: -0.3px;
+	text-transform: none;
+	background-image: url('../assets/images/eye.svg');
+  	background-position: left center;
+  	background-repeat: no-repeat;
+  	padding-left: 17px;
+  	&:hover{
+  		text-decoration: underline;
+  	}
+}
+
+button{
+	@include fadeAnimation;
+	@include latoSemibold;
+	font-size: 15px;
+	padding: 10px 16px;
+	border-radius: 5px;
+	border: none;
+	margin: 15px 15px 15px 0;
+}
+
+.button--primary{
+	color: $white;
+	background: $buttonPrimary;
+	border: $buttonPrimary;
+	&:hover{
+		background: darken($buttonPrimary, 5%);
+	}
+}
+
+.button--secondary{
+	color: $buttonSecondaryText;
+	background: $white;
+	border: 1px solid $buttonSecondary;
+	&:hover{
+		background: darken($white, 3%);
+	}
+}
+
+.button--mini{
+	font-size: 13px;
+	padding: 6px 12px;
+}
+
+.button--disabled{
+	background: $buttonDisabled;
+	cursor: not-allowed;
+	&:hover{
+		background: $buttonDisabled;
+	}
+}
+
+.tag{
+	font-size: 13px;
+	display: inline-block;
+	margin: 0 4px 8px;
+	color: $cmsLink;
+	background: lighten($cmsLink, 60%);
+	border-radius: 5px;
+	border: solid 1px $cmsLink;
+	padding: 6px 12px;
+}
+
+.tag--negative{
+	color: $red;
+	background: lighten($red, 46%);
+	border: solid 1px $red;
+}
+
+a.remove{
+	background-image: url('../assets/images/remove-blue.svg');
+  	background-position: 10px 6px;
+  	background-repeat: no-repeat;
+  	padding-right: 20px;
+}
+
+a.remove--negative{
+	background-image: url('../assets/images/remove-red.svg');
+}
+
+label{
+	@include latoBold;
+	font-size: 12px;
+	color: $buttonSecondaryText;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 0.2px;
+	padding-bottom: 3px;
+}
+
+/* Forms Section
+-----------------------------------------------------------------------------------------------------*/
+
+.form-group input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
+  height: 30px;
+  padding-top: 10px;
+  vertical-align: middle;
+  width: 220px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ddd;
+  border-left: 0px ;
+    border-radius: 0px;
+	&.warning{
+		border-color: $red;
+	}
+}
+
+.form-group input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
+  height: 30px;
+  padding-top: 10px;
+  vertical-align: middle;
+  width: 220px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ddd;
+  border-left: 0px ;
+    border-radius: 0px;
+	&.warning{
+		border-color: $red;
+	}
+}
+
+/* Forms fields
+-----------------------------------------------------------------------------------------------------*/
+.form-group{
+	display: inline-block;
+	vertical-align: top;
+	p{
+		width: 100%;
+	}
+}
+
+.form--dataFields{
+	display: inline-block;
+	padding-right: 70px;
+}
+
+.form--dataFieldsHeading{
+	padding-bottom: 15px;
+	color: $dataFeildsHeading;
+	font-weight: 800;
+
+}
+
+.form--dataFieldsReset{
+	color: $blue;
+	font-size: 16px;
+}
+
+.form--dataFieldsCheckbox input{
+  -webkit-transform: scale(1.3);
+	margin-right: 6px;
+}
+
+.form--dataFields__username{
+	color: #6A6F75;
+
+}
+
+.form--dataFieldsCheckbox input:checked{
+  -webkit-transform: scale(1.3);
+	margin-right: 6px;
+}
+
+.form--dropdown select{
+	background-color: #fff;
+	color: #6A6F75;
+	width: 200px;
+}
+
