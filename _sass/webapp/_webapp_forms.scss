@@ -127,10 +127,11 @@ label{
 
 /* Forms Section
 -----------------------------------------------------------------------------------------------------*/
-
+/*----------form inputs ----------*/
 .form-group input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 30px;
-  padding-top: 10px;
+  padding-top: 30px;
+    padding-bottom: 20px;
   vertical-align: middle;
   width: 220px;
   border-top: 0;
@@ -143,24 +144,60 @@ label{
 		border-color: $red;
 	}
 }
-
-.form-group--password 
-input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
+.form-group--header input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 30px;
-  padding-top: 10px;
+  padding-top: 15px;
   vertical-align: middle;
   width: 220px;
   border-top: 0;
   border-right: 0;
   border-bottom: 1px solid #ddd;
   border-left: 0px ;
-  padding-left: 30px;
+    padding-left: 35px;
+    border-radius: 0px;
+	&.warning{
+		border-color: $red;
+	}
+}
+
+.form-group--password 
+input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
+  height: 30px;
+  padding-top: 15px;
+  padding-left: 35px;
+  vertical-align: middle;
+  width: 220px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ddd;
+  border-left: 0px ;
     border-radius: 0px;
 	&.warning{
   border-color: $red;
 	}
 }
 
+.form-group--password2 
+input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
+  height: 30px;
+  padding-top: 15px;
+  vertical-align: middle;
+  width: 220px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ddd;
+  border-left: 0px ;
+  padding-left: 35px;
+    border-radius: 0px;
+	&.warning{
+  border-color: $red;
+	}
+}
+
+.form-group--password, .form-group--password2 input[type=password] {
+    color: aliceblue;
+    
+}
 .form-group--header {
     background-image: url('../assets/images/webapp/username-icon.svg');
     background-repeat: no-repeat;
@@ -173,6 +210,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
     background-repeat: no-repeat;
     padding-top: 10px;
     padding-bottom: 20px;
+    margin-right: 70px;
     
 }
 
@@ -181,8 +219,12 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
     background-repeat: no-repeat;
     padding-top: 10px;
     padding-bottom: 20px;
-     margin-left: 35px;
-     padding-left: 35px;
+  
+}
+
+.form-group--header label {
+    
+padding-left: 35px;
     
 }
 .form-group--password label {
@@ -190,13 +232,12 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 padding-left: 35px;
     
 }
-
-
-.form-group--header label {
+.form-group--password2 label {
     
 padding-left: 35px;
     
 }
+
 /* Forms fields
 -----------------------------------------------------------------------------------------------------*/
 .form-group{
