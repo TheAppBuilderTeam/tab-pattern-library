@@ -131,7 +131,7 @@ label{
 .webapp-form-group input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 25px;
   padding-top: 15px;
-    padding-bottom: 15px;
+  padding-bottom: 15px;
   vertical-align: middle;
   width: 220px;
   border-top: 0;
@@ -237,6 +237,7 @@ padding-left: 35px;
 
 .terms {
     color: $webappLink;
+    margin-right: 80px;
 }
 /* Forms fields
 -----------------------------------------------------------------------------------------------------*/
