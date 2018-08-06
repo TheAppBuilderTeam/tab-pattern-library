@@ -130,8 +130,8 @@ label{
 /*----------form inputs ----------*/
 .webapp-form-group input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 25px;
-  padding-top: 30px;
-    padding-bottom: 20px;
+  padding-top: 15px;
+    padding-bottom: 15px;
   vertical-align: middle;
   width: 220px;
   border-top: 0;
@@ -146,7 +146,6 @@ label{
 }
 .webapp-form-group--header input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 25px;
-  padding-top: 10px;
   vertical-align: middle;
   width: 220px;
   border-top: 0;
@@ -163,7 +162,6 @@ label{
 .webapp-form-group--password 
 input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 25px;
-  padding-top: 15px;
   padding-left: 35px;
   vertical-align: middle;
   width: 220px;
@@ -180,7 +178,6 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 .webapp-form-group--password2 
 input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 30px;
-  padding-top: 15px;
   vertical-align: middle;
   width: 220px;
   border-top: 0;
@@ -263,31 +260,36 @@ padding-left: 35px;
     
 }
 
-.form--dataFieldsReset{
+.webapp-form--dataFieldsReset{
 	color: $blue;
 	font-size: 16px;
 }
 
-.form--dataFieldsCheckbox input{
+.webapp-form--dataFieldsCheckbox input{
   -webkit-transform: scale(0);
 	margin-right: 0px;
 }
 
-.form-group--header--helper {
-        background-image: url('../assets/images/webapp/lock icon-smaller.svg');
+.webapp-form-group--header--helper {
+    background-image: url('../assets/images/webapp/lock icon-smaller.svg');
     background-repeat: no-repeat;
     padding-right: 10px;
     padding-bottom: 20px;
 }
-.form-group--header--helper-mobile {
-           background-image: url('../assets/images/webapp/mobile-icon.svg');
+.webapp-form-group--header--helper-mobile {
+    background-image: url('../assets/images/webapp/mobile-icon.svg');
     background-size: auto;
     background-repeat: no-repeat;
     padding-right: 10px;
     padding-bottom: 20px;
 }
 
-
+.text-form--helper {
+    color: $webappPlaceholder;
+    font-size: 14px;
+    max-width: 50%;
+    margin-left: 20px;
+}
 
 
 
