@@ -124,6 +124,7 @@ label{
 	padding-bottom: 3px;
 }
 
+
 /* Forms Section
 -----------------------------------------------------------------------------------------------------*/
 
@@ -136,13 +137,15 @@ label{
   border-right: 0;
   border-bottom: 1px solid #ddd;
   border-left: 0px ;
+    padding-left: 20px;
     border-radius: 0px;
 	&.warning{
 		border-color: $red;
 	}
 }
 
-.form-group input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
+.form-group--password 
+input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 30px;
   padding-top: 10px;
   vertical-align: middle;
@@ -151,25 +154,62 @@ label{
   border-right: 0;
   border-bottom: 1px solid #ddd;
   border-left: 0px ;
+  padding-left: 30px;
     border-radius: 0px;
 	&.warning{
-		border-color: $red;
+  border-color: $red;
 	}
 }
 
+.form-group--header {
+    background-image: url('../assets/images/webapp/username-icon.svg');
+    background-repeat: no-repeat;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    
+}
+.form-group--password {
+    background-image: url('../assets/images/webapp/lock-icon.svg');
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+ .form-group--password2 {
+    background-image: url('../assets/images/webapp/lock-icon.svg');
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-bottom: 20px;
+     margin-left: 35px;
+     padding-left: 35px;
+    
+}
+.form-group--password label {
+    
+padding-left: 35px;
+    
+}
+
+
+.form-group--header label {
+    
+padding-left: 35px;
+    
+}
 /* Forms fields
 -----------------------------------------------------------------------------------------------------*/
 .form-group{
 	display: inline-block;
 	vertical-align: top;
-	p{
+	p {
 		width: 100%;
 	}
 }
 
 .form--dataFields{
 	display: inline-block;
-	padding-right: 70px;
+	padding-right: 80px;
 }
 
 .form--dataFieldsHeading{
@@ -187,21 +227,5 @@ label{
 .form--dataFieldsCheckbox input{
   -webkit-transform: scale(1.3);
 	margin-right: 6px;
-}
-
-.form--dataFields__username{
-	color: #6A6F75;
-
-}
-
-.form--dataFieldsCheckbox input:checked{
-  -webkit-transform: scale(1.3);
-	margin-right: 6px;
-}
-
-.form--dropdown select{
-	background-color: #fff;
-	color: #6A6F75;
-	width: 200px;
 }
 

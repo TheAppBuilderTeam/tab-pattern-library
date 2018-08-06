@@ -9,21 +9,21 @@ title: Forms
 <p>Fields in web app forms are generally made up a label, placeholder text and an icon, as well as a visible bottom border. The icons should be the neutral grey colour (#69788E), the label should always be uppercase and smaller in size when compared to the placeholder. </p>
 <!----------- Username and Password Fields------------>
 <div class="main__content__block textWidth padding__50 clearfix">
-  <div class="form-group ">
+  <div class="form-group form-group--header  form--dataFields">
        <label for="FirstName">Username</label>
-       <input autocomplete="off" class="username" id="FirstName" name="FirstName" placeholder="Username" type="text"/>
+       <input autocomplete="off" class="form-group form-group--username" id="FirstName" name="FirstName" placeholder="Username" type="text"/>
   </div>
-  <div class="form-group">
+  <div class="form-group form-group--header">
        <label for="LastName">Username</label>
-       <input autocomplete="off" class="form-group form-group--username" id="LastName" name="LastName" placeholder="Username" type="text"/>
+       <input autocomplete="off" class="form-group" id="LastName" name="LastName" placeholder="Username" type="text"/>
   </div>
-  <div class="form-group">
+  <div class="form-group form-group--password">
        <label for="LastName">Temporary Password</label>
-       <input autocomplete="off" class="" id="LastName" name="Temporary Password" placeholder="Temporary Password" type="text" value=""/>
+       <input autocomplete="off" class="form-group" id="LastName" name="Temporary Password" placeholder="Temporary Password" type="text" value=""/>
   </div>
-  <div class="form-group">
+  <div class="form-group form-group--password2">
        <label for="LastName">Temporary Password </label>
-       <input autocomplete="off" class="error" id="LastName" name="LastName" placeholder="" type="text" value="Unicodehere"/>
+       <input autocomplete="off" class="form-group" id="LastName" name="LastName" placeholder="" type="text" value="Unicodehere"/>
   </div>
 </div>
 
