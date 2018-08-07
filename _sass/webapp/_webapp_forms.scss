@@ -138,8 +138,8 @@ label{
   border-right: 0;
   border-bottom: 1px solid #ddd;
   border-left: 0px ;
-    padding-left: 20px;
-    border-radius: 0px;
+  padding-left: 20px;
+  border-radius: 0px;
 	&.warning{
 		border-color: $red;
 	}
@@ -177,7 +177,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 
 .webapp-form-group--password2 
 input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
-  height: 30px;
+  height: 25px;
   vertical-align: middle;
   width: 220px;
   border-top: 0;
@@ -191,22 +191,47 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 	}
 }
 
-.webapp-form-group--password, .webapp-form-group--password2 input[type=password] {
-    color: aliceblue;
-    
+.webapp-form-group--password2 input[type=password] {
+  height: 32px;
+  vertical-align: middle;
+  width: 220px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ddd;
+  border-left: 0px ;
+  padding-left: 35px;
+    border-radius: 0px;
+	&.warning{
+  border-color: $red;
+	}
+}
+.webapp-form-group--password input[type=password] {
+  height: 30px;
+  vertical-align: middle;
+  width: 220px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ddd;
+  border-left: 0px ;
+  padding-left: 35px;
+    border-radius: 0px;
+	&.warning{
+  border-color: $red;
+	}
+    padding-top: 0px;
 }
 .webapp-form-group--header {
     background-image: url('../assets/images/webapp/username-icon.svg');
     background-repeat: no-repeat;
     padding-right: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     
 }
 .webapp-form-group--password {
     background-image: url('../assets/images/webapp/lock icon-smaller.svg');
     background-repeat: no-repeat;
-    padding-top: 10px;
-    padding-bottom: 2px;
+    padding-top: 12px;
+    margin-top: 0px;
     margin-right: 70px;
     
 }
@@ -214,8 +239,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
  .webapp-form-group--password2 {
     background-image: url('../assets/images/webapp/lock icon-smaller.svg');
     background-repeat: no-repeat;
-    padding-top: 10px;
-    padding-bottom: 2px;
+    padding-top: 12px;
   
 }
 
@@ -232,13 +256,13 @@ padding-left: 35px;
 .webapp-form-group--password2 label {
     
 padding-left: 35px;
-    
 }
 
 .terms {
     color: $webappLink;
     margin-right: 80px;
 }
+
 /* Forms fields
 -----------------------------------------------------------------------------------------------------*/
 .webapp-form-group{
@@ -254,21 +278,9 @@ padding-left: 35px;
 	padding-right: 0px;
 }
 
-.webapp-form--dataFieldsHeading{
-	padding-bottom: 0px;
-	color: aqua;
-	font-weight: 800;
-    
-}
-
 .webapp-form--dataFieldsReset{
 	color: $blue;
 	font-size: 16px;
-}
-
-.webapp-form--dataFieldsCheckbox input{
-  -webkit-transform: scale(0);
-	margin-right: 0px;
 }
 
 .webapp-form-group--header--helper {
@@ -282,8 +294,14 @@ padding-left: 35px;
     background-size: auto;
     background-repeat: no-repeat;
     padding-right: 10px;
-    padding-bottom: 20px;
 }
+
+.webapp-form-group--mobile {
+     background-image: url('../assets/images/webapp/country-dropdown.svg');
+     background-size: auto;
+    background-repeat: no-repeat;
+}
+
 
 .text-form--helper {
     color: $webappPlaceholder;
@@ -292,16 +310,34 @@ padding-left: 35px;
     margin-left: 20px;
 }
 
+.webapp-form--dataFieldsCheckbox input[type=checkbox] {
+  width: 35px;
+  cursor: pointer;
+  font-size: 15px;
+  visibility: hidden;
+  padding-bottom: 9px;
+  position: relative;
+  vertical-align: middle;
+     
+}
 
+.webapp-form--dataFieldsCheckbox input[type=checkbox]:after {
+  content: " ";
+  display: inline-block;
+  margin-left: 0px;
+  color: green;
+  width: 15px;
+  height: 15px;
+  visibility: visible;
+  border-radius: 3px;
+ background-image: linear-gradient(-180deg, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.03) 100%);
+border: 1px solid #C2C2C2;
+    
+}
 
-
-
-
-
-
-
-
-
+.webapp-form--dataFieldsCheckbox input[type=checkbox]:checked:after {
+  content: "\2714";
+}
 
 
 
