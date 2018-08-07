@@ -203,7 +203,6 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 }
 
 .form--dataFieldsCheckbox input{
-  -webkit-transform: scale(1.3);
 	margin-right: 6px;
 }
 
@@ -213,7 +212,6 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 }
 
 .form--dataFieldsCheckbox input:checked{
-  -webkit-transform: scale(1.3);
 	margin-right: 6px;
 }
 
