@@ -42,7 +42,7 @@ title: Forms
 
 <!----------- Mobile Phone field with helper text------------>
 
-  <div class="main__content__block textWidth padding__50 clearfix">
+  <div class="main__content__block textWidth padding__30">
   <div class="webapp-form-group webapp-form-group--header  webapp-form-group--header--helper-mobile">
         <label for="FirstName">Mobile Number</label>
        <input autocomplete="off" class="webapp-form-group webapp-form-group--mobile" id="FirstName" name="FirstName" placeholder="" type="text" value="07053564276">   <p class="text-form--helper">Don’t worry, your organisation won’t <br>see this and this isn’t shared with any <br>third party - this is only used for <br>password recovery.</p>
@@ -51,3 +51,15 @@ title: Forms
        <label for="LastName">Password</label>
        <input autocomplete="off" class="form-group" id="LastName" name="LastName" placeholder="Password" type="password" value=""/><p class="text-form--helper">Your password should contain an <br>uppercase letter</p>
   </div>
+</div>
+      <!---------- Errors---------------->
+      
+<h2>Errors</h2>
+<p>If the user makes an error when completing a form or their submission is not accepted, the fields containing the errors are highlighted. The border at the bottom of the field should be red and the error message should be presented underneath the field.</p><p>Error messages should be succinct and helpful to the end user, as they should quickly describe the issue so the user knows how to eradicate it. For example, if the user chooses a new password that does not comply with the password rules, instead of seeing the error message “This password is incorrect” they should be told what they need to include, e.g. “Password should contain an uppercase letter.”</p>
+
+ <div class="main__content__block textWidth padding__30">
+  <div class="webapp-form-group webapp-form-group--header webapp-form-group--header--error">
+       <label for="LastName">Password</label>
+       <input autocomplete="off" class="form-group" id="LastName" name="LastName" placeholder="Password" type="password" value=""/><p class="text-form--error">Password is incorrect</p>
+  </div>
+</div>
