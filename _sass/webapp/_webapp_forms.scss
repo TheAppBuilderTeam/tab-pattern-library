@@ -45,47 +45,6 @@ a.text--link--micro{
   	}
 }
 
-button{
-	@include fadeAnimation;
-	@include latoSemibold;
-	font-size: 15px;
-	padding: 10px 16px;
-	border-radius: 5px;
-	border: none;
-	margin: 15px 15px 15px 0;
-}
-
-.button--primary{
-	color: $white;
-	background: $buttonPrimary;
-	border: $buttonPrimary;
-	&:hover{
-		background: darken($buttonPrimary, 5%);
-	}
-}
-
-.button--secondary{
-	color: $buttonSecondaryText;
-	background: $white;
-	border: 1px solid $buttonSecondary;
-	&:hover{
-		background: darken($white, 3%);
-	}
-}
-
-.button--mini{
-	font-size: 13px;
-	padding: 6px 12px;
-}
-
-.button--disabled{
-	background: $buttonDisabled;
-	cursor: not-allowed;
-	&:hover{
-		background: $buttonDisabled;
-	}
-}
-
 .tag{
 	font-size: 13px;
 	display: inline-block;
@@ -130,9 +89,8 @@ label{
 /*----------form inputs ----------*/
 .webapp-form-group input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 25px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  vertical-align: middle;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 220px;
   border-top: 0;
   border-right: 0;
@@ -143,6 +101,7 @@ label{
 	&.warning{
 		border-color: $red;
 	}
+     
 }
 .webapp-form-group--header input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 25px;
@@ -173,6 +132,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 	&.warning{
   border-color: $red;
 	}
+    
 }
 
 .webapp-form-group--password2 
@@ -225,6 +185,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
     background-repeat: no-repeat;
     padding-right: 10px;
     padding-bottom: 25px;
+   
     
 }
 .webapp-form-group--password {
@@ -233,14 +194,16 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
     padding-top: 12px;
     margin-top: 0px;
     margin-right: 70px;
-    
+    background-position-x: 2px;
+    background-position-y: 10px;
 }
 
  .webapp-form-group--password2 {
     background-image: url('../assets/images/webapp/lock icon-smaller.svg');
     background-repeat: no-repeat;
-    padding-top: 12px;
-  
+    padding-top: 11px;
+    background-position-x: 2px;
+    background-position-y: 10px;
 }
 
 .webapp-form-group--header label {
@@ -283,11 +246,89 @@ padding-left: 35px;
 	font-size: 16px;
 }
 
+.text-form--helper {
+    color: $webappPlaceholder;
+    font-size: 14px;
+    max-width: 50%;
+    margin-left: 20px;
+}
+
+.webapp-form--dataFieldsCheckbox {
+    padding-top: 15px;
+    color: $webappPlaceholder;
+}
+
+.webapp-form--dataFieldsCheckbox input[type=checkbox] {
+  width: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  visibility: hidden;
+  padding-bottom: 10px;
+  position: relative;
+  vertical-align: middle;
+  height: 20px;
+ 
+     
+}
+.webapp-form--dataFieldsCheckbox input[type=checkbox]:after {
+  content: " ";
+  display: inline-block;
+  margin-left: 0px;
+  color: green;
+  width: 15px;
+  height: 15px;
+  visibility: visible;
+  border-radius: 3px;
+  border: 1px solid #C2C2C2;
+  background-image: linear-gradient(-180deg, rgba(255,255,255,1) 10%, rgba(0,0,0,0.03) 100%);
+}
+
+.webapp-form--dataFieldsCheckbox input[type=checkbox]:checked:after {
+content: "";
+    text-align: center;
+
+//    margin: 0 auto;
+    //padding: 0 2px 6px 2px;
+   background-image: url('../assets/images/webapp/tick.svg');
+   background-repeat: no-repeat;
+   background-position: -0.5px;
+}
+
+.webapp-form-group--header--helper {
+    margin-left: 60px;
+}
+
+/*------------ Helper text ----------------------------*/
+
+.webapp-form-group--header--helper input[type=password] {
+  height: 32px;
+  vertical-align: middle;
+  width: 220px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ddd;
+  border-left: 0px ;
+  padding-left: 35px;
+    border-radius: 0px;
+	&.warning{
+  border-color: $red;
+	}
+}
+
+.webapp-form-group--header--helper-mobile 
+input[type=text] {
+    padding-left: 80px;
+    
+}
+
+
 .webapp-form-group--header--helper {
     background-image: url('../assets/images/webapp/lock icon-smaller.svg');
     background-repeat: no-repeat;
     padding-right: 10px;
     padding-bottom: 20px;
+    background-position-x: 2px;
+    background-position-y: 0px;
 }
 .webapp-form-group--header--helper-mobile {
     background-image: url('../assets/images/webapp/mobile-icon.svg');
@@ -300,45 +341,9 @@ padding-left: 35px;
      background-image: url('../assets/images/webapp/country-dropdown.svg');
      background-size: auto;
     background-repeat: no-repeat;
+    background-position-x: 40px;
+     background-position-y: 15px;
 }
-
-
 .text-form--helper {
-    color: $webappPlaceholder;
-    font-size: 14px;
-    max-width: 50%;
-    margin-left: 20px;
+    line-height: 20px;
 }
-
-.webapp-form--dataFieldsCheckbox input[type=checkbox] {
-  width: 35px;
-  cursor: pointer;
-  font-size: 15px;
-  visibility: hidden;
-  padding-bottom: 9px;
-  position: relative;
-  vertical-align: middle;
-     
-}
-
-.webapp-form--dataFieldsCheckbox input[type=checkbox]:after {
-  content: " ";
-  display: inline-block;
-  margin-left: 0px;
-  color: green;
-  width: 15px;
-  height: 15px;
-  visibility: visible;
-  border-radius: 3px;
- background-image: linear-gradient(-180deg, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.03) 100%);
-border: 1px solid #C2C2C2;
-    
-}
-
-.webapp-form--dataFieldsCheckbox input[type=checkbox]:checked:after {
-  content: "\2714";
-}
-
-
-
-
