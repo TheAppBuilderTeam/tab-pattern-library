@@ -229,6 +229,7 @@ content: "";
 	&.warning{
   border-color: $red;
 	}
+    margin-bottom: 2px;
 }
 
 .webapp-form-group--header--helper-mobile 
@@ -241,15 +242,17 @@ input[type=text] {
     background-image: url('../assets/images/webapp/lock icon-smaller.svg');
     background-repeat: no-repeat;
     padding-right: 10px;
-    padding-bottom: 0px;
     background-position-x: 2px;
     background-position-y: 0px;
 }
 .webapp-form-group--header--helper-mobile {
     background-image: url('../assets/images/webapp/mobile-icon.svg');
-    background-size: auto;
+    background-size: 15px;
     background-repeat: no-repeat;
     padding-right: 10px;
+    padding-top: 2px;
+     background-position-x: 2px;
+    background-position-y: -.5px;
 }
 
 .webapp-form-group--mobile {
