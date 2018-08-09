@@ -73,10 +73,13 @@
 .webapp-modal__container--email { 
     height: 465px;
     width: 75%;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
-
+.webapp-modal--text h2 {
+    
+    font-weight: 400;
+}
 
 /*---------------- resend verify link email-------------*/
 
