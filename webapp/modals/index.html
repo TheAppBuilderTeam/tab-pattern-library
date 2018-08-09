@@ -5,3 +5,61 @@ page: webapp-modals
 selected: webapp-modals
 title: Modals
 ---
+
+<h2>Modals</h2>
+
+<p>Modals are used throughout the webapp for a range of purposes including:</p>
+    <ul class="main__content__ul">
+<li>
+    Providing information to the user, for example:
+</li>
+<li>
+    Showing the users who liked a piece of content
+</li>
+<li>
+    Confirming destructive actions like deleting a comment
+</li>
+<li>
+    Reporting another user's comment
+</li>
+<li>
+    Providing information to the system such as a display name
+</li>
+
+    </ul>
+<p>The web app modals can house various content, some may have form elements whereas other may have an illustration and a button. It’s important that they retain the same look and feel. </p>
+<p>Each modal should be 553px in width, white in colour, have rounded corners (8px radius) and a drop shadow. Opening a modal should also trigger a background overlay that is black in colour and 40% opacity. 
+</p>
+
+<div class="main__content__block clearfix">
+    <h2>Liked by modal</h2>
+<div class="webapp-modal">
+<img src="/assets/images/webapp/liked-by-modal.png">
+</div> 
+    <h2>Report a comment modal</h2>
+    <div class="webapp-modal">
+<img src="/assets/images/webapp/report-a-comment-modal.png">
+</div> 
+    <h2>Name modal</h2>
+</div>
+ 
+<div class="main__content__block clearfix">
+    
+    <div class="webapp-modal__container">
+        <p class="webapp-modal--text">Are you sure you want to delete your comment?</p><p class="webapp-modal--text">This cannot be undone.</p>
+    <button class="webappButton webappButton--primary--delete">Yes, Delete</button>
+        <div class="cancel-link">
+        <a href="#" class="text--link">No, cancel</a>
+        </div>
+    </div>
+</div>
+<div class="main__content__block clearfix">
+     <div class="webapp-modal__container webapp-modal__container--email">
+         <img src="/assets/images/webapp/downloads-file-icons_Email.svg">
+         <h2 class="webapp-modal--text">Verify your email address</h2>
+        <p class="webapp-modal--text webapp-modal--text--email">To verify your email address tap the link in the email we have sent you.</p>
+        <div class="cancel-link--email">
+        <a href="#" class="text--link">Resend verification email</a>
+        </div>
+    </div>
+</div>
