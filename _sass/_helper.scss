@@ -1,7 +1,7 @@
 /* Helper Classes
 ------------------------------------------------------------------ */
 
-.clear{
+.clear, .clearfix{
 	clear: both;
 }
 
@@ -29,6 +29,9 @@
 	}
 	&__right15{
 	padding-right: 15px;
+	}
+    &__right50{
+	padding-right: 50px;
 	}
 	&__none{
 		padding: 0;

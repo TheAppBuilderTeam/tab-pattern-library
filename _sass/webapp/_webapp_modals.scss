@@ -1,10 +1,61 @@
 /*------------------------------------------------- webapp modals -------------------------------------------*/
-
-.main__content__ul li {
-    font-weight: 400;
-    letter-spacing: 0;
-    font-size: 18px;
-    line-height: 1.4em;
-    padding-bottom: 0.5em;
-    list-style: inside;
+.webapp-modal img {
+   max-width: 70%;
+    margin: auto;
+    padding-bottom: 10px;
+    
 }
+.webapp-modal--name img {
+    max-width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    float: left;
+    
+    
+}
+
+.webapp-modal--delete {
+
+}
+.webapp-modal__container {
+    background: #FFFFFF;
+    background-image: url(../assets/images/webapp/modal-corner-x.svg);
+    background-repeat: no-repeat;
+    background-position-x: 490px;
+    background-position-y: 15px;
+    box-shadow: 0 1px 10px 4px rgba(0,0,0,0.13);
+    border-radius: 8px;
+    height: 255px;
+    width: 517px;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+} 
+
+.webapp-modal__container p {
+    
+    padding: 0;
+
+}
+/*-------- delete button -------------------------*/
+.webappButton--primary--delete {
+    color: #ffffff;
+    background: $buttonRed;
+    box-shadow: 0 2px 6px 2px rgba(193, 193, 193, 0.5);
+    padding-bottom: 20px;
+}
+.webappButton {
+    margin: 0;
+}
+.webappButton--primary--delete {
+    transition: all 0.3s ease 0s;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 44px;
+    border-radius: 100px;
+  margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+
+/*------------- cancel link---------------*/
