@@ -21,15 +21,18 @@
     background: #FFFFFF;
     background-image: url(../assets/images/webapp/modal-corner-x.svg);
     background-repeat: no-repeat;
-    background-position-x: 490px;
-    background-position-y: 15px;
+    background-position-x: 5px;
+    background-position-y: 5px;
+   // background-attachment: fixed;
+    background-position: right 20px top 20px;
     box-shadow: 0 1px 10px 4px rgba(0,0,0,0.13);
     border-radius: 8px;
     height: 255px;
-    width: 517px;
+    width: 75%;
     margin: 0 auto;
     padding-top: 60px;
     text-align: center;
+    margin-bottom: 60px;
 } 
 
 .webapp-modal__container p {
@@ -42,7 +45,7 @@
     color: #ffffff;
     background: $buttonRed;
     box-shadow: 0 2px 6px 2px rgba(193, 193, 193, 0.5);
-    padding-bottom: 20px;
+   
 }
 .webappButton {
     margin: 0;
@@ -53,9 +56,40 @@
     font-size: 15px;
     padding: 10px 44px;
     border-radius: 100px;
-  margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
 
 }
 
 /*------------- cancel link---------------*/
+
+/*---------------- verify email-------------*/
+
+.webapp-modal__container--email img {
+    max-height: 150px;   
+    padding-bottom: 20px;
+    
+}
+.webapp-modal__container--email { 
+    height: 465px;
+    width: 75%;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+
+/*---------------- resend verify link email-------------*/
+
+.cancel-link--email {
+    
+    margin-top: 85px;
+}
+
+
+
+
+
+
+
+
+
