@@ -104,7 +104,7 @@
 .name-form input[type=text], input[type=password], textarea, select {
     text-align: left;
     border-left: 0;
-    border-top: 20px;
+    border-top: 0;
     border-right: 0;
     border-bottom: 2px solid $borderGrey;
     border-radius: 0px;
@@ -130,3 +130,40 @@
     margin-bottom: 30px;
 
 }
+
+/*-------- report a comment -------------------------*/
+
+.webapp-modal__container--report h2 {
+    text-align: left;
+}
+
+
+.webapp-modal__container--report p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.report-form input[type=text], input[type=password], textarea, select {
+    text-align: left;
+    border-left: 1px solid $borderGrey;
+    border-top: 1px solid $borderGrey;
+    border-right: 1px solid $borderGrey;
+    border-bottom: 1px solid $borderGrey;
+    border-radius: 4px;
+    margin: 0 auto;
+    width: 80%;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
