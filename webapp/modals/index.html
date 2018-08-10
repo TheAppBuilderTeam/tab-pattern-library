@@ -36,15 +36,11 @@ title: Modals
 <div class="webapp-modal">
 <img src="/assets/images/webapp/liked-by-modal.png">
 </div> 
-    <h2>Report a comment modal</h2>
-    <div class="webapp-modal">
-<img src="/assets/images/webapp/report-a-comment-modal.png">
-</div> 
+
     <h2>Name modal</h2>
 </div>
- 
+ <!------------------delete modal --------------------->
 <div class="main__content__block clearfix">
-    
     <div class="webapp-modal__container">
         <p class="webapp-modal--text">Are you sure you want to delete your comment?</p><p class="webapp-modal--text">This cannot be undone.</p>
     <button class="webappButton webappButton--primary--delete">Yes, Delete</button>
@@ -53,6 +49,7 @@ title: Modals
         </div>
     </div>
 </div>
+<!------------------Verify your email modal--------------------->
 <div class="main__content__block clearfix">
      <div class="webapp-modal__container webapp-modal__container--email">
          <img src="/assets/images/webapp/downloads-file-icons_Email.svg">
@@ -60,6 +57,41 @@ title: Modals
         <p class="webapp-modal--text webapp-modal--text--email">To verify your email address tap the link in the email we have sent you.</p>
         <div class="cancel-link--email">
         <a href="#" class="text--link">Resend verification email</a>
+        </div>
+    </div>
+</div>
+<!------------------Name tag modal --------------------->
+<div class="main__content__block clearfix">
+     <div class="webapp-modal__container webapp-modal__container--email modal__container--email--name">
+         <img src="/assets/images/webapp/name-tag-icon.svg">
+         <h2 class="webapp-modal--text">What should we call you?</h2>
+        <p class="webapp-modal--text webapp-modal--text--email">You need a display name to use the social features</p>
+        
+         <div class="main__content__block textWidth padding__50 clearfix">
+             
+        <div class="name-form">
+       <input autocomplete="off" class="name-form" name="" placeholder="Display Name" type="text" value="Isabella Swan"/>
+  </div>       
+             <button class="webappButton webappButton--primary--confirm">Confirm  Display Name</button>
+     </div>
+       </div>
+</div>
+<!------------------report a comment modal --------------------->
+    <h2>Report a comment modal</h2>
+    <div class="webapp-modal">
+<img src="/assets/images/webapp/report-a-comment-modal.png">
+</div> 
+<!------------------report a comment modal --------------------->
+<div class="main__content__block clearfix">
+    <div class="webapp-modal__container webapp-modal__container--report">
+        <h2>Report a Comment</h2>
+        <p class="webapp-modal--text">Report comments will be reviewed by an administrator who will take action within 24 hours </p>
+          <div class="report-form">
+       <input autocomplete="off" class="report-form" name="" placeholder="Tell us why you are reporting this comment" type="text" value=""/>
+  </div>       
+    <button class="webappButton webappButton--primary--delete">Yes, Delete</button>
+        <div class="cancel-link">
+        <a href="#" class="text--link">Cancel</a>
         </div>
     </div>
 </div>
