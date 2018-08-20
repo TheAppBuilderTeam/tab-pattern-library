@@ -143,7 +143,7 @@
     margin-bottom: 20px;
 }
 
-.report-form input[type=text], input[type=password], textarea, select {
+.report-form textarea, select {
     text-align: left;
     border-left: 1px solid $borderGrey;
     border-top: 1px solid $borderGrey;
@@ -154,16 +154,44 @@
     width: 80%;
     height: 150px;
 }
+.report-form textarea, select::placeholder {
+    text-align: left;
+    color: green;
+   
+}
+.report-form {
+    
+    position: relative;
+}
+
+
+.webapp-modal__container--report {
+    
+    height: 425px;
+    width: 75%;
+}
+
+
+.webappButton--primary--sendreport{
+    color: #ffffff;
+    background: $buttonRed;
+    box-shadow: 0 2px 6px 2px rgba(193, 193, 193, 0.5);
+}
 
 
 
-
-
-
-
-
-
-
-
+.webappButton--primary--sendreport {
+     transition: all 0.3s ease 0s;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 44px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+   
+}
+.cancel-link--report {
+    
+    float: left;
+}
 
 
