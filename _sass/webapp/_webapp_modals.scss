@@ -2,7 +2,7 @@
 .webapp-modal img {
    max-width: 70%;
     margin: auto;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     
 }
 .webapp-modal--name img {
@@ -152,9 +152,13 @@
 }
 .report-form textarea, select::placeholder {
     text-align: left;
-
-   
+    padding-top: 10px;
 }
+
+textarea::placeholder {
+    color: $webappPlaceholder;
+}
+
 .report-form {
     
     position: relative;
