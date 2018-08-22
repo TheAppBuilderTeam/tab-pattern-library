@@ -109,12 +109,21 @@
     width: 95%;
 }
 /*-------- confirm button -------------------------*/
-.webappButton--primary--confirm {
-    color: #ffffff;
-    background: $buttonBlue;
-    box-shadow: 0 2px 6px 2px rgba(193, 193, 193, 0.5);
-   
+   .webappButton--primary--confirm{
+	color: $white;
+	background: $buttonBlue;
+    &:active {
+    color: $white;
+	background: $buttonBlue;  }
+
+	border: $buttonBlue;
+	&:hover{
+    background: lighten($buttonBlue, 5%);
+	}
+    box-shadow: 0 2px 6px 2px rgba(193,193,193,0.50);
 }
+
+
 .webappButton--primary--confirm {
     transition: all 0.3s ease 0s;
     font-weight: 600;
@@ -172,11 +181,25 @@ textarea::placeholder {
 }
 
 
-.webappButton--primary--sendreport{
-    color: #ffffff;
-    background: $buttonRed;
-    box-shadow: 0 2px 6px 2px rgba(193, 193, 193, 0.5);
+//.webappButton--primary--sendreport{
+  //  color: #ffffff;
+    //background: $buttonRed;
+    //box-shadow: 0 2px 6px 2px rgba(193, 193, 193, 0.5);
+
+  .webappButton--primary--sendreport{
+	color: $white;
+	background: $buttonRed;
+    &:active {
+    color: $white;
+	background: $buttonBlue;  }
+
+	border: $buttonRed;
+	&:hover{
+    background: lighten($buttonRed, 5%);
+	}
+    box-shadow: 0 2px 6px 2px rgba(193,193,193,0.50);
 }
+
 
 
 
