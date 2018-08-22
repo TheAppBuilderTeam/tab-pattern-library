@@ -30,7 +30,7 @@
     &:active {
     color: $white;
 	background: $webappPrimary;  }
- 
+
 	border: $webappPrimary;
 	&:hover{
     background: lighten($webappPrimary, 5%);
