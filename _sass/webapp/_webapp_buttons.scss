@@ -26,14 +26,14 @@
 
 .webappButton--primary{
 	color: $white;
-	background: $buttonActive;
+	background: $webappPrimary;
     &:active {
     color: $white;
-	background: $buttonActive;  }
+	background: $webappPrimary;  }
  
-	border: $buttonActive;
+	border: $webappPrimary;
 	&:hover{
-    background: lighten($buttonActive, 5%);
+    background: lighten($webappPrimary, 5%);
 	}
     box-shadow: 0 2px 6px 2px rgba(193,193,193,0.50);
 }
@@ -50,8 +50,8 @@
 
 .webappButton--pressed {
 	color: $white;
-	background: $buttonActive;
-	border: 1px solid $buttonActive;
+	background: $webappPrimary;
+	border: 1px solid $webappPrimary;
 	&:visted{
 		background: darken($white, 3%);
 	}
