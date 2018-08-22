@@ -9,35 +9,43 @@ title: Forms
 <p>Fields in web app forms are generally made up a label, placeholder text and an icon, as well as a visible bottom border. The icons should be the neutral grey colour (#69788E), the label should always be uppercase and smaller in size when compared to the placeholder. </p>
 <!----------- Username and Password Fields------------>
 <div class="main__content__block textWidth padding__50 clearfix">
-  <div class="webapp-form-group webapp-form-group--header  form--dataFields">
+    <h3>Empty Fields</h3>
+  <div class="webapp-form-group webapp-form-group--header">
        <label for="FirstName">Username</label>
        <input autocomplete="off" class="form-group form-group--username" id="FirstName" name="FirstName" placeholder="Username" type="text"/>
   </div>
-  <div class="webapp-form-group webapp-form-group--header">
-       <label for="LastName">Username</label>
-       <input autocomplete="off" class="form-group" id="LastName" name="LastName" placeholder="" type="text" value="melissa.keizer"/>
-  </div>
   <div class="webapp-form-group webapp-form-group--password">
        <label for="LastName">Temporary Password</label>
-       <input autocomplete="off" class="form-group" id="LastName" name="Temporary Password" placeholder="Temporary Password" type="password" value=""/>
+       <input autocomplete="off" class="form-group" id="FirstName" name="Temporary Password" placeholder="Temporary Password" type="password" value=""/>
+      <div class="webapp-form--dataFieldsCheckbox">
+    <input type="checkbox">
+  I agree to the <a class="terms">Terms of Use</a>
     </div>
+  </div>
+    
+    <div class="h3">
+     <h3 class="filled-fields">Filled Fields</h3></div>
+      <div class="webapp-form-group webapp-form-group--header">
+       <label for="LastName">Username</label>
+       <input autocomplete="off" class="form-group" id="LastName" name="LastName" placeholder="Username" type="text" value="melissa.keizer"/>
+  </div>
+    <div>
   <div class="webapp-form-group webapp-form-group--password2">
        <label for="LastName">Temporary Password </label>
        <input autocomplete="off" class="form-group" id="Password" name="LastName" placeholder="" type="password" value="Password123"/>
-  </div>
-    <div>
-  <div class="webapp-form--dataFieldsCheckbox">
-    <input type="checkbox">
-  I agree to the <a class="terms">Terms of Use</a> 
+      <div class="webapp-form--dataFieldsCheckbox">
     <input type="checkbox" checked="checked">
-  I agree to the <a class="terms">Terms of Use</a> 
-      
+  I agree to the <a class="terms">Terms of Use</a></div>
   </div>
+    
+   
+      
+
 </div>
 </div>
 
 
-<h2><b>Helper Text</b></h2>
+<h2>Helper Text</h2>
 <p>Some fields will have helper text that is used to guide users or to soothe their concerns. For example, they will see information telling them what they need to include when choosing their new password.</p>
 
 <!----------- Mobile Phone field with helper text------------>
@@ -45,11 +53,12 @@ title: Forms
   <div class="main__content__block textWidth padding__30">
   <div class="webapp-form-group webapp-form-group--header  webapp-form-group--header--helper-mobile">
         <label for="FirstName">Mobile Number</label>
-       <input autocomplete="off" class="webapp-form-group webapp-form-group--mobile" id="FirstName" name="FirstName" placeholder="" type="text" value="07053564276">   <p class="text-form--helper">Don’t worry, your organisation won’t <br>see this and this isn’t shared with any <br>third party - this is only used for <br>password recovery.</p>
+       <input autocomplete="off" class="webapp-form-group webapp-form-group--mobile" id="FirstName" name="FirstName" placeholder="" type="text" value="07053564276">   
+      <p class="text-form--helper">Don’t worry, your organisation won’t see this and this isn’t shared with any third party - this is only used for password recovery.</p>
   </div>
   <div class="webapp-form-group webapp-form-group--header webapp-form-group--header--helper">
        <label for="LastName">Password</label>
-       <input autocomplete="off" class="form-group" id="LastName" name="LastName" placeholder="Password" type="password" value=""/><p class="text-form--helper">Your password should contain an <br>uppercase letter</p>
+       <input autocomplete="off" class="form-group" id="LastName" name="LastName" placeholder="Password" type="password" value=""/><p class="text-form--helper">Your password should contain an uppercase letter</p>
   </div>
 </div>
       <!---------- Errors---------------->
