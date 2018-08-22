@@ -23,6 +23,11 @@ body{
   z-index: 1;
 }
 
+*:focus, textarea:focus, input:focus {
+    outline: none;
+}
+
+
 
 /* Main Content Area
 ------------------------------------------------------------------ */
