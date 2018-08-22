@@ -174,7 +174,6 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 }
 
 
-
 /* Forms Section
 -----------------------------------------------------------------------------------------------------*/
 .form-group{
@@ -183,6 +182,8 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 	p{
 		width: 100%;
 	}
+    padding-top: 10px;
+    padding-right: 20px;
 }
 
 .form--dataFields{
@@ -235,8 +236,6 @@ table{
 
 .table-columnOne{
 	color: #067BBE;
-
-
 }
 
 .table-columnFive{
