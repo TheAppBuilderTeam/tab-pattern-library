@@ -1,0 +1,141 @@
+.text--pageBlockquote{
+	@include latoRegular;
+	font-size: 23px;
+	color: $cmsGrey;
+	letter-spacing: 0px;
+	text-transform: none;
+	font-style: italic;
+}
+
+
+.text--pageTitle-Header-One{
+	@include latoRegular;
+	font-size: 24px;
+	color: $cmsGrey;
+	letter-spacing: -0.5px;
+	text-transform: none;
+
+}
+
+.text--pageTitle-Header-Two{
+	@include latoRegular;
+	font-size: 22px;
+	color: $cmsGrey;
+	text-transform: none;
+
+}
+
+.text--pageTitle-Header-Three{
+	@include latoRegular;
+	font-size: 20px;
+	color: $cmsGrey;
+	text-transform: none;
+
+}
+
+
+.text--pageTitle-Header-Four{
+	@include latoRegular;
+	font-size: 16px;
+	color: $cmsGrey;
+	text-transform: none;
+
+}
+
+.text--pageTitle-Header-Five{
+	@include latoRegular;
+	font-size: 14px;
+	color: $cmsGrey;
+	text-transform: none;
+
+}
+
+.text--pageTitle-Header-Six{
+	@include latoRegular;
+	font-size: 12px;
+	color: $cmsGrey;
+	text-transform: none;
+
+}
+
+.text--pageParagraph{
+	@include latoRegular;
+	font-size: 19px;
+	color: $cmsGrey;
+	text-transform: none;
+}
+
+
+
+.text--pageMicro{
+	@include latoRegular;
+	font-size: 11px;
+	color: $cmsGrey;
+	letter-spacing: 0.5px;
+	text-transform: none;
+}
+
+.text--pageParagraphWarning{
+	@include latoRegular;
+	font-size: 15px;
+	color: $red;
+	letter-spacing: -0.3px;
+	text-transform: none;
+}
+
+/* Webapp Colour Palette
+------------------------------------------------------------------ */
+
+
+.colour__block{
+	&--WebappOne{
+		background: $webappTitleText;
+	}
+	&--WebappTwo{
+		background: $webappSidebarText;
+	}
+	&--WebappThree{
+		background: $webappLink;
+	}
+	&--WebappFour{
+		background: $webappTime;
+	}
+	&--WebappFive{
+		background: $webappSidebarActive;
+	}
+	&--WebappSix{
+		background: $webappProfileHighlight;
+	}
+	&--WebappSeven{
+		background: $webappProfileUpload;
+	}
+ &--WebappEight{
+	 background: $webappButtonSaveChanges;
+ }
+}
+
+
+
+/* Webapp Buttons
+--------------------------------------------------------------------*/
+
+
+.button--WebappPrimary{
+	color: $white;
+	background: $webappButtonSaveChanges;
+	border: $webappButtonSaveChanges;
+	padding: 6px 15px;
+	&:hover{
+		background: darken($webappButtonSaveChanges, 5%);
+	}
+}
+
+.webappButton--disabled{
+	color: white;
+	background: $buttonDisabled;
+	padding: 6px 15px;
+	cursor: not-allowed;
+	&:hover{
+		background: $buttonDisabled;
+	}
+}

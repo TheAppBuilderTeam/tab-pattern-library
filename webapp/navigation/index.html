@@ -1,0 +1,38 @@
+---
+layout: webapp-layout
+platform: webapp
+page: webapp-navigation
+selected: webapp-navigation
+title: Navigation
+---
+
+<p>The web app navigation is found at the top of the screen, as it displays a title bar and the main menu underneath. </p>
+
+<p class="padding__1em">The title bar contains various elements: </p>
+<ul class="main__content__ul">
+  <li>Organisation’s app logo</li>
+  <li>Name of the app</li>
+  <li>Title of the current page</li>
+  <li>Notifications link</li>
+  <li>People Directory linked (optional)</li>
+  <li>Account dropdown (with links to profile, app library, settings and logout) </li>
+</ul>
+
+<p>The title bar should be the brand colour as set by the App Editor in the CMS. Depending on whether the colour is light or dark, the text and icons can be either white or black. The backgrounds on the buttons for people directory, notifications and account should be black at 13% opacity with a 2px radius on the corners.</p>
+
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/webapp/examples/webapp-people-directory.jpg" alt="T" class="last" /img>
+	<p class="caption">The webapp navigation</p>
+</div>
+
+<p>The app’s primary navigation is found horizontally placed along the top of the screen, under the title bar. The main menu bar should be responsive, showing as many menu items as possible on the screen given that there is adequate space to display them. The main menu items are scrollable left to right, so if the screen isn’t large enough to comfortably present all of the menu items, the rest are hidden to the left of the screen, but the user can scroll through these.</p>
+
+<h2>Mobile Navigation</h2>
+<p>When the webapp is viewed on a mobile screen the entire top area of the webapp is presented differently. The main menu items are accessed via the hamburger icon at the top, as tapping this icon will reveal the menu links. Links for the people directory and notification centre are also displayed along this bar. The last item along this bar is the user’s profile picture which will present links to the user’s profile, settings, the app library and the option to logout when tapped.</p>
+
+
+<div class="imageContainer imageContainer--two padding__50">
+	<img src="{{ site.baseurl }}/assets/images/webapp/examples/mobile-menu-closed.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/webapp/examples/mobile-menu-open.jpg" alt="T" class="last" /img>
+	<p class="caption">The webapp shown on a mobile phone with the menu open and closed </p>
+</div>

@@ -1,0 +1,178 @@
+/* Components Social Elements and List Cards for Webapp
+------------------------------------------------------------------ */
+
+.listCard{
+  // width: 33%;
+  display: inline-block;
+  max-width: 286px;
+  border: 1px solid $borderGrey;
+  background: $white;
+  padding: 0;
+  vertical-align: top;
+}
+
+.listCard__image{
+  height: auto;
+  border-bottom: 4px solid #D65760;
+  position: relative;
+  height: 218px;
+}
+
+.main__content .listCard__image img{
+  width: 100%;
+  height: 100%;
+}
+
+.listCard__text{
+  padding: 15px;
+}
+
+.listCard h2{
+  @include latoSemibold;
+  font-size: 19px;
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+
+.listCard p{
+  width: 100%;
+  font-size: 16px;
+}
+
+.listCard__contentType{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 100;
+  p{
+    color: $white;
+    font-size: 13px;
+    @include latoBold;
+    text-transform: uppercase;
+    padding-bottom: 0;
+  }
+}
+
+.listCard__contentType--page{
+  background-image: url('../assets/images/webapp/content-type-page.svg');
+  background-repeat: no-repeat;
+  padding: 0px 10px 0 22px;
+}
+
+
+.listCard__contentType--document{
+  background-image: url('../assets/images/webapp/content-type-document.svg');
+  background-repeat: no-repeat;
+  padding: 0px 10px 0 22px;
+}
+
+
+.listCard__contentType--list{
+  background-image: url('../assets/images/webapp/content-type-list.svg');
+  background-repeat: no-repeat;
+  padding: 0px 10px 0 22px;
+}
+
+@mixin textSocialStat{
+  font-size: 14px;
+  color: $textGrey;
+}
+
+.listCard__stats{
+  position: relative;
+}
+
+.listCard__stats{
+  width: 100%;
+  padding-bottom: 20px;
+  @include textSocialStat;
+}
+
+.listCard__stats--likes{
+  background-image: url('../assets/images/webapp/iconLike.svg');
+  background-repeat: no-repeat;
+  background-position-y: 3px;
+  padding: 0px 15px 0 22px;
+  float: left;
+}
+
+.listCard__stats--comments{
+  background-image: url('../assets/images/webapp/iconComment.svg');
+  background-repeat: no-repeat;
+  background-position-y: 3px;
+  padding: 0px 15px 0 22px;
+  float: left;
+}
+
+.listCard__stats--postTime{
+  float: right;
+}
+
+.listCard__image:before {
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,.63));
+    content: "";
+    height: 100px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+  }
+
+.listCard--featured{
+  max-width: 612px;
+  .listCard__image{
+    height: 450px;
+  }
+  h2{
+    font-size: 28px;
+    padding-bottom: 0.4em;
+  }
+  .listCard__contentType{
+    bottom: 20px;
+    left: 20px;
+  }
+  .listCard__text{
+    padding: 20px;
+  }
+}
+
+/* Comments
+------------------------------------------------------------------ */
+
+.userComment{
+  width: 80%;
+  margin: 0 auto;
+  p{
+    max-width: none;
+    width: 100%;
+    padding-bottom: 1.2em;
+  }
+
+}
+
+.userComment__profilePicture{
+  float: left;
+  width: 10%;
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  vertical-align: middle;
+  background-color: #bcc1c7;
+}
+
+.userComment__textContent{
+  float: left;
+  width: 90%;
+}
+
+.linkText{
+  float: left;
+  width: 100%;
+}

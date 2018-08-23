@@ -1,0 +1,78 @@
+---
+layout: webapp-layout
+platform: webapp
+page: webapp-list-cards
+selected: webapp-list-cards
+title: List Cards
+---
+
+<p>App Editors can create lists within their apps that house various kinds of content, including modular pages, videos, images and other lists. In the CMS the App Editor can select a layout to determine how these list items appear in the end user’s phone or tablet. However, the webapp uses a single layout - a grid of the list items presented as cards. </p>
+
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/webapp/examples/webapp-list.jpg" alt="Webapp Homepage" /img>
+	<p class="caption"></p>
+</div>
+
+<p class="padding__1em">The list cards are made up of different elements:</p>
+<ul class="main__content__ul">
+  <li>Featured image</li>
+  <li>Content title</li>
+  <li>Content type icon and text (optional)</li>
+  <li>Number of likes (optional)</li>
+  <li>Number of comments  (optional)</li>
+  <li>Post time</li>
+  <li>Coloured border (uses brand colour set in CMS)</li>
+</ul>
+
+<ul class="clearfix">
+  <li class="listCard">
+    <div class="listCard__image">
+      <img src="{{ site.baseurl }}/assets/images/webapp/listcard-plant.jpg" />
+      <div class="listCard__contentType listCard__contentType--list"><img /><p>View List</p></div>
+    </div>
+    <div class="listCard__text clearfix">
+      <h2>Recognising fellow employees for our EA Gala</h2>
+      <div class="listCard__stats clearfix">
+          <span class="listCard__stats--likes">98</span>
+          <span class="listCard__stats--comments">23</span>
+          <span class="listCard__stats--postTime">42 mins</span>
+      </div>
+    </div>
+  </li>
+  <li class="listCard float__right">
+    <div class="listCard__image">
+      <img src="{{ site.baseurl }}/assets/images/webapp/listcard-snow.jpg" />
+      <div class="listCard__contentType listCard__contentType--page"><img /><p>Read</p></div>
+    </div>
+    <div class="listCard__text clearfix">
+      <h2>Recognising fellow employees for our EA Gala</h2>
+      <div class="listCard__stats clearfix">
+          <span class="listCard__stats--likes">98</span>
+          <span class="listCard__stats--comments">23</span>
+          <span class="listCard__stats--postTime">42 mins</span>
+      </div>
+    </div>
+  </li>
+</ul>
+
+<h2>Hero List Cards</h2>
+<p>If the App Editor has chosen to include a “hero item” in their list the top item is shown as a large tile at the top on native devices. In the web app, these hero items are shown as large list cards. The difference with these hero list cards is their size and that they include an excerpt of text if the content they represent is a modular page containing text. These larger hero cards will always be presented first in the list. </p>
+
+
+<ul class="clearfix">
+  <li class="listCard listCard--featured">
+    <div class="listCard__image">
+      <img src="{{ site.baseurl }}/assets/images/webapp/listcard-featured.jpg" />
+      <div class="listCard__contentType listCard__contentType--document"><img /><p>Open Document</p></div>
+    </div>
+    <div class="listCard__text">
+      <h2>How one department climbed to the peak to become a better team</h2>
+      <p>Sed haec quis possit intrepidus aestimare tellus. Morbi fringilla convallis sapien, id pulvinar odio volutpat. A communi observantia non est recedendum…</p>
+      <div class="listCard__stats clearfix">
+          <span class="listCard__stats--likes">98</span>
+          <span class="listCard__stats--comments">23</span>
+          <span class="listCard__stats--postTime">42 mins</span>
+      </div>
+    </div>
+  </li>
+</ul>

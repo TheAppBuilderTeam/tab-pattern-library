@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include main-navigation.html %}
+    {% include mobile-navigation.html %}
+      <div class="main" id="page--{{ page.page }}">
+        <article class="container">
+          <div class="main__content main__content--home">
+            <h1>{{ page.title }}</h1>
+            {{ content }}
+          </div>
+        </article>
+        <footer>Copyright of TheAppBuilder 2018</footer>
+      </div>
+  </body>
+</html>

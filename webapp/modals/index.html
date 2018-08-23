@@ -1,0 +1,95 @@
+---
+layout: webapp-layout
+platform: webapp
+page: webapp-modals
+selected: webapp-modals
+title: Modals
+---
+
+<p>Modals are used throughout the webapp for a range of purposes including:</p>
+    <ul class="main__content__ul">
+<li>
+    Providing information to the user, for example:
+</li>
+<li>
+    Showing the users who liked a piece of content
+</li>
+<li>
+    Confirming destructive actions like deleting a comment
+</li>
+<li>
+    Reporting another user's comment
+</li>
+<li>
+    Providing information to the system such as a display name
+</li>
+
+    </ul>
+<p>The web app modals can house various content, some may have form elements whereas other may have an illustration and a button. It’s important that they retain the same look and feel. </p>
+
+    <div class="imageContainer imageContainer--one padding__30">
+    	<img src="{{ site.baseurl }}/assets/images/webapp/examples/webapp-liked-by-modal.jpg" alt="" /img>
+    	<p class="caption">The "Liked By" modal appearing in the web app </p>
+    </div>
+
+<p>Each modal should be 553px in width, white in colour, have rounded corners (8px radius) and a drop shadow. Opening a modal should also trigger a background overlay that is black in colour and 40% opacity.</p>
+
+
+<h2>Modal Examples</h2>
+<p>Below you'll find a range of coded modals that are used within the web app.</p>
+<p>The first of which is the modal that is presented to a user when they click on "Remove Comment" on their comment. The modal is used to confirm their action since it is destructive. While primary buttons within the webapp should generally be the brand colour as set by the app editor in the CMS, destructive buttons should be red to indicate that attention is needed.</p>
+
+  <!------------------delete modal --------------------->
+ <div class="main__content__block clearfix">
+     <div class="webapp-modal__container">
+         <p class="webapp-modal--text">Are you sure you want to remove your comment?</p><p class="webapp-modal--text">This cannot be undone.</p>
+     <button class="webappButton webappButton--primary--delete">Yes, remove</button>
+         <div class="cancel-link">
+         <a href="#" class="text--link text--link-delete">No, cancel</a>
+         </div>
+     </div>
+ </div>
+
+ <!------------------report a comment modal --------------------->
+ <p>Similarly the modal above, the "Report Comment" modal should also use a red button to display the button for the primary action of sending a report about an offensive or innappropriate comment to an admin. Secondary links are shown either below or alongside the primary action for the user. </p>
+
+ <div class="main__content__block clearfix">
+     <div class="webapp-modal__container webapp-modal__container--report">
+         <h2>Report a Comment</h2>
+         <p class="webapp-modal--text">Report comments will be reviewed by an administrator who will take action within 24 hours </p>
+           <div class="report-form">
+               <textarea placeholder="Tell us why you are reporting this comment"></textarea>
+             </div>
+        <a href="#" class="text--link text--link--report">Cancel</a>
+    </div>
+    <button class="webappButton webappButton--primary--sendreport">Send Report</button>
+   </div>
+
+<p>Some modals such as the two below contain illustrations. These modals are intended to be friendly reminders to users to provide their details for the system.</p>
+<!------------------Verify your email modal--------------------->
+<div class="main__content__block clearfix">
+     <div class="webapp-modal__container webapp-modal__container--email">
+         <img src="/assets/images/webapp/downloads-file-icons_Email.svg">
+         <h2 class="webapp-modal--text">Verify your email address</h2>
+        <p class="webapp-modal--text webapp-modal--text--email">To verify your email address tap the link in the email we have sent you.</p>
+        <div class="cancel-link--email">
+        <a href="#" class="text--link">Resend verification email</a>
+        </div>
+    </div>
+</div>
+
+<p>The modals have a similar look and feel but can contain a range of elements including illustrations, textareas, inputs etc. The actions the user can take are presented at the bottom of the modal either centered in the modal or right-aligned. </p>
+<!------------------Name tag modal --------------------->
+<div class="main__content__block clearfix">
+  <div class="webapp-modal__container webapp-modal__container--email modal__container--email--name">
+       <img src="/assets/images/webapp/name-tag-icon.svg">
+       <h2 class="webapp-modal--text">What should we call you?</h2>
+       <p class="webapp-modal--text webapp-modal--text--email">You need a display name to use the social features</p>
+    <div class="main__content__block textWidth padding__50 clearfix">
+      <div class="name-form">
+        <input autocomplete="off" class="name-form" name="" placeholder="Display Name" type="text" value="Isabella Swan"/>
+      </div>
+        <button class="webappButton webappButton--primary--confirm">Confirm Display Name</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="24px" viewBox="0 0 19 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>lock-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="simple-line-icons" font-size="23" font-weight="normal">
+        <g id="Webapp-Artboard-1" transform="translate(-104.000000, -1925.000000)" fill="#69788E">
+            <g id="Form" transform="translate(102.000000, 1836.000000)">
+                <g id="Email" transform="translate(0.000000, 82.000000)">
+                    <g id="employee-id">
+                        <text id="lock-icon">
+                            <tspan x="0" y="29"></tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

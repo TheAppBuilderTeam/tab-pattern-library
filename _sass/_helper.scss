@@ -1,7 +1,7 @@
 /* Helper Classes
 ------------------------------------------------------------------ */
 
-.clear{
+.clear, .clearfix{
 	clear: both;
 }
 
@@ -30,4 +30,24 @@
 	&__right15{
 	padding-right: 15px;
 	}
+    &__right50{
+	padding-right: 50px;
+	}
+	&__none{
+		padding: 0;
+	}
+	&__1em{
+		padding-bottom: 1em;
+	}
+}
+
+
+
+.margin, .main__content ul.margin{
+    &__50{
+        margin-bottom: 50px;
+    }
+    &__100{
+        margin-bottom: 100px;
+    }
 }

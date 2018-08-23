@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="164px" height="57px" viewBox="0 0 164 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>next btn active</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="35" y="0" width="148" height="41" rx="20.5"></rect>
+        <filter x="-8.8%" y="-26.8%" width="117.6%" height="163.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.755872662   0 0 0 0 0.755872662   0 0 0 0 0.755872662  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Webapp-Artboard-1" transform="translate(-309.000000, -1319.000000)">
+            <g id="next-btn-active" transform="translate(282.000000, 1325.000000)">
+                <g id="email-btn">
+                    <g id="download-btn">
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#00346F" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <text id="Complete" font-family="Lato-Bold, Lato" font-size="15" font-weight="bold" line-spacing="22" fill="#FFFFFF">
+                            <tspan x="77.17125" y="24">Complete</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

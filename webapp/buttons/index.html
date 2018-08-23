@@ -1,0 +1,52 @@
+---
+layout: webapp-layout
+platform: webapp
+page: webapp-buttons
+selected: webapp-buttons
+title: Buttons & Links
+---
+<p>Buttons are found throughout the webapp to indicate the primary action a user can take on that screen, for example, thanking a staff member or completing a step of the onboarding process.</p>
+
+<p>The buttons are round, lozenge shapes and should take on the brand colour as set by the app editor. Depending on the lightness of the colour, the button text can be white or black. If no brand colour is the base colour should be blue (#106DE0) with white text.
+</p>
+
+<h2>Primary Buttons</h2>
+
+<p>The primary button should be 40px tall with 44px of padding applied to the left and right of the button text. The active state of the button has a box-shadow. Upon hovering over the button the background colour should be lighter (using Sass’ lighten function to lighten the colour by 5%). When the user clicks the button the box shadow is changed to look like the button has been pressed. </p>
+
+<!-------- Primary Buttons-------->
+<div class="main__content__block textWidth padding__50"  markdown="0">
+
+    <!-------- Primary Button-------->
+    <!-------- Active Button-------->
+    <button class="webappButton webappButton--primary">Primary</button>
+    <!-------- Disabled Button-------->
+	<button class="webappButton webappButton--disabled">Disabled</button>
+    <!-------- Hover Button--
+	<button class="webappButton webappButton--hover">Hover</button>	------>
+    <!-------- Pressed Button-------->
+    <button class="webappButton webappButton--pressed">Pressed</button>
+</div>
+
+<p>The disabled state of the button is always the same, it appears as light grey with white text and no box shadow.</p>
+
+<h2>Buttons with Icons</h2>
+<p>Another button variation is the button with an accompanying icon such as the Download Contact button found on a contact widget. Its hover and pressed states should follow the same pattern as the primary button style. </p>
+ <!-------- Button with Icon-------->
+<div class="main__content__block textWidth padding__50"  markdown="0">
+    <button class="webappButton webappButton--icon"><span class="contact"><img src="{{ site.baseurl }}/assets/images/webapp/ADDICON.svg"></span><span class="download">Download Contact</span></button>
+</div>
+<h2>Primary Button and Secondary Option</h2>
+<p>Users are often presented with 2 options shown in the format of a primary button and a secondary action shown as a basic link below. The hover state for these basic links is a bottom border.
+</p>
+
+<div class="main__content__block textWidth padding__50">
+	<a href="#" class="text--link padding__right15">Resend Code to Mobile</a>
+</div>
+
+
+<div class="imageContainer imageContainer--two padding__50">
+	<img src="{{ site.baseurl }}/assets/images/webapp/examples/login-inactive.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/webapp/examples/login-active.jpg" alt="T" class="last" /img>
+	<p class="caption">Buttons presented on the onboarding screens, shown inactive and active when form is filled </p>
+</div>

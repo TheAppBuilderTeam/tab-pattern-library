@@ -1,0 +1,226 @@
+/*------------------------------------------------- webapp modals -------------------------------------------*/
+.webapp-modal img {
+   max-width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+
+}
+.webapp-modal--name img {
+    max-width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    float: left;
+
+
+}
+
+.webapp-modal--delete {
+
+}
+.webapp-modal__container {
+    background: #FFFFFF;
+    background-image: url(../assets/images/webapp/modal-corner-x.svg);
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 5px;
+   // background-attachment: fixed;
+    background-position: right 20px top 20px;
+    box-shadow: 0 1px 10px 4px rgba(0,0,0,0.13);
+    border-radius: 8px;
+    height: 255px;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.webapp-modal__container p {
+
+    padding: 0;
+
+}
+/*-------- delete button -------------------------*/
+  .webappButton--primary--delete{
+	color: $white;
+	background: $buttonRed;
+    &:active {
+    color: $white;
+	background: $buttonBlue;  }
+
+	border: $buttonRed;
+	&:hover{
+    background: lighten($buttonRed, 5%);
+	}
+    box-shadow: 0 2px 6px 2px rgba(193,193,193,0.50);
+}
+.webappButton--primary--delete {
+    transition: all 0.3s ease 0s;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 44px;
+    border-radius: 100px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+/*------------- cancel link---------------*/
+.text--link-delete {
+    padding-right: 10px;
+}
+/*---------------- verify email-------------*/
+
+.webapp-modal__container--email img {
+    max-height: 150px;
+    padding-bottom: 20px;
+
+}
+.webapp-modal__container--email {
+    height: auto;
+    width: 75%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/*---------------- resend verify link email-------------*/
+
+.cancel-link--email {
+    padding: 40px 0;
+}
+
+/*------------------ name tag------------------------------*/
+
+.modal__container--email--name img {
+
+    max-height: 400px;
+    max-width: 300px;
+    padding: 0;
+}
+.modal__container--email--name h2 {
+    padding-top: 30px;
+}
+
+.modal__container--email--name{
+    height: auto;
+    width: 75%;
+    }
+
+.name-form input[type=text], input[type=password], textarea, select {
+    text-align: left;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid $borderGrey;
+    border-radius: 0px;
+    margin: 0 auto;
+    padding-left: 0px;
+    width: 95%;
+}
+/*-------- confirm button -------------------------*/
+   .webappButton--primary--confirm{
+	color: $white;
+	background: $buttonBlue;
+    &:active {
+    color: $white;
+	background: $buttonBlue;  }
+
+	border: $buttonBlue;
+	&:hover{
+    background: lighten($buttonBlue, 5%);
+	}
+    box-shadow: 0 2px 6px 2px rgba(193,193,193,0.50);
+}
+
+
+.webappButton--primary--confirm {
+    transition: all 0.3s ease 0s;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 100px;
+    border-bottom: 3px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+
+/*-------- report a comment -------------------------*/
+
+.webapp-modal__container--report h2 {
+    text-align: left;
+}
+
+
+.webapp-modal__container--report p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.report-form textarea, select {
+    text-align: left;
+    border-left: 1px solid $borderGrey;
+    border-top: 1px solid $borderGrey;
+    border-right: 1px solid $borderGrey;
+    border-bottom: 1px solid $borderGrey;
+    border-radius: 4px;
+    margin: 0 auto;
+    width: 80%;
+    height: 150px;
+}
+.report-form textarea, select::placeholder {
+    text-align: left;
+    padding-top: 10px;
+}
+
+textarea::placeholder {
+    color: $webappPlaceholder;
+}
+
+.report-form {
+
+    position: relative;
+}
+
+
+.webapp-modal__container--report {
+
+    height: 425px;
+    width: 75%;
+}
+
+  .webappButton--primary--sendreport{
+	color: $white;
+	background: $buttonRed;
+    &:active {
+    color: $white;
+	background: $buttonBlue;  }
+
+	border: $buttonRed;
+	&:hover{
+    background: lighten($buttonRed, 5%);
+	}
+    box-shadow: 0 2px 6px 2px rgba(193,193,193,0.50);
+}
+
+
+
+
+.webappButton--primary--sendreport {
+     transition: all 0.3s ease 0s;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 44px;
+    border-radius: 100px;
+    float: right;
+    margin-top: -135px;
+    margin-right: 20%;
+
+}
+
+
+.text--link--report {
+    margin-left: 50%;
+    margin-top: 30px;
+    float: left;
+
+}
