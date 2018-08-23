@@ -18,8 +18,8 @@
 	&.warning{
 		border-color: $red;
 	}
-   
-     
+
+
 }
 .webapp-form-group--header input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 25px;
@@ -37,7 +37,7 @@
 
 }
 
-.webapp-form-group--password 
+.webapp-form-group--password
 input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 25px;
   padding-left: 35px;
@@ -53,10 +53,10 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 	}
      padding-top: 20px;
   padding-bottom: 40px;
-    
+
 }
 
-.webapp-form-group--password2 
+.webapp-form-group--password2
 input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 25px;
   vertical-align: middle;
@@ -109,15 +109,15 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
     background-repeat: no-repeat;
     padding-right: 0px;
     //padding-bottom: 20px;
- 
+
     padding-top: 20px;
     background-position-x: 2px;
     background-position-y: 20px;
-     
-    
+
+
 }
 .webapp-form-group--password {
-    background-image: url('../assets/images/webapp/lock icon-smaller.svg');
+    background-image: url('../assets/images/webapp/lock-icon-smaller.svg');
     background-repeat: no-repeat;
     padding-top: 12px;
     margin-top: 0px;
@@ -127,7 +127,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 }
 
  .webapp-form-group--password2 {
-    background-image: url('../assets/images/webapp/lock icon-smaller.svg');
+    background-image: url('../assets/images/webapp/lock-icon-smaller.svg');
     background-repeat: no-repeat;
     padding-top: 20px;
     background-position-x: 2px;
@@ -136,24 +136,24 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 }
 
 .webapp-form-group--header label {
-    
+
 padding-left: 35px;
-    
+
 }
 .webapp-form-group--password label {
-    
+
 padding-left: 35px;
-    
+
 }
 .webapp-form-group--password2 label {
-    
+
 padding-left: 35px;
 }
 
 .terms {
     color: $webappLink;
     margin-right: 80px;
-} 
+}
 
 /* Forms fields
 -----------------------------------------------------------------------------------------------------*/
@@ -168,7 +168,7 @@ padding-left: 35px;
 .webapp-form--dataFields{
 	display: inline-block;
 
-} 
+}
 
 .webapp-form--dataFieldsReset{
 	color: $blue;
@@ -186,7 +186,7 @@ padding-left: 35px;
     padding-top: 15px;
     color: $textGrey;
     padding-bottom: 15px;
-    
+
 }
 
 .webapp-form--dataFieldsCheckbox input[type=checkbox] {
@@ -198,8 +198,8 @@ padding-left: 35px;
   position: relative;
   vertical-align: middle;
   height: 20px;
- 
-     
+
+
 }
 .webapp-form--dataFieldsCheckbox input[type=checkbox]:after {
   content: " ";
@@ -248,14 +248,14 @@ content: "";
 
 }
 
-.webapp-form-group--header--helper-mobile 
+.webapp-form-group--header--helper-mobile
 input[type=text] {
     padding-left: 80px;
-    
+
 }
 
 .webapp-form-group--header--helper {
-    background-image: url('../assets/images/webapp/lock icon-smaller.svg');
+    background-image: url('../assets/images/webapp/lock-icon-smaller.svg');
     background-repeat: no-repeat;
     padding-right: 0px;
     background-position-x: 2px;
@@ -279,7 +279,7 @@ input[type=text] {
 }
 .text-form--helper {
     line-height: 20px;
-  
+
 }
 
 /*------ Errors ----------*/
@@ -296,7 +296,7 @@ input[type=text] {
 
 }
 .webapp-form-group--header--error {
-     background-image: url('../assets/images/webapp/lock icon-smaller.svg');
+     background-image: url('../assets/images/webapp/lock-icon-smaller.svg');
     background-repeat: no-repeat;
     padding-right: 10px;
     padding-bottom: 0px;
@@ -315,6 +315,3 @@ input[type=text] {
     margin: 0 auto;
     display: block;
 }
-
-
-
