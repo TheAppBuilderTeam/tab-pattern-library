@@ -4,6 +4,16 @@
 -----------------------------------------------------------------------------------------------------*/
 /*----------form inputs ----------*/
 
+.webapp-form-group input[type=text], .webapp-form-group input[type=password], .webapp-form-group input[type=email], .webapp-form-group input[type=tel], .webapp-form-group textarea, .webapp-form-group select{
+  color: $textNavy;
+}
+
+
+#page--webapp-modals textarea::placeholder, #page--webapp-forms input::placeholder{
+    color: $webappPlaceholder;
+}
+
+
 .webapp-form-group input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 25px;
   padding-top: 20px;
@@ -15,6 +25,7 @@
   border-left: 0px ;
   padding-left: 20px;
   border-radius: 0px;
+  color: $textNavy;
 	&.warning{
 		border-color: $red;
 	}
