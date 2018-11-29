@@ -16,12 +16,10 @@
 }
 
 .webappButton--disabled {
-    
-    color: $white;
+  color: $white;
 	background: $buttonDisabled;
 	border: $buttonPrimary;
-	&:hover{
-}
+  cursor: not-allowed;
 }
 
 .webappButton--primary{
@@ -117,5 +115,3 @@ label{
 	letter-spacing: 0.2px;
 	padding-bottom: 3px;
 }
-
-    

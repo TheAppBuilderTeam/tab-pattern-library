@@ -3,15 +3,15 @@
    max-width: 70%;
     margin: auto;
     padding-bottom: 30px;
-    
+
 }
 .webapp-modal--name img {
     max-width: 50%;
     margin: auto;
     padding-bottom: 5px;
     float: left;
-    
-    
+
+
 }
 
 .webapp-modal--delete {
@@ -33,10 +33,10 @@
     padding-top: 60px;
     text-align: center;
     margin-bottom: 60px;
-} 
+}
 
 .webapp-modal__container p {
-    
+
     padding: 0;
 
 }
@@ -71,12 +71,12 @@
 /*---------------- verify email-------------*/
 
 .webapp-modal__container--email img {
-    max-height: 150px;   
+    max-height: 150px;
     padding-bottom: 20px;
-    
+
 }
-.webapp-modal__container--email { 
-    height: 465px;
+.webapp-modal__container--email {
+    height: auto;
     width: 75%;
     padding-left: 40px;
     padding-right: 40px;
@@ -85,14 +85,13 @@
 /*---------------- resend verify link email-------------*/
 
 .cancel-link--email {
-    
-    margin-top: 85px;
+    padding: 40px 0;
 }
 
 /*------------------ name tag------------------------------*/
 
 .modal__container--email--name img {
-    
+
     max-height: 400px;
     max-width: 300px;
     padding: 0;
@@ -102,7 +101,7 @@
 }
 
 .modal__container--email--name{
-    height: 485px;
+    height: auto;
     width: 75%;
     }
 
@@ -178,13 +177,13 @@ textarea::placeholder {
 }
 
 .report-form {
-    
+
     position: relative;
 }
 
 
 .webapp-modal__container--report {
-    
+
     height: 425px;
     width: 75%;
 }
@@ -215,7 +214,7 @@ textarea::placeholder {
     float: right;
     margin-top: -135px;
     margin-right: 20%;
-   
+
 }
 
 
@@ -223,6 +222,5 @@ textarea::placeholder {
     margin-left: 50%;
     margin-top: 30px;
     float: left;
-    
-}
 
+}
