@@ -1,0 +1,18 @@
+/* Styles for list layout - native 
+---------------------------------------------------------------- */
+
+.list-items, li {
+        list-style: disc;
+        list-style-position: inside;
+        
+}
+
+.list-items--p {
+    padding-bottom: 12px;
+}
+
+.list-items--p2 {
+    padding-bottom: 24px;
+
+}
+
