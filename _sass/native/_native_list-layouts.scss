@@ -45,9 +45,9 @@ a{
     padding-left: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
-  color: #fff;
-  font-size: 22px;
-  @include latoRegular;
+    color: #fff;
+    font-size: 22px;
+    @include latoRegular;
     
     background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.09) 12%, rgba(0,0,0,0.76) 99%, rgba(0,0,0,0.77) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.09) 12%,rgba(0,0,0,0.76) 99%,rgba(0,0,0,0.77) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -65,12 +65,12 @@ a{
 
 .nativeText--heading4 {
     color: $nativeTitleText;
-    font-size: 22px;
+    font-size: 28px;
     @include latoSemibold;
 }
 
 .nativeText--heading5 {
     color: $nativeTitleText;
-    font-size: 22px;
+    font-size: 18px;
     @include latoSemibold;
 }
