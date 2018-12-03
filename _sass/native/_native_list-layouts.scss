@@ -70,7 +70,15 @@ a{
 }
 
 .nativeText--heading5 {
-    color: $nativeTitleText;
+    color: #637289;
     font-size: 18px;
-    @include latoSemibold;
+    @include latoReg;
+}
+
+
+.nativeText--heading6 {
+    
+color: #637289;
+    font-size: 18px;
+    @include latoReg;
 }
