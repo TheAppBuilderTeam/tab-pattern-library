@@ -16,7 +16,6 @@
 
 }
 
-
 .large-img {
     max-width: 500px;
 }
@@ -60,4 +59,14 @@ a{
   color: $textNavy;
   font-size: 19px;
   @include latoSemibold;
+}
+
+/*---------- table 2 ----------------------------------*/
+
+.nativeText--heading4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #1A2D4C;
+    font-size: 22px;
+    @include latoSemibold;
 }
