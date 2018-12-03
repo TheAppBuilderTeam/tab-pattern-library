@@ -64,9 +64,13 @@ a{
 /*---------- table 2 ----------------------------------*/
 
 .nativeText--heading4 {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: #1A2D4C;
+    color: $nativeTitleText;
+    font-size: 22px;
+    @include latoSemibold;
+}
+
+.nativeText--heading5 {
+    color: $nativeTitleText;
     font-size: 22px;
     @include latoSemibold;
 }
