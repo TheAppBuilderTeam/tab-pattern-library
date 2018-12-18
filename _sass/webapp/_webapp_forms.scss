@@ -11,26 +11,26 @@
 
 #page--webapp-modals textarea::placeholder, #page--webapp-forms input::placeholder{
     color: $webappPlaceholder;
+    font-size: 18px;
 }
 
 
 .webapp-form-group input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 25px;
-  padding-top: 20px;
-  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 17px;
   width: 100%;
   border-top: 0;
   border-right: 0;
   border-bottom: 1px solid #ddd;
   border-left: 0px ;
-  padding-left: 20px;
+  padding-left: 45px;
   border-radius: 0px;
   color: $textNavy;
 	&.warning{
 		border-color: $red;
 	}
-
-
+  font-size: 18px;
 }
 .webapp-form-group--header input[type=text], input[type=password], input[type=email], input[type=tel], textarea, select{
   height: 25px;
@@ -40,12 +40,12 @@
   border-right: 0;
   border-bottom: 1px solid #ddd;
   border-left: 0px ;
-    padding-left: 35px;
+    padding-left: 45px;
     border-radius: 0px;
 	&.warning{
 		border-color: $red;
 	}
-
+  font-size: 18px;
 }
 
 .webapp-form-group--password
@@ -62,7 +62,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 	&.warning{
   border-color: $red;
 	}
-     padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 40px;
 
 }
@@ -76,11 +76,12 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
   border-right: 0;
   border-bottom: 0px;
   border-left: 0px ;
-  padding-left: 35px;
+  padding-left: 45px;
     border-radius: 0px;
 	&.warning{
   border-color: $red;
 	}
+    padding-top: 30px;
 }
 
 .webapp-form-group--password2 input[type=password] {
@@ -91,13 +92,13 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
   border-right: 0;
   border-bottom: 1px solid #ddd;
   border-left: 0px ;
-  padding-left: 35px;
+  padding-left: 45px;
     border-radius: 0px;
 	&.warning{
   border-color: $red;
 	}
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 17px;
 }
 .webapp-form-group--password input[type=password] {
   height: 30px;
@@ -107,58 +108,63 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
   border-right: 0;
   border-bottom: 1px solid #ddd;
   border-left: 0px ;
-  padding-left: 35px;
+  padding-left: 45px;
     border-radius: 0px;
 	&.warning{
   border-color: $red;
 	}
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 17px;
 }
 .webapp-form-group--header {
     background-image: url('../assets/images/webapp/username-icon.svg');
     background-repeat: no-repeat;
     padding-right: 0px;
     //padding-bottom: 20px;
-
     padding-top: 20px;
     background-position-x: 2px;
     background-position-y: 20px;
-
-
 }
+
 .webapp-form-group--password {
-    background-image: url('../assets/images/webapp/lock-icon-smaller.svg');
+    background-image: url('../assets/images/lock.svg');
     background-repeat: no-repeat;
     padding-top: 12px;
     margin-top: 0px;
-    background-position-x: 2px;
-    background-position-y: 10px;
+    background-position-x: -18px;
+    background-position-y: 18px;
     width: 100%;
+    background-size: 15% 15%;
 }
 
  .webapp-form-group--password2 {
-    background-image: url('../assets/images/webapp/lock-icon-smaller.svg');
+  background-image: url('../assets/images/lock.svg');
     background-repeat: no-repeat;
-    padding-top: 20px;
-    background-position-x: 2px;
-    background-position-y: 20px;
-     width: 100%;
+    padding-top: 12px;
+    margin-top: 0px;
+    background-position-x: -23px;
+    background-position-y: 18px;
+    width: 100%;
+    background-size: 18% 18%;
 }
 
 .webapp-form-group--header label {
 
-padding-left: 35px;
+padding-left: 45px;
+letter-spacing: 0.5px;
 
 }
 .webapp-form-group--password label {
 
-padding-left: 35px;
-
+padding-left: 45px;
+      padding-top: 10px;
+letter-spacing: 0.5px;
 }
 .webapp-form-group--password2 label {
 
-padding-left: 35px;
+padding-left: 45px;
+      padding-top: 10px;
+    letter-spacing: 0.5px;
 }
 
 .terms {
@@ -186,9 +192,13 @@ padding-left: 35px;
 	font-size: 16px;
 }
 
+.terms:hover {
+text-decoration: underline;
+}
+
 .text-form--helper {
     color: $webappPlaceholder;
-    font-size: 14px;
+    font-size: 18px;
     max-width: 50%;
     margin-left: 20px;
 }
@@ -233,8 +243,13 @@ content: "";
     //padding: 0 2px 6px 2px;
    background-image: url('../assets/images/webapp/tick.svg');
    background-repeat: no-repeat;
-   background-position: -0.5px;
+   background-position: .5px;
 }
+
+
+/////////////////////////
+
+
 
 .webapp-form-group--header--helper {
     margin-left: 60px;
@@ -250,27 +265,29 @@ content: "";
   border-right: 0;
   border-bottom: 1px solid #ddd;
   border-left: 0px ;
-  padding-left: 35px;
+  padding-left: 45px;
     border-radius: 0px;
 	&.warning{
   border-color: $red;
 	}
     margin-bottom: 2px;
-
+    margin-top: -2px;
 }
 
 .webapp-form-group--header--helper-mobile
 input[type=text] {
-    padding-left: 80px;
+    padding-left: 76px;
 
 }
-
+/*----------------- helper text--------------------*/
 .webapp-form-group--header--helper {
-    background-image: url('../assets/images/webapp/lock-icon-smaller.svg');
+    background-image: url('../assets/images/lock.svg');
     background-repeat: no-repeat;
     padding-right: 0px;
-    background-position-x: 2px;
-    background-position-y: 20px;
+     background-position-x: -24px;
+    background-position-y: 14px;
+    width: 100%;
+    background-size: 21% 21%;
 }
 .webapp-form-group--header--helper-mobile {
     background-image: url('../assets/images/webapp/mobile-icon.svg');
@@ -280,20 +297,28 @@ input[type=text] {
     background-position-x: 2px;
     background-position-y: -.5px;
 }
-
+.text-form--helper--mobile {
+    padding-bottom: .5em;
+}
 .webapp-form-group--mobile {
      background-image: url('../assets/images/webapp/country-dropdown.svg');
      background-size: auto;
     background-repeat: no-repeat;
-    background-position-x: 40px;
-     background-position-y: 15px;
+    background-position-x: 42px;
+     background-position-y: 8px; 
 }
+
 .text-form--helper {
     line-height: 20px;
-
 }
 
+.webapp-form-group p {
+    
+    font-size: 13px;
+    line-height: 17px;
+}
 /*------ Errors ----------*/
+
 .webapp-form-group--header--error input[type=password] {
   height: 32px;
   vertical-align: middle;
@@ -302,17 +327,19 @@ input[type=text] {
   border-right: 0;
   border-bottom: 1px solid $red;
   border-left: 0px ;
-  padding-left: 35px;
+  padding-left: 45px;
   border-radius: 0px;
 
 }
 .webapp-form-group--header--error {
-     background-image: url('../assets/images/webapp/lock-icon-smaller.svg');
+     background-image: url('../assets/images/lock.svg');
     background-repeat: no-repeat;
     padding-right: 10px;
     padding-bottom: 0px;
-    background-position-x: 2px;
-    background-position-y: 20px;
+    background-position-x: -27px;
+    background-position-y: 15px;
+    background-size: 21% 21%;
+    
 }
 .webapp-form-group--header--error p {
     font-size: 14px;
@@ -326,3 +353,6 @@ input[type=text] {
     margin: 0 auto;
     display: block;
 }
+
+
+

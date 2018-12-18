@@ -1,0 +1,354 @@
+---
+layout: native-layout
+platform: native app
+page: native-list-layouts
+selected: native-layouts
+title:  List Layouts
+--- 
+<p>List layouts are used throughout the native app as a way to display list items. They give content structure and visually organise it.</p>
+
+<p class="list-items--p">List items include:</p>
+<ul class="list-items"  markdown="0">
+    <li>Pages</li>
+    <li>Lists (within lists)</li>
+    <li>Images</li>
+    <li>Videos</li>
+    <li>Web page links</li>
+    <li>Contacts</li>
+    <li>RSS</li>
+</ul>
+
+
+<p class="list-items--p2">Chosen list layouts are determined by the app editors on the CMS. The ‘Layout’ tab shown when editing a list, is where app editors can choose their preferred layout for that list. </p>
+
+<!----------------------list items--------------------------------------->
+
+<h2>List Items</h2>
+
+<p class="list-items--p">List items are the blocks which contain content within a list. The elements that make up a list item are:</p>
+
+
+<ul class="list-items"  markdown="0">
+    <li>Title</li>
+    <li>Icon (if enabled)</li>
+    <li>Time Stamp (if enabled)</li>
+    <li>Featured Image</li>
+    <li>Gradient (if enabled)</li>
+</ul>
+
+<!------<div class="imageContainer">
+	<img src="{{ site.baseurl }}/assets/images/native/letterbox-full.jpg" alt="Example of List items" /img>
+    <p class="caption">List items within the letterbox list layout</p>
+</div>
+<div class="imageContainer imageContainer--two padding__50">
+	<img src="{{ site.baseurl }}/assets/images/native/letterbox-full.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/large-mag-full.jpg" alt="T" class="last" /img>
+	<p class="caption">Letterbox (left) and Large mag (right) containing all the elements that make up a list item.</p> 
+</div>
+--------------->
+
+<h2>Displaying Icons
+</h2>
+<p>Icons are displayed underneath the list item title or positioned on the featured image. Icons are displayed with a line of text depending on the list item type. For example, a page list item is displayed with a page icon and ‘read post’ written next to it. </p><p>Here are the typography styles for the icon text:</p>
+
+<ul class="list-items"  markdown="0">
+
+<li>Lato, Regular</li>
+<li>26pt</li>
+<li>#FFFFFF</li>
+<li>Left aligned</li>
+</ul>
+
+<h2>Displaying Time Stamps
+</h2>
+<div>
+<p>The time/date preference that is displayed is determined by the app editor in the CMS. They can choose to display time updated or time posted.</p>
+<ul class="list-items">
+<li>Display minutes up to 59 mins then switch to hours</li>
+<li>Display hours up to 23 hours then switch to days</li>
+<li>Display days up to 7 days then display date</li>
+</ul>
+</div>
+<h2>Typography</h2>
+
+<h3>Titles, time stamps &amp; icon text</h3>
+
+<p>The same typography styles are used throughout on each list layout. Titles and time stamps are mostly the same on each list layout, apart from a select few.</p>
+<p>Time stamps follow the same style throughout the list layouts, apart from in some they change from white to dark blue.</p>
+
+<p>Below are the typography style used with: </p>
+
+<!---------------- LARGE MAG & HEROS ----------------->
+
+<h2>Large Mag list and Heros</h2>
+
+<ul class="main__content__block styling__block padding__100 widerThanText margin__50"  markdown="0">
+	<li class="type__block">
+		<div class="paragraph--meta paragraph--meta--top ">Titles</div>
+		<div class="nativeText--heading1">This the title of a list item</div>
+		<div class="paragraph--meta paragraph--meta--bottom">
+			<span>Size: 32px</span>
+			<span>Weight: Regular</span>
+			<span>Colour: #FFFFFF</span>
+		</div>
+	</li>
+	<li class="type__block">
+		<div class="paragraph--meta paragraph--meta--top">Time Stamps</div>
+		<div class="nativeText--heading2">1 week ago</div>
+		<div class="paragraph--meta paragraph--meta--bottom">
+			<span>Size: 26px</span>
+			<span>Weight: Regular</span>
+			<span>Colour: #FFFFFF</span>
+		</div>
+    </li>
+    <li class="type__block">
+		<div class="paragraph--meta paragraph--meta--top">Icon Text</div>
+		<div class="nativeText--heading2">Read Post</div>
+		<div class="paragraph--meta paragraph--meta--bottom">
+			<span>Size: 26px</span>
+			<span>Weight: Regular</span>
+			<span>Colour: #FFFFFF</span>
+		</div>
+    </li>
+</ul>
+<div class="imageContainer imageContainer--one padding__50 large-img-1">
+	<img src="{{ site.baseurl }}/assets/images/native/large-mag-full.jpg" alt="T" class="last" /img>
+	<p class="caption">Large mag typography.</p>
+</div>
+<!---------------- SMALL LIST, MEDIUM LIST, FEED LIST, & 2 COLUMN ----------------->
+<h2>Small List, Medium List, Feed List &amp; 2 Column</h2>
+
+<ul class="main__content__block styling__block padding__100 widerThanText margin__50"  markdown="0">
+	<li class="type__block">
+		<div class="paragraph--meta paragraph--meta--top ">Titles</div>
+		<div class="nativeText--heading4">This the title of a list item</div>
+		<div class="paragraph--meta paragraph--meta--bottom">
+			<span>Size: 32px</span>
+			<span>Weight: Semibold</span>
+			<span>Colour: #1A2D4C</span>
+		</div>
+	</li>
+	<li class="type__block">
+		<div class="paragraph--meta paragraph--meta--top">Time Stamps</div>
+		<div class="nativeText--heading5">1 week ago</div>
+		<div class="paragraph--meta paragraph--meta--bottom">
+			<span>Size: 24px</span>
+			<span>Weight: Regular</span>
+			<span>Colour: #637289 </span>
+		</div>
+    </li>
+</ul>
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/small-list-full.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/medium-list-full.jpg" alt="T" class="last" /img>
+    <p class="caption">Small List (left) and Medium List (right) containing all the elements that make up a list item.</p>
+</div>
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/feed-list-full.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/2-column-list-full.jpg" alt="T" class="last" /img>
+    <p class="caption">Feed List (left) and 2 Column List (right) containing all the elements that make up a list item.</p>
+</div>
+<!---------------- SMALL MAG & LETTERBOX ----------------->
+<h2>Small Mag &amp; Letterbox </h2>
+
+<ul class="main__content__block styling__block padding__100 widerThanText margin__50"  markdown="0">
+	<li class="type__block">
+		<div class="paragraph--meta paragraph--meta--top ">Titles</div>
+		<div class="nativeText--heading1">This the title of a list item</div>
+		<div class="paragraph--meta paragraph--meta--bottom">
+			<span>Size: 32px</span>
+			<span>Weight: Regular</span>
+			<span>Colour: #FFFFFF</span>
+		</div>
+	</li>
+	<li class="type__block">
+		<div class="paragraph--meta paragraph--meta--top">Time Stamps</div>
+		<div class="nativeText--heading2">1 week ago</div>
+		<div class="paragraph--meta paragraph--meta--bottom">
+			<span>Size: 24px</span>
+			<span>Weight: Regular</span>
+			<span>Colour: #FFFFFF</span>
+		</div>
+    </li>
+</ul>
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/small-mag-full.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/letterbox-full.jpg" alt="T" class="last" /img>
+	<p class="caption">Small Mag (left) and Letterbox (right) containing all the elements that make up a list item.</p>
+</div>
+
+
+<!----------- INDIVIDUAL LIST LAYOUTS ------------------------------------->
+
+<h1>List Layouts Specifics</h1>
+
+<!--------------------------- large mag --------------------------------->
+
+<h2>Large Mag</h2>
+
+<h2>Introduction</h2>
+
+<p>Large Mag presents list items one per row and is best suited to lists that have good quality imagery as this list is very visual.</p>
+
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/large-mag.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/large-mag-time-stamp.jpg" alt="T" class="last" /img>
+    <p class="caption">Just titles (left) Titles &amp; time stamps (right)</p>
+</div>
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/large-mag-icon.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/large-mag-full.jpg" alt="T" class="last" /img>
+    <p class="caption">Titles &amp; Icons (left) Titles, icons and time stamps (right)</p>
+</div>
+<h3>Displaying icons</h3>
+<p>
+Icons are displayed underneath the list item title. Icons are displayed with a line of text depending on the list item type. For example, a page list item is displayed with a page icon and ‘read post’ </p>
+
+<!--------------------------- small mag --------------------------------->
+
+<h2>Small Mag</h2>
+
+<h2>Introduction</h2>
+
+<p>
+Small Mag presents list items 2 per row and is best suited to lists that have good quality imagery. Similar to Large Mag it is very visual and focussed on the featured image.</p>
+
+<h3>Use of gradients with icons</h3>
+<p>
+When icons are enabled with this list layout, gradients are automatically enabled to the top and bottom of the featured image. This is so the icon can be clearly seen against the featured image.</p>
+
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/small-mag.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/small-mag-time-stamp.jpg" alt="T" class="last" /img>
+    <p class="caption">Just titles (left) Titles &amp; time stamps (right)</p>
+</div>
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/small-mag-icons.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/small-mag-full.jpg" alt="T" class="last" /img>
+    <p class="caption">Titles &amp; Icons (left) Titles, icons and time stamps (right)</p>
+</div>
+
+<!--------------------------- small List --------------------------------->
+
+<h2>Small List</h2>
+
+<h2>Introduction</h2>
+
+<p>Small List presents list items 1 per row and presents the list item title clearly beside it in a dark blue colour.</p>
+
+<h3>Use of gradients with icons</h3>
+
+<p>When icons are enabled with this list layout, gradients are automatically enabled to the bottom of the featured image. Although gradients can be still turned off even if icons are enabled.</p>
+
+
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/small-list.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/small-list-time-stamp.jpg" alt="T" class="last" /img>
+    <p class="caption">Just titles (left) Titles &amp; time stamps (right)</p>
+</div>
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/small-list-icons.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/small-list-full.jpg" alt="T" class="last" /img>
+    <p class="caption">Titles &amp; Icons (left) Titles, icons and time stamps (right)</p>
+</div>
+
+<!--------------------------- medium List --------------------------------->
+
+<h2>Medium List</h2>
+
+<h2>Introduction</h2>
+
+<p> Medium List presents list items 1 per row and presents the list item title clearly beside it in a dark blue colour.</p>
+
+<h3>Use of gradients with icons</h3>
+
+<p>When icons are enabled with this list layout, gradients are automatically enabled to the bottom of the featured image. Although gradients can be still turned off even if icons are enabled.</p>
+
+
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/medium-list.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/medium-list-time-stamp.jpg" alt="T" class="last" /img>
+    <p class="caption">Just titles (left) Titles &amp; time stamps (right)</p>
+</div>
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/medium-list-icons.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/medium-list-full.jpg" alt="T" class="last" /img>
+    <p class="caption">Titles &amp; Icons (left) Titles, icons and time stamps (right)</p>
+</div>
+
+<!--------------------------- feed List --------------------------------->
+
+<h2>Feed List</h2>
+
+<h2>Introduction</h2>
+
+<p>Feed List presents list items and with an icon and the list item title.
+The icon used represents the type of content within that list item. Feed List is best suited to lists which have lots of files, images and videos for download.</p>
+
+<p>Time stamps can be enabled with this list layout. Gradients and icons are not available with this list layout.</p>
+
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/feed-list.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/feed-list-full.jpg" alt="T" class="last" /img>
+    <p class="caption">Just titles (left) Titles &amp; time stamps (right)</p>
+</div>
+<!--------------------------- gallery list ------------------------------------->
+
+
+<h2>Gallery List</h2>
+
+<h2>Introduction</h2>
+
+<p>Gallery list is the most visual list of all. It displays list items as a grid of images, like an image gallery therefore is best suited to good quality imagery. There are no list item titles displayed with this list layout.</p>
+
+<p>Gradients and icons can be used with this list layout. Time stamps cannot be enabled with this layout as each list item is displayed quite small.
+</p>
+
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/gallery-list.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/gallery-list-full.jpg" alt="T" class="last" /img>
+    <p class="caption">Icons disabled (left) Icons enabled (right)</p>
+</div>
+<!--------------------------- letterbox list ------------------------------------->
+
+<h2>Letterbox List</h2>
+
+<h2>Introduction</h2>
+
+<p>Letterbox layout presents list items 1 per row. It is similar to large mag only it has spacing around it. Letterbox List is most suited to good quality imagery. It is a very visual layout. </p>
+
+<h3>Use of gradients with icons</h3>
+<p>When icons are enabled with this list layout, gradients are automatically enabled to the top and bottom of the featured image. This is so the icon can be clearly seen against the featured image.</p>
+
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/letterbox.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/letterbox-time-stamp.jpg" alt="T" class="last" /img>
+    <p class="caption">Just titles (left) Titles &amp; time stamps (right)</p>
+</div>
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/letterbox-icons.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/letterbox-full.jpg" alt="T" class="last" /img>
+    <p class="caption">Titles &amp; Icons (left) Titles, icons and time stamps (right)</p>
+</div>
+
+ <!--------------------------- 2 column list ------------------------------------->
+
+<h2>2 Column List</h2>
+
+<h2>Introduction</h2>
+
+<p>2 column list layout presents list items 2 per row. It is similar to small list only it displays titles and time stamps beneath the featured image.</p>
+
+
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/2-column-list.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/2-column-time-stamps.jpg" alt="T" class="last" /img>
+    <p class="caption">Just titles (left) Titles &amp; time stamps (right)</p>
+</div>
+<div class="imageContainer imageContainer--two padding__50 large-img">
+	<img src="{{ site.baseurl }}/assets/images/native/2-column-icons.jpg" alt="" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/2-column-full.jpg" alt="T" class="last" /img>
+    <p class="caption">Titles &amp; Icons (left) Titles, icons and time stamps (right)</p>
+</div>
+
+ 

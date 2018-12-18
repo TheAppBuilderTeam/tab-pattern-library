@@ -1,0 +1,81 @@
+/* Styles for list layout - native 
+
+---------------------------------------------------------------- */
+.list-items li {
+        list-style: disc;
+        list-style-position: inside;
+        
+}
+
+.list-items--p {
+    padding-bottom: 12px;
+}
+
+.list-items--p2 {
+    padding-bottom: 24px;
+
+}
+
+.large-img {
+    max-width: 550px;
+}
+
+.large-img-1 {
+    
+    max-width: 400px;
+}
+/* typography tables
+------------------------------------------------------------------ */
+a{
+  cursor:pointer;
+}
+
+    .nativeText--heading1{
+     border-radius: 10px 10px 10px 10px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  color: #fff;
+  font-size: 30px;
+  @include latoRegular;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.09) 12%, rgba(0,0,0,0.76) 99%, rgba(0,0,0,0.77) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.09) 12%,rgba(0,0,0,0.76) 99%,rgba(0,0,0,0.77) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.09) 12%,rgba(0,0,0,0.76) 99%,rgba(0,0,0,0.77) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#c4000000',GradientType=0 ); /* IE6-9 */;
+}
+
+    .nativeText--heading2{
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    font-size: 22px;
+    @include latoRegular;
+    
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.09) 12%, rgba(0,0,0,0.76) 99%, rgba(0,0,0,0.77) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.09) 12%,rgba(0,0,0,0.76) 99%,rgba(0,0,0,0.77) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.09) 12%,rgba(0,0,0,0.76) 99%,rgba(0,0,0,0.77) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#c4000000',GradientType=0 ); /* IE6-9 */;
+}
+
+.webappText--heading3{
+  color: $textNavy;
+  font-size: 19px;
+  @include latoSemibold;
+}
+
+/*---------- table 2 ----------------------------------*/
+
+.nativeText--heading4 {
+    color: $nativeTitleText;
+    font-size: 24px;
+    @include latoSemibold;
+}
+
+.nativeText--heading5 {
+    color: #637289;
+    font-size: 18px;
+    @include latoRegular;
+}
+
