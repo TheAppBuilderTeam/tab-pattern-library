@@ -1,0 +1,117 @@
+/* Typography for Web App
+------------------------------------------------------------------ */
+
+@import "webapp_variables";
+
+
+/*----------- Web App Buttons and links ------------------------*/
+
+.webappButton {
+    @include fadeAnimation;
+	@include latoSemibold;
+	font-size: 15px;
+	padding: 10px 44px;
+    border-radius: 100px;
+	/*--margin: 20px 25px 5px 0;*/
+}
+
+.webappButton--disabled {
+  color: $white;
+	background: $buttonDisabled;
+	border: $buttonPrimary;
+  cursor: not-allowed;
+}
+
+.webappButton--primary{
+	color: $white;
+	background: $webappPrimary;
+    &:active {
+    color: $white;
+	background: $webappPrimary;  }
+
+	border: $webappPrimary;
+	&:hover{
+    background: lighten($webappPrimary, 5%);
+	}
+    box-shadow: 0 2px 6px 2px rgba(193,193,193,0.50);
+}
+/*--------
+.webappButton--hover {
+    color: $white;
+	background: lighten($buttonActive, 5%);
+	border: $buttonPrimary;
+	&:hover{
+    background: lighten($buttonActive, 5%);
+	}
+}
+-------*/
+
+.webappButton--pressed {
+	color: $white;
+	background: $webappPrimary;
+	border: 1px solid $webappPrimary;
+	&:visted{
+		background: darken($white, 3%);
+	}
+    box-shadow: 0 0 2px 1px rgba(193,193,193,0.50);
+}
+
+
+.webappButton--icon {
+	color: $white;
+	background: $buttonIcon;
+    &:active {
+    color: $white;
+	background: $buttonIcon;  }
+    box-shadow: 0 2px 6px 2px;
+	border: $buttonIcon;
+	&:hover{
+    background: lighten($buttonIcon, 5%);
+	}
+    position: relative;
+    padding-top: 10px;
+}
+
+.webappButton--icon {
+    padding: 10px 40px;
+}
+
+.webappButton--icon img {
+    width: 30px;
+    margin-left: 5px;
+    margin-top: -1px;
+}
+
+.contact {
+    position: absolute;
+    left: 15px;
+    bottom: 8.5px;
+}
+
+.download {
+  margin-left: 20px;
+}
+/*---------- end of buttons --------*/
+
+
+.tag{
+	font-size: 13px;
+	display: inline-block;
+	margin: 0 4px 8px;
+	color: $cmsLink;
+	background: lighten($cmsLink, 60%);
+	border-radius: 5px;
+	border: solid 1px $cmsLink;
+	padding: 6px 12px;
+}
+
+
+label{
+	@include latoBold;
+	font-size: 12px;
+	color: $buttonSecondaryText;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 0.2px;
+	padding-bottom: 3px;
+}

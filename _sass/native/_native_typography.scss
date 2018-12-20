@@ -1,0 +1,153 @@
+/* Typography for Web App
+------------------------------------------------------------------ */
+
+@import "webapp_variables";
+
+
+
+/* Main Text Styles
+------------------------------------------------------------------ */
+a{
+  cursor:pointer;
+}
+
+.webappText--heading1{
+  color: $textNavy;
+  font-size: 28px;
+  @include latoSemibold;
+}
+
+.webappText--heading2{
+  color: $textNavy;
+  font-size: 23px;
+  @include latoSemibold;
+}
+
+.webappText--heading3{
+  color: $textNavy;
+  font-size: 19px;
+  @include latoSemibold;
+}
+
+.webappText--heading4 {
+    color: $textGrey;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    @include latoBold;
+    letter-spacing: 1px; }
+
+.webappText--paragraph {
+  color: $textNavy;
+  font-size: 19px; }
+
+.webappText--paragraphlink {
+    font-size: 19px; }
+
+.webappText--paragraphlink a {
+    border-bottom: 1px solid;
+	border-color: darken($borderColor, 15%);
+    &:hover{
+    border-color: $pink;
+    cursor: pointer;
+  }
+}
+.webappText--blockquote {
+  @include latoLight;
+  color: $textNavy;
+  font-size: 23px;
+  font-style: italic;
+}
+
+.webappText--sharelink {
+  color: $webappLink;
+  font-size: 19px;
+ }
+
+.webappText--sharethispost {
+    background-image: url(../assets/images/webapp/share-icon.svg);
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-left: 50px;
+    margin-left: 130px; }
+
+.webappText--minitext {
+  color: $textGrey;
+  font-size: 15px;
+   }
+
+.webappText--socialinteraction--title {
+    color: $textGrey;
+    font-size: 15px;
+
+}
+.webappText--link {
+    color: $webappLink;
+    font-size: 15px; }
+
+.webappText--socialinteraction--like  {
+    display: inline-block;
+//    position: relative;
+    color: $textGrey}
+
+
+.social__interactions {
+    margin-left: auto;
+
+}
+
+.webappText--socialinteraction--body {
+  color: $textNavy;
+  font-size: 17px;
+}
+
+.socialinteraction--like, .socialinteraction--addcomment{
+    display: inline-block;
+}
+
+.social__action {
+    display: inline-block;
+    color: $textGrey;
+   background-repeat: no-repeat;
+    background-position-y:1px;
+    padding: 4px 20px 4px 35px;
+}
+
+.social__action--likethis {
+    background-image: url(../assets/images/webapp/like-icon.svg);
+     padding: 4px 20px 4px 35px;
+}
+
+.social__action--addcomment {
+    background-image: url(../assets/images/webapp/comment-icon.svg);
+    padding: 4px 15px 4px 37px;
+    background-position-y: 1px;
+}
+
+.social__action--likes {
+    background-image: url(../assets/images/webapp/like-small.svg);
+    padding: 4px 10px 4px 22px;
+    background-position-y: 8px;
+}
+
+.social__action--replies {
+    background-image: url(../assets/images/webapp/reply.svg);
+    padding: 4px 10px 4px 25px;
+    background-position-y: 6px;
+}
+
+
+
+/* Link Styles
+------------------------------------------------------------------ */
+
+
+
+
+
+/* Other
+------------------------------------------------------------------ */
+
+p.caption{
+
+}
