@@ -5,4 +5,44 @@ page: native-modals
 selected: native-modals
 title: Modals
 ---
-<p>Content</p>
+<p>Modals, or Dialogs, appear in front of app content to provide critical information or ask for feedback from a user, such as a decision they have to make. They disable all app functionality when they appear, and remain on screen until confirmed, dismissed, or a required action has been taken. Since modals are purposefully interruptive they should be used sparingly. </p>
+
+<p>The language used in modals or dialogs should be direct and focused, but desciptive enough to avoid any ambiguity. The messages should only be one or two line longs and sentence-style capitalisation should be used. </p>
+
+
+<h2>iOS Modals</h2>
+
+<h3>Alerts</h3>
+<p>Alerts are used to convey information that requires feedback from the user. An alert consists of a title, an optional message, one or more buttons, and optional text fields for gathering input. In most cases two-button alerts should be used to provide users with an easy choice between two actions. Confirming buttons are used to accept and continue with the action, for example, "Ok" or "Send Report," and dismissive buttons should be used to cancel the action. When user acknowledgement is required to proceed, a single action may be presented, for example, a single button with the word "Ok."</p>
+
+<h3>Action Sheets</h3>
+<p>An action sheet presents a set of two or more choices related to the current context. Use an action sheet to let people initiate tasks, or to request confirmation before performing a potentially destructive operation. Cancel buttons should always appear at the bottom of the screen and destructive or dangerous options should be at the top, coloured red.</p>
+
+<p>On smaller screens, an action sheet slides up from the bottom of the screen. On larger screens, an action sheet appears all at once as a popover.</p>
+
+<h3>Activity View</h3>
+<p>An activity view shows actions that are relevant to the current context. For example, the actions available for a piece of content include adding a bookmark, copying a link or saving image. We use the Activity View to show sharing options on a shareable piece of content within the app. </p>
+
+<h3>Popovers</h3>
+<p>Some modals will appear as Popovers on iPads since they have larger screens and this type of modal is usually larger and more complex that other modals used in iOS. They can contain a variety of elements such as navigation bars, tab bars, images, maps etc, and will generally have an arrow pointing to the location from which it emerged.</p>
+
+
+<h2>Android Dialogs</h2>
+
+<p>Dialogs are made up of a container, title (optional), supporting text and action buttons. When a dialog is on screen the rest of the UI is inaccessible and the rest of screen behind is dimmed down, or "scrimmed." </p>
+
+<p>Titles should be a brief, clear statement or question and should avoid ambiguous questions such as "Are you sure?" The dialogs should also contain two action buttons side by side; one confirming button to accept and continue with the action displayed right, and the dismissive action to cancel displayed left. However in stacked full-width buttons can be used to accomomdate longer button text. When these are used Confirming buttons should appear above dismissive actions. Buttons can also be neutral, for example when a user does not want to proceed with the action, but doesn't necessarily want to cancel. It appears between the positive and negative buttons. For example, the action might be "Remind me later."  </p>
+
+
+<h3>Alert Dialog</h3>
+<p>Alert dialogs interrupt the user with urgent information, details, or actions and the user must select one of its actions to close it. These dua</p.
+
+<h3>Simple Dialog</h3>
+<p>Simple dialogs display  list of items that take immediate effect when selected, so they do not need an OK or Cancel button. Users can cancel the action by tapping on another part of the screen that isn't the dialog, known in Android as the scrim.</p>
+
+<h3>Confirmation Dialog</h3>
+<p>These are similar to Simple Dialogs in that they can display a list of items that a user can select from, however confirmation dialogs require users to confirm a choice before the dialog is dismissed.</p>
+
+
+<h2>Destructive Buttons</h2>
+<p>It is important to identify dangerous or destructive buttons to users by using red text to highlight the button, rather than the standard blue button colour as this warns the user and encourages them to think if this action is definitely one they want to go through with. For example, actions such as "Clear Cache" and "Delete" should be highlighted in red when presented in modals. </p>
