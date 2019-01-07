@@ -3,7 +3,7 @@ layout: native-layout
 platform: native app
 page: native-modals
 selected: native-modals
-title: Modals
+title: Modal Types & Mapping Modals Cross Platform
 ---
 <p>Modals, or Dialogs, appear in front of app content to provide critical information or ask for feedback from a user, such as a decision they have to make. They disable all app functionality when they appear, and remain on screen until confirmed, dismissed, or a required action has been taken. Since modals are purposefully interruptive they should be used sparingly. </p>
 
@@ -78,6 +78,41 @@ title: Modals
 	<p class="caption">Potentially dangerous or destructive actions such as clearing the cache or reporting a comment should be highlighted with the red colour</p>
 </div>
 
-<!-- <h2>Modals in Action</h2>
-<p>See an example of how we use Android and iOS modals and interaction in our Report a Comment feature.</p>
-<a href="{{ site.baseurl }}/cms/social-interactions/">See example</a> -->
+<h2>Mapping Modals in iOS and Android</h2>
+<p>When creating interactions in our mobile apps using Xamarin we can call a modal type that will display a certain alert on iOS and a certain dialog in Android devices. Below is a list of modal types we generally refer to at TheAppBuilder and how they should look in each operating system. </p>
+
+<h3>Dismissive Alert</h3>
+<p>These should call an iOS alert and Android dialog with a single action button. Often this action is OK. Note that when only one sentence of text is required in an alert iOS should show it as title text but Android should show it as paragraph text.</p>
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/native/modal-mapping-dismissive-alert.jpg" alt="" /img>
+	<p class="caption">Dismissive Alerts show only one action button</p>
+</div>
+
+<h3>Standard Alert</h3>
+<p>These should call an iOS alert and Android dialog with two action buttons, one confirming and one dismissive. Often these alerts will contain both a title and paragraph text. Note that the optional text type is different in Android and iOS. If only a short sentence is needed for the alert it should be styled as a title in an iOS alert, while it should be styled as paragraph text in the Android dialog with no title.</p>
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/native/modal-mapping-standard-alert.jpg" alt="" /img>
+	<p class="caption">Standard alerts show two action buttons - one a confirming action, one dismissive</p>
+</div>
+
+
+<h3>Multiple Action Alert</h3>
+<p>When more than two action buttons are needed multiple action alerts can be called. Buttons are vertically stacked in these type of alerts.</p>
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/native/modal-mapping-multiple-action-alert.jpg" alt="" /img>
+	<p class="caption">Multiple action buttons can be displayed in an Multiple Action Alert</p>
+</div>
+
+<h3>Context Menu</h3>
+<p>Options related to a particular context of a page or section are often called with Context menus, for example when accessing interaction options for a comment.</p>
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/native/modal-mapping-context-menu.jpg" alt="" /img>
+	<p class="caption">Context menus call iOS action sheet and Android context menu</p>
+</div>
+
+<h3>Alert with Input</h3>
+<p>When a user needs to input their own text they can call an alert with an input field (containing placeholder text). These should also have a confirmation action and dismissive action. Note that iOS input alerts do not have titles. </p>
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/native/modal-mapping-alert-with-input.jpg" alt="" /img>
+	<p class="caption">Alerts with inputs in both iOS and Android</p>
+</div>
