@@ -2,3 +2,58 @@
 ------------------------------------------------------------------ */
 
 @import "native_variables";
+
+
+.nativeButton{
+  @include fadeAnimation;
+  @include latoBold;
+  font-size: 17px;
+	padding: 11px 90px;
+  border-radius: 100px;
+  margin: 10px 20px 10px 0px;
+}
+
+.primaryButton{
+  background-color: #89BE2C;
+  color: $white;
+  &--pressed{
+    background: darken(#89BE2C,8%);
+    color: $white;
+  }
+  &--disabled{
+    color: rgba(255,255,255,0.5);
+  }
+}
+
+.floatingButton{
+  background-color: #EF353C;
+  color: $white;
+  box-shadow: 0 5px 8px 3px rgba(0,0,0,0.31);
+  padding: 10px 40px 11px;
+  &--pressed{
+    background: darken(#EF353C,8%);
+    color: $white;
+  }
+  &--disabled{
+    color: rgba(255,255,255,0.5);
+  }
+}
+
+.secondaryButton{
+  background-color: $white;
+  color: $PrimaryBodyColour;
+  border: 1px solid $SubtleGrey;
+  padding: 8px 50px 11px 50px;
+  &--pressed{
+    background-color: #F4F4F4;
+  }
+  &--disabled{
+    color: $PlaceholderColour;
+  }
+}
+
+.secondaryButton img, .secondaryButton--pressed img, .secondaryButton--disabled img{
+  display: inline-block;
+  width: 18px;
+  margin: 6px 5px 0 0;
+}
