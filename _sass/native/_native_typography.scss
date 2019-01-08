@@ -40,6 +40,12 @@ a{
   color: $PrimaryBodyColour;
   font-size: 17px;
   @include latoRegular;
+	a{
+		border-bottom: 1px solid $BorderGrey;
+		&:hover{
+			border-color: $PrimaryBodyColour;
+		}
+	}
 }
 
 .mobileModularPage__heading1{
@@ -99,6 +105,15 @@ a{
   line-height: 1.3em;
   @include latoRegular;
 }
+
+.mobileModularPage__caption{
+  color: $SecondaryBodyColour;
+  font-size: 14px;
+  line-height: 1.2em;
+  @include latoRegular;
+}
+
+
 
 
 /* Screen Styles
