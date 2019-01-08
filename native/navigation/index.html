@@ -1,0 +1,28 @@
+---
+layout: native-layout
+platform: native app
+page: native-navigation
+selected: native-navigation
+title:  Navigation
+---
+
+<h2>Colours</h2>
+<p>Since the background colour of the title bar can be any colour specified by the App Editor, the overlaid title text and icons must be adaptable.</p>
+<p>We export 2 versions of each icon that are displayed on the title bar, a light version (white) and dark version (black). A specific colour algorithm to identify if the background colour is considered light or dark, enabling us to choose whether black or white text/icons would be more suitable the app.</p>
+<p>The colour of the status bar will also change according to background to colour on iOS, but status bars on Android should not affected.</p>
+
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/native/title-bar-colours.jpg" alt="Color differences in titlebars" /img>
+	<p class="caption">The background of the title bar determines the text and icon colour</p>
+</div>
+
+
+<h2>Title Bars</h2>
+<p>While most of the UI in the mobile apps remain identical, there are some elements which are specific to their operating system. This includes back buttons. Both iOS and Android use their default back arrows which looks distinct. </p>
+<p>The placement of the title is slightly different on the operating sustems too as iOS centers titles but Android places titles more to the left side of the titlebar. Icons in the titlebar should be right-aligned. </p>
+
+
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/native/os-differences-titlebar.jpg" alt="OS differences in titlebars" /img>
+	<p class="caption">Back arrows and the placement of titles differs in iOS and Android</p>
+</div>
