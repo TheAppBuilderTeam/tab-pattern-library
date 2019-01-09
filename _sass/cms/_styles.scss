@@ -91,7 +91,28 @@ button{
 	border: none;
 	margin: 15px 15px 15px 0;
 }
+/* widget buttons 
+.widget-button {
+    @include fadeAnimation;
+	@include latoSemibold;
+	font-size: 15px;
+	padding: 20px 20px;
+	border-radius: 5px;
+	border: none;
+	margin: 15px 15px 15px 0
+    
+}
 
+.widget-button--primary {
+    color: $white;
+	background: $buttonPrimary;
+	border: $buttonPrimary;
+	&:hover{
+		background: darken($buttonPrimary, 5%);
+	}
+    
+}
+*/
 .button--primary{
 	color: $white;
 	background: $buttonPrimary;
@@ -101,6 +122,49 @@ button{
 	}
 }
 
+
+.button--widget {
+    @include fadeAnimation;
+	@include latoSemibold;
+	border-radius: 5px;
+    padding: 20px 30px 20px 30px;
+	background: $white;
+	border:1px solid $buttonSecondary;
+	
+}
+
+/* .button--widget--1 {
+    &:hover{
+		background: darken($buttonWidget, 5%);
+	}
+    
+} */
+
+.button--widget--1 {
+    &:hover:not(.active) {
+                
+webkit-box-shadow: 4px 5px 25px -4px rgba(141,141,141,0.39);
+moz-box-shadow: 4px 5px 25px -4px rgba(141,141,141,0.39);
+box-shadow: 4px 5px 25px -4px rgba(141,141,141,0.39);
+    }
+    
+    &:active {	
+        background: darken($buttonWidget, 5%);
+    }
+}
+
+.button--widget img {
+    
+  width: 50px;
+}
+
+.button--widget--3 img {
+    width: 60px;
+}
+
+.button--widget--3 {
+    padding: 20px 30px 20px 20px;
+}
 .button--secondary{
 	color: $buttonSecondaryText;
 	background: $white;
@@ -108,6 +172,8 @@ button{
 	&:hover{
 		background: darken($white, 3%);
 	}
+    &:active {
+        }
 }
 
 .button--mini{
