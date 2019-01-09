@@ -55,5 +55,6 @@
 .secondaryButton img, .secondaryButton--pressed img, .secondaryButton--disabled img{
   display: inline-block;
   width: 18px;
+  max-width: 18px;
   margin: 6px 5px 0 0;
 }
