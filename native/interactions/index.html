@@ -1,0 +1,44 @@
+---
+layout: native-layout
+platform: native app
+page: native-typography
+selected: native-typography
+title:  Android vs iOS Interactions
+---
+
+<p>With TheAppBuilder mobile app being cross-platform it's important to consider the user experience and specific interactions on both Android and iOS when designing and developing features. While we aim to build a consistent experience across the two platforms, there will always be some differences with user interaction on different devices and operating systems. </p>
+
+<h2>People Directory Search</h2>
+
+<p>Search functionality is employed in TheAppBuilder mobile apps in the People Directory. When performing a search in Android the user must press the search icon in the top right corner. The title bar then changes into a search bar, with a back button and placeholder text in the search input field. The keyboard slides up allowing the user to begin typing and list of people is filtered as characters are entered. </p>
+
+[images of search flow Android - 3 screens]
+
+<p>On iOS devices the search field is always present on the people directory list. The search box will highloght and the cancel button will then appear next to the searchbox when the user taps into it to type their search query. </p>
+
+[images of search flow Android - 2 screens]
+
+
+<h2>External Sharing</h3>
+<p>Modular pages can be made shareable so users can post a link to it on social media or copy the URL into their clipboard. If a page is shareable it will have a share icon displayed on the page, typically in the title bar and at the bottom of the content. When a user taps on this share link it will open the share action sheet native to the device that provide many sharing options. </p>
+
+[images of sharing on each device - 2 screens]
+
+<h2>Confirming Actions</h2>
+<p>Often users will be shown a modal with choices to allow them to confirm or cancel their action. The modals they will see will differentiate quite widely depending on the operating system of there device.</p>
+
+<p>When a user taps on the logout link in the menu they will be presented with a modal. The secondary option should be placed to the left (e.g. Cancel), while the primary option, on the right (e.g. Logout, Clear, Retry). Destructive or "negative" options should be red on both iOS and Android. </p>
+
+[logout - 2 screens]
+
+<p>Modals in Android and iOS will not always map directly, for example, when clearing cache the iOS user will see the action sheet showing the question and the primary option below, with cancel at the bottom of the screen. However Android shows a modal in the middle of the screen with the question in title text.<p>
+
+[clear cache - 2 screens]
+
+<h2>Language and tone</h2>
+<p>Language used in modals and alerts on each device will often differ. Google Material outlines that messages should be friendly and succinct. They should use casual language, however iOS Guidelines ask that language should be direct, clear and often it looks more formal. iOS often uses a title and supporting sentence in its modals whereas Android often just shows a single sentence to denote a message. </p>
+
+[retry download - 2 screens]
+
+<h2>Reporting Comments</h2>
+<p>Users have the ability to report comments posted by others if they feel they are inappropriate or offensive. They are able to access this option by tapping on the "more" icon shown as the vertical ellipses to the right of each comment. This will open the actionsheet with the rrEPO</p>

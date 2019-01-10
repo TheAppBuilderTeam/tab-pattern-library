@@ -1,0 +1,144 @@
+/* Typography for Web App
+------------------------------------------------------------------ */
+
+@import "native_variables";
+
+@mixin latoLight{
+	font-weight: 300;
+}
+
+@mixin latoRegular{
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+@mixin latoMedium{
+	font-weight: 500;
+}
+
+@mixin latoSemibold{
+	font-weight: 600;
+}
+
+@mixin latoBold{
+	font-weight: 700;
+	letter-spacing: -0.32px;
+}
+
+@mixin latoHeavy{
+	font-weight: 800;
+}
+
+
+/* Modular Text Styles
+------------------------------------------------------------------ */
+a{
+  cursor:pointer;
+}
+
+.mobileModularPage__paragraph{
+  color: $PrimaryBodyColour;
+  font-size: 17px;
+  @include latoRegular;
+	a{
+		border-bottom: 1px solid $BorderGrey;
+		&:hover{
+			border-color: $PrimaryBodyColour;
+		}
+	}
+}
+
+.mobileModularPage__heading1{
+  color: $PrimaryBodyColour;
+  font-size: 26px;
+  @include latoLight;
+}
+
+.mobileModularPage__heading2{
+  color: $PrimaryBodyColour;
+  font-size: 21px;
+  @include latoLight;
+}
+
+.mobileModularPage__heading3{
+  color: $PrimaryBodyColour;
+  font-size: 18px;
+  @include latoSemibold;
+}
+
+.mobileModularPage__heading4{
+  color: $SecondaryBodyColour;
+  font-size: 15px;
+  letter-spacing: 0.8px !important;
+  text-transform: uppercase;
+  @include latoBold;
+}
+
+.mobileModularPage__blockquoteone{
+  color: $PrimaryBodyColour;
+  font-size: 22px;
+  font-style: italic;
+  @include latoLight;
+}
+
+.mobileModularPage__socialStats{
+  color: $MetaTextColour;
+  font-size: 14px;
+  @include latoRegular;
+}
+
+.mobileModularPage__commenter{
+  color: $PrimaryBodyColour;
+  font-size: 15px;
+  @include latoBold;
+}
+
+.mobileModularPage__metatext{
+  color: $MetaTextColour;
+  font-size: 13px;
+  @include latoRegular;
+}
+
+.mobileModularPage__commentBody{
+  color: $PrimaryBodyColour;
+  font-size: 16px;
+  line-height: 1.3em;
+  @include latoRegular;
+}
+
+.mobileModularPage__caption{
+  color: $SecondaryBodyColour;
+  font-size: 14px;
+  line-height: 1.2em;
+  @include latoRegular;
+}
+
+
+
+
+/* Screen Styles
+------------------------------------------------------------------ */
+
+.mobileScreen__heading1{
+  color: $PrimaryBodyColour;
+  font-size: 23px;
+  @include latoRegular;
+}
+
+.mobileScreen__paragraph{
+  color: $PrimaryBodyColour;
+  font-size: 16px;
+  @include latoRegular;
+}
+
+.mobileScreen__link{
+  color: $LinkColour;
+  font-size: 16px;
+  @include latoRegular;
+}
+
+.mobileScreen__meta{
+  color: $SecondaryBodyColour;
+  font-size: 13px;
+  @include latoRegular;
+}

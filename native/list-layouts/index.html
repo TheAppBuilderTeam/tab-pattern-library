@@ -4,11 +4,11 @@ platform: native app
 page: native-list-layouts
 selected: native-layouts
 title:  List Layouts
---- 
+---
 <p>List layouts are used throughout the native app as a way to display list items. They give content structure and visually organise it.</p>
 
 <p class="list-items--p">List items include:</p>
-<ul class="list-items"  markdown="0">
+<ul class="main__content__ul">
     <li>Pages</li>
     <li>Lists (within lists)</li>
     <li>Images</li>
@@ -24,11 +24,8 @@ title:  List Layouts
 <!----------------------list items--------------------------------------->
 
 <h2>List Items</h2>
-
 <p class="list-items--p">List items are the blocks which contain content within a list. The elements that make up a list item are:</p>
-
-
-<ul class="list-items"  markdown="0">
+<ul class="main__content__ul">
     <li>Title</li>
     <li>Icon (if enabled)</li>
     <li>Time Stamp (if enabled)</li>
@@ -43,36 +40,30 @@ title:  List Layouts
 <div class="imageContainer imageContainer--two padding__50">
 	<img src="{{ site.baseurl }}/assets/images/native/letterbox-full.jpg" alt="" /img>
 	<img src="{{ site.baseurl }}/assets/images/native/large-mag-full.jpg" alt="T" class="last" /img>
-	<p class="caption">Letterbox (left) and Large mag (right) containing all the elements that make up a list item.</p> 
+	<p class="caption">Letterbox (left) and Large mag (right) containing all the elements that make up a list item.</p>
 </div>
 --------------->
 
-<h2>Displaying Icons
-</h2>
-<p>Icons are displayed underneath the list item title or positioned on the featured image. Icons are displayed with a line of text depending on the list item type. For example, a page list item is displayed with a page icon and ‘read post’ written next to it. </p><p>Here are the typography styles for the icon text:</p>
-
-<ul class="list-items"  markdown="0">
-
+<h2>Displaying Icons</h2>
+<p class="list-items--p">Icons are displayed underneath the list item title or positioned on the featured image. Icons are displayed with a line of text depending on the list item type. For example, a page list item is displayed with a page icon and ‘read post’ written next to it. Here are the typography styles for the icon text:</p>
+<ul class="main__content__ul">
 <li>Lato, Regular</li>
 <li>26pt</li>
 <li>#FFFFFF</li>
 <li>Left aligned</li>
 </ul>
 
-<h2>Displaying Time Stamps
-</h2>
-<div>
-<p>The time/date preference that is displayed is determined by the app editor in the CMS. They can choose to display time updated or time posted.</p>
-<ul class="list-items">
+<h2>Displaying Time Stamps</h2>
+<p class="list-items--p">The time/date preference that is displayed is determined by the app editor in the CMS. They can choose to display time updated or time posted.</p>
+
+<ul class="main__content__ul">
 <li>Display minutes up to 59 mins then switch to hours</li>
 <li>Display hours up to 23 hours then switch to days</li>
 <li>Display days up to 7 days then display date</li>
 </ul>
-</div>
+
 <h2>Typography</h2>
-
 <h3>Titles, time stamps &amp; icon text</h3>
-
 <p>The same typography styles are used throughout on each list layout. Titles and time stamps are mostly the same on each list layout, apart from a select few.</p>
 <p>Time stamps follow the same style throughout the list layouts, apart from in some they change from white to dark blue.</p>
 
@@ -185,9 +176,6 @@ title:  List Layouts
 <!--------------------------- large mag --------------------------------->
 
 <h2>Large Mag</h2>
-
-<h2>Introduction</h2>
-
 <p>Large Mag presents list items one per row and is best suited to lists that have good quality imagery as this list is very visual.</p>
 
 <div class="imageContainer imageContainer--two padding__50 large-img">
@@ -207,9 +195,6 @@ Icons are displayed underneath the list item title. Icons are displayed with a l
 <!--------------------------- small mag --------------------------------->
 
 <h2>Small Mag</h2>
-
-<h2>Introduction</h2>
-
 <p>
 Small Mag presents list items 2 per row and is best suited to lists that have good quality imagery. Similar to Large Mag it is very visual and focussed on the featured image.</p>
 
@@ -231,9 +216,6 @@ When icons are enabled with this list layout, gradients are automatically enable
 <!--------------------------- small List --------------------------------->
 
 <h2>Small List</h2>
-
-<h2>Introduction</h2>
-
 <p>Small List presents list items 1 per row and presents the list item title clearly beside it in a dark blue colour.</p>
 
 <h3>Use of gradients with icons</h3>
@@ -255,9 +237,6 @@ When icons are enabled with this list layout, gradients are automatically enable
 <!--------------------------- medium List --------------------------------->
 
 <h2>Medium List</h2>
-
-<h2>Introduction</h2>
-
 <p> Medium List presents list items 1 per row and presents the list item title clearly beside it in a dark blue colour.</p>
 
 <h3>Use of gradients with icons</h3>
@@ -279,9 +258,6 @@ When icons are enabled with this list layout, gradients are automatically enable
 <!--------------------------- feed List --------------------------------->
 
 <h2>Feed List</h2>
-
-<h2>Introduction</h2>
-
 <p>Feed List presents list items and with an icon and the list item title.
 The icon used represents the type of content within that list item. Feed List is best suited to lists which have lots of files, images and videos for download.</p>
 
@@ -296,9 +272,6 @@ The icon used represents the type of content within that list item. Feed List is
 
 
 <h2>Gallery List</h2>
-
-<h2>Introduction</h2>
-
 <p>Gallery list is the most visual list of all. It displays list items as a grid of images, like an image gallery therefore is best suited to good quality imagery. There are no list item titles displayed with this list layout.</p>
 
 <p>Gradients and icons can be used with this list layout. Time stamps cannot be enabled with this layout as each list item is displayed quite small.
@@ -312,9 +285,6 @@ The icon used represents the type of content within that list item. Feed List is
 <!--------------------------- letterbox list ------------------------------------->
 
 <h2>Letterbox List</h2>
-
-<h2>Introduction</h2>
-
 <p>Letterbox layout presents list items 1 per row. It is similar to large mag only it has spacing around it. Letterbox List is most suited to good quality imagery. It is a very visual layout. </p>
 
 <h3>Use of gradients with icons</h3>
@@ -334,9 +304,6 @@ The icon used represents the type of content within that list item. Feed List is
  <!--------------------------- 2 column list ------------------------------------->
 
 <h2>2 Column List</h2>
-
-<h2>Introduction</h2>
-
 <p>2 column list layout presents list items 2 per row. It is similar to small list only it displays titles and time stamps beneath the featured image.</p>
 
 
@@ -350,5 +317,3 @@ The icon used represents the type of content within that list item. Feed List is
 	<img src="{{ site.baseurl }}/assets/images/native/2-column-full.jpg" alt="T" class="last" /img>
     <p class="caption">Titles &amp; Icons (left) Titles, icons and time stamps (right)</p>
 </div>
-
- 

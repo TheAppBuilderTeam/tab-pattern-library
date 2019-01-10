@@ -1,0 +1,41 @@
+---
+layout: native-layout
+platform: native app
+page: native-ugc
+selected: native-ugc
+title:  Iconography
+---
+
+<h2>Naming Icons</h2>
+<p>A particular naming convention should be applied to all icons created for the mobile apps. The rules for the icon naming convention are described below: </p>
+<ul class="main__content__ul">
+  <li>Names should be short, indicative of icon use e.g. downloadcontent.png, bin.png, editprofile.png</li>
+  <li>They should be all lowercase and contain no special characters or spaces</li>
+  <li>Since branding can be applied to the app it is sometimes necessary to have light and dark versions of an icon if they are used in the app title bar or onboarding screen. Light (white) icons are the default and their name remains the same, however they should have "dark" appended to the end of the name if its the dark (black) version of the icon. e.g. notification.png, notificationdark.png</li>
+</ul>
+
+<h2>Preparing Icons for Developers</h2>
+<p>The icons need to be exported at different sizes and filetypes for use in the Android and iOS apps. When preparing icons for a developer the icons should be exported into a parent folder with the icon name, for example Icon - Notification. Within this folder there are 2 folders - "ios" and "android".</p>
+<p>The icon should be exported as a PDF into the iOS folder since this vector icon can be used in the iOS app.</p>
+<p>Android, however, needs the icons in various sizes. The icon should be exported as a PNG at the follow sizes: 1x, 1.5x, 2x, 3x, 4x, and each needs to be in their own separate folder with a specific name. The names of the folder, along with the PNG icon size is listed below:</p>
+<ul class="main__content__ul">
+  <li>1x - drawable</li>
+  <li>1.5x - drawable-hdpi</li>
+  <li>2x - drawable-xhdpi</li>
+  <li>3x - drawable-xxhdpi</li>
+  <li>4x - drawable-xxxhdpi</li>
+</ul>
+
+<div class="imageContainer imageContainer--one padding__50">
+<img src="{{ site.baseurl }}/assets/images/native/icon-naming.jpg" alt="" /img>
+<p class="caption">Icons shown in correct folder structure</p>
+</div>
+
+<h2>Exporting from Sketch</h2>
+<p>Designers exporting icons from designs should use a preset to export the various filetypes and sizes needed for the developers. They can create an export setting specifically for Android by adding the icons in the 5 different sizes needed, and writing the name of the folder in the Prefix/Suffix field in the export panel.</p>
+<p>Note that the screens are designed at 2x to allow for retina previews on Sketch Mirror. To efficently export these icons you should first scale the icons to 50%, making them the 1x version, before exporting them using your Android and iOS presets. </p>
+
+<div class="imageContainer imageContainer--one padding__50">
+<img src="{{ site.baseurl }}/assets/images/native/icon-exporting-sketch-detail.jpg" alt="" /img>
+<p class="caption">Icons should first be scaled to be 1x, then exported using Sketch's export panel to the various sizes required</p>
+</div>

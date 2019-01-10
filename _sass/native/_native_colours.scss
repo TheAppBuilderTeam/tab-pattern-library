@@ -1,0 +1,29 @@
+li.colour__block {
+width: 22.6%;
+margin-right: 2%;
+height: 135px;
+display: inline-block;
+position: relative;
+border-radius: 7px; }
+
+li.colour__block:last-child {
+margin-right: 0; }
+
+li.colour__block--PrimaryBodyColour {
+background: #343D4C; }
+li.colour__block--SecondaryBodyColour {
+background: #637289; }
+li.colour__block--PlaceholderColour {
+background: #9CA9BC; }
+li.colour__block--MetaTextColour {
+background: #738BB2; }
+li.colour__block--BorderGrey {
+background: #C9C9C9; }
+li.colour__block--SubtleGrey {
+background: #E2E2E2; }
+li.colour__block--LikeIconColour {
+background: #D22B36; }
+li.colour__block--CommentIconColour {
+background: #738BB2; }
+li.colour__block--LinkColour {
+background: #106DE0; }

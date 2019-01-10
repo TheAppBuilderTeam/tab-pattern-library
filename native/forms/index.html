@@ -1,0 +1,78 @@
+---
+layout: native-layout
+platform: native app
+page: native-forms
+selected: native-forms
+title:  Forms
+---
+<p>Forms are used throughout the iOS and Android as they allow users to be onboarded, update their profile and post content in User Generated Content lists.</p>
+
+<p>The forms should be succinct and not require a lot of work to be carried about by the user. Processes that require users to provide a lot of information, such as onboarding, should be broken down into smaller steps, with only 1-3 inputs needed from the user on each screen.</p>
+
+<h2>Styling Forms</h2>
+
+<p>Most of the form fields used throughout the mobile apps are what we commonly refer to as "icon-escorted fields" as the the label and input are also accompanied by an icon to allow users to swiftly identify the field purpose.</p>
+
+<p>TheAppBuilder platform allows clients to brand their app in various ways, including the background colour and button colour of their login and registration screens. The text colours are then set dynamically using an algorithm that determines whether to use dark or light text, depending on the background colour.</p>
+
+<h3>Default Theme</h3>
+<p>While the app can be themed by the client in the CMS, a default theme should be applied initially. This "default theme" is also present once the user is logged into the app, as the brand colours are only displayed in the title bar and buttons and the background colour remainds white. </p>
+
+<p>For default themed forms the icon and label should be SecondaryBodyColour in colour, the placeholder text should be PlaceholderColour and input text should be PrimaryBodyColour. </p>
+<ul class="main__content__ul">
+  <li>Label: SecondaryBodyColour </li>
+  <li>Icon: SecondaryBodyColour </li>
+  <li>User Input: PrimaryBodyColour</li>
+  <li>Placeholder: PlaceholderColour</li>
+  <li>Bottom border (Default): BorderGrey</li>
+  <li>Bottom border (Focus): LinkBlue</li>
+  <li>Helper text: MetaTextColour</li>
+</ul>
+
+<div class="imageContainer imageContainer--two padding__50">
+	<img src="{{ site.baseurl }}/assets/images/native/forms-default-theme.jpg" alt="Default Form Styles" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/forms-edit-profile-ios.jpg" alt="Default Form Styles" class="last" /img>
+	<p class="caption">Onboarding screens showing the light theme (SSE) and dark theme (Snapchat)</p>
+</div>
+
+
+<h3>Light Theme</h3>
+<p>When a client sets a brand colour for their app that is considered a dark colour requiring light text, the app will use the Light Theme. The colours for for each element are shown below.</p>
+<ul class="main__content__ul">
+  <li>Label: White </li>
+  <li>Icon: White </li>
+  <li>User Input: White</li>
+  <li>Placeholder: White, 40% Opacity</li>
+  <li>Bottom border (Default): White, 25% Opacity</li>
+  <li>Bottom border (Focus): White</li>
+  <li>Helper text: White, 65% Opacity</li>
+</ul>
+
+<div class="imageContainer imageContainer--two padding__50">
+	<img src="{{ site.baseurl }}/assets/images/native/forms-light-theme.jpg" alt="Light Themed Form" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/forms-dark-theme.jpg" alt="Dark Themed Form" class="last" /img>
+	<p class="caption">Onboarding screens showing the light theme (SSE) and dark theme (Snapchat)</p>
+</div>
+
+<h3>Dark Theme</h3>
+<p>When a client sets a brand colour for their app that is considered a light colour requiring dark text, the app will use the Light Theme. The colours for for each element are shown below.</p>
+<ul class="main__content__ul">
+  <li>Label: Black </li>
+  <li>Icon: Black </li>
+  <li>User Input: Black</li>
+  <li>Placeholder: Black, 40% Opacity</li>
+  <li>Bottom border (Default): Black, 25% Opacity</li>
+  <li>Bottom border (Focus): Black</li>
+  <li>Helper text: Black, 65% Opacity</li>
+</ul>
+
+<p>Note that button background colour can also be customised by the App Editor, but colour of the text is set by the algorithm and should be either black or white. </p>
+
+<h2>Error Handling</h2>
+<p>Error alerts are used to show users errors they have made when filling out forms in the app. If the form is relevant to one specific field it will appear under the field in question with a small arrow pointing up at it. If it is a more generic error, for example if a user's username/password combination is incorrect, the error alert will appear at the top of the form with no arrow. </p>
+
+<div class="imageContainer imageContainer--two padding__50">
+	<img src="{{ site.baseurl }}/assets/images/native/forms-general-error.jpg" alt="General Error" /img>
+	<img src="{{ site.baseurl }}/assets/images/native/forms-field-error.jpg" alt="Field Error" class="last" /img>
+	<p class="caption">General error (left) and specific field error </p>
+</div>

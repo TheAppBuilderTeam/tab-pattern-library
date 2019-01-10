@@ -1,0 +1,60 @@
+/* Buttons for native app
+------------------------------------------------------------------ */
+
+@import "native_variables";
+
+
+.nativeButton{
+  @include fadeAnimation;
+  @include latoBold;
+  font-size: 17px;
+	padding: 13px 90px;
+  border-radius: 100px;
+  margin: 10px 20px 10px 0px;
+}
+
+.primaryButton{
+  background-color: #89BE2C;
+  color: $white;
+  &--pressed{
+    background: darken(#89BE2C,8%);
+    color: $white;
+  }
+  &--disabled{
+    color: rgba(255,255,255,0.5);
+  }
+}
+
+.floatingButton{
+  background-color: #EF353C;
+  color: $white;
+  box-shadow: 0 4px 6px 2px rgba(0,0,0,0.25);
+  padding: 12px 40px 13px;
+  &--pressed{
+    background: darken(#EF353C,8%);
+    color: $white;
+  }
+  &--disabled{
+    color: rgba(255,255,255,0.5);
+  }
+}
+
+.secondaryButton{
+  background-color: $white;
+  color: $PrimaryBodyColour;
+  border: 1px solid $SubtleGrey;
+  padding: 10px 50px 13px 50px;
+  &--pressed{
+    background-color: #F4F4F4;
+  }
+  &--disabled{
+    color: $PlaceholderColour;
+  }
+}
+
+.secondaryButton img, .secondaryButton--pressed img, .secondaryButton--disabled img{
+  display: inline-block;
+  width: 18px;
+  max-width: 18px;
+  margin: 6px 5px 0 0;
+}
