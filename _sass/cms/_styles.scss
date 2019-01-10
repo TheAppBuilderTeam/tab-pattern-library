@@ -91,28 +91,7 @@ button{
 	border: none;
 	margin: 15px 15px 15px 0;
 }
-/* widget buttons 
-.widget-button {
-    @include fadeAnimation;
-	@include latoSemibold;
-	font-size: 15px;
-	padding: 20px 20px;
-	border-radius: 5px;
-	border: none;
-	margin: 15px 15px 15px 0
-    
-}
 
-.widget-button--primary {
-    color: $white;
-	background: $buttonPrimary;
-	border: $buttonPrimary;
-	&:hover{
-		background: darken($buttonPrimary, 5%);
-	}
-    
-}
-*/
 .button--primary{
 	color: $white;
 	background: $buttonPrimary;
@@ -133,12 +112,6 @@ button{
 	
 }
 
-/* .button--widget--1 {
-    &:hover{
-		background: darken($buttonWidget, 5%);
-	}
-    
-} */
 
 .button--widget--1 {
     &:hover:not(.active) {
@@ -165,6 +138,17 @@ box-shadow: 4px 5px 25px -4px rgba(141,141,141,0.39);
 .button--widget--3 {
     padding: 20px 30px 20px 20px;
 }
+
+.button--widget--4 img {
+    width: 60px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button--widget--4 {
+    padding: 20px 20px 20px 20px;
+}
+
 .button--secondary{
 	color: $buttonSecondaryText;
 	background: $white;
