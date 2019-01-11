@@ -119,17 +119,30 @@ button {
 }
 
 
-.main__content .button--widget img {
+.main__content .button--widget--content img {
     width: 100%;
     max-width: 40px;
     max-height: 40px;
 }
 
-.button--widget--control img {
-    max-height: 11px;
-    max-width: 11px;
+.main__content .button--widget--control img {
+    width: 100%;
+    max-height: 16px;
+    max-width: 16px;
 }
-
+.button--widget--control {
+    width: 40px;
+    height: 40px;
+    border: 1px solid $buttonSecondary;
+    &:hover:not(.active) {
+    webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+    moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    }
+    &:active {
+        background: darken($buttonWidget, 5%);
+    }
+}
 .button--secondary {
     color: $buttonSecondaryText;
     background: $white;
