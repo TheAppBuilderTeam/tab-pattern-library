@@ -1,19 +1,22 @@
----
-layout: default
-platform: cms
-page: cms-buttons
+--- 
+layout: default 
+platform: cms 
+page: cms-buttons 
 selected: cms-buttons
-title: Buttons & Links
+title: Buttons & Links 
 ---
+
+
+
 <p>Throughout the Org Admin screens in the content management system we the primary button to allow users to perform core actions such as saving changes to forms or adding users to user groups or channels. </p>
 
 <h2>Primary button</h2>
 <p>The primary button should only be used for positive, progressive actions. The primary button will appear grey (disabled state) until the user takes an action like updating the form on the page, then it will be blue to indicate changes have been made and that they are able to save them.</p>
 
 <div class="imageContainer imageContainer--two padding__50">
-	<img src="{{ site.baseurl }}/assets/images/cms/buttons/buttons-inactive.jpg" alt="Buttons before and after edits have been made to the user's profile" /img>
-	<img src="{{ site.baseurl }}/assets/images/cms/buttons/buttons-active.jpg" alt="Buttons before and after edits have been made to the user's profile" class="last" /img>
-	<p class="caption">Buttons before and after edits have been made to the user's profile</p>
+    <img src="{{ site.baseurl }}/assets/images/cms/buttons/buttons-inactive.jpg" alt="Buttons before and after edits have been made to the user's profile" /img>
+    <img src="{{ site.baseurl }}/assets/images/cms/buttons/buttons-active.jpg" alt="Buttons before and after edits have been made to the user's profile" class="last" /img>
+    <p class="caption">Buttons before and after edits have been made to the user's profile</p>
 </div>
 
 <h2>Secondary button</h2>
@@ -21,17 +24,17 @@ title: Buttons & Links
 
 <p>The button elements are shown below. Note that the background of the secondary button is transparent rather than white. </p>
 
-<div class="main__content__block textWidth padding__50"  markdown="0">
-	<button class="button--primary">Primary Button</button>
-	<button class="button--primary button--disabled">Disabled Button</button>
-	<button class="button--secondary">Secondary Button</button>
+<div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--primary">Primary Button</button>
+    <button class="button--primary button--disabled">Disabled Button</button>
+    <button class="button--secondary">Secondary Button</button>
 </div>
 
 <p>We also have mini versions of the primary and secondary buttons. These are used in the search bars above tables in the Org Admin screens.</p>
 
-<div class="main__content__block textWidth padding__50"  markdown="0">
-	<button class="button--primary button--mini">Mini Primary Button</button>
-	<button class="button--secondary button--mini">Mini Secondary Button</button>
+<div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--primary button--mini">Mini Primary Button</button>
+    <button class="button--secondary button--mini">Mini Secondary Button</button>
 </div>
 
 <!------- Content widget buttons ---------->
@@ -39,29 +42,45 @@ title: Buttons & Links
 <h2>Content Widget buttons</h2>
 <p>The content widget buttons are used by app editors to create lists and to build content within a modular page.</p>
 
-<p>Below is an example of the hover and active state of 
-content widget buttons.</p>
+<p>Below is an example of the hover and active state of content widget buttons.</p>
 
-<div class="main__content__block textWidth padding__50"  markdown="0">
+<div class="main__content__block textWidth padding__50" markdown="0">
     <button class="button--widget button--widget--1 "><img src="{{ site.baseurl }}/assets/images/cms/new_icons/list_icon.svg"></button>
-     <button class="button--widget button--widget--1 "><img src="{{ site.baseurl }}/assets/images/cms/new_icons/page_icon.svg"></button>
-    <button class="button--widget button--widget--1 button--widget--3"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/existing_icon.svg"></button>
-   <button class="button--widget button--widget--1 button--widget--4"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/image_icon.svg"></button>
-     
+    <button class="button--widget button--widget--content "><img src="{{ site.baseurl }}/assets/images/cms/new_icons/page_icon.svg"></button>
+    <button class="button--widget button--widget--1 "><img src="{{ site.baseurl }}/assets/images/cms/new_icons/existing_icon.svg"></button>
+    <button class="button--widget button--widget--1 "><img src="{{ site.baseurl }}/assets/images/cms/new_icons/video_icon.svg"></button>
+    <button class="button--widget button--widget--1 "><img src="{{ site.baseurl }}/assets/images/cms/new_icons/contact_icon.svg"></button>
+    <button class="button--widget button--widget--1 "><img src="{{ site.baseurl }}/assets/images/cms/new_icons/webpage_icon.svg"></button>
+    <button class="button--widget button--widget--1 "><img src="{{ site.baseurl }}/assets/images/cms/new_icons/file_icon.svg"></button>
+    <button class="button--widget button--widget--1 "><img src="{{ site.baseurl }}/assets/images/cms/new_icons/rss_icon.svg"></button>
+    <button class="button--widget button--widget--1 "><img src="{{ site.baseurl }}/assets/images/cms/new_icons/image_icon.svg"></button>
+    <button class="button--widget button--widget--1 "><img src="{{ site.baseurl }}/assets/images/cms/new_icons/text_icon.svg"></button>
+     <button class="button--widget button--widget--1 "><img src="{{ site.baseurl }}/assets/images/cms/new_icons/html_icon.svg"></button>
 </div>
+
+<!------- Modular page widget controls  ---------->
+
+<h2>Widget Control buttons</h2>
+<p>The content widget buttons are used by app editors to create lists and to build content within a modular page.</p>
+<div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--widget button--widget--control"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/up_arrow.svg"></button>
+    <button class="button--widget button--widget--control"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/down_arrow.svg"></button>
+    <button class="button--widget button--widget--control"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/delete_bin.svg"></button>
+</div>
+
 <h2>Links</h2>
 <p>Links are used instead of buttons for many other actions a user can take on a screen. For example, adding new users to channels or user groups. These blue links will often had a “+” in front of the text to indicate the adding action.</p>
 
-<p>Micro links are also used in the Editor section of the CMS to display  the number of groups that can view content and link to the audience tab for that content.</p>
+<p>Micro links are also used in the Editor section of the CMS to display the number of groups that can view content and link to the audience tab for that content.</p>
 
 <div class="main__content__block textWidth padding__50">
-	<a href="#" class="text--link padding__right15">Edit Permissions</a>
-	<a href="#" class="text--link padding__right15">+ Add New User</a>
-	<a href="#" class="text--link--micro padding__right15">12 Groups</a>
-	<a href="#" class="text--link--micro">Everyone</a>
+    <a href="#" class="text--link padding__right15">Edit Permissions</a>
+    <a href="#" class="text--link padding__right15">+ Add New User</a>
+    <a href="#" class="text--link--micro padding__right15">12 Groups</a>
+    <a href="#" class="text--link--micro">Everyone</a>
 </div>
 
 <div class="imageContainer imageContainer--one padding__50">
-	<img src="{{ site.baseurl }}/assets/images/cms/buttons/links-add-new-group.jpg" alt="Adding new user groups to a user" /img>
-	<p class="caption">Adding new user groups to a user</p>
+    <img src="{{ site.baseurl }}/assets/images/cms/buttons/links-add-new-group.jpg" alt="Adding new user groups to a user" /img>
+    <p class="caption">Adding new user groups to a user</p>
 </div>
