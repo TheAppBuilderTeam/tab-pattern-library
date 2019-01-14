@@ -1,0 +1,120 @@
+--- 
+layout: default 
+platform: cms 
+page: cms-media-modals 
+selected: cms-media-modals
+title: Media Modals 
+---
+
+
+
+<p>Throughout the Content Management System, media modals are used for inserting, organising and uploading media. These modals incluse the existing modal and the media library modal. </p>
+
+<h2>Media Library Modal</h2>
+<p>The Media Library modal appears in a few instances throughout the CMS, it is mainly used for inserting media or choosing featured images on lists items and modular page items.</p>
+<p>App editors can upload images, files and videos to the media library via the modal. This can be done by using the drag and drop option or they can selected the 'Choose File' link to add local files.</p>
+<div class="imageContainer imageContainer--two padding__50">
+    <img src="{{ site.baseurl }}/assets/images/cms/new_icons/media_library_example.jpg" alt="Media Library Modal on a modular page" /img>
+    <img src="{{ site.baseurl }}/assets/images/cms//new_icons/media_library_example_selected.jpg" alt="Media Library Modal on a modular page" class="last" /img>
+    <p class="caption">Media Library modal on a modular page</p>
+</div>
+
+<h2>Secondary button</h2>
+<p>The primary button will be accompanied by a secondary button, most of the time this is a cancel button that allows them to discard their changes.</p>
+
+<p>The button elements are shown below. Note that the background of the secondary button is transparent rather than white. </p>
+
+<div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--primary">Primary Button</button>
+    <button class="button--primary button--disabled">Disabled Button</button>
+    <button class="button--secondary">Secondary Button</button>
+</div>
+
+<p>We also have mini versions of the primary and secondary buttons. These are used in the search bars above tables in the Org Admin screens.</p>
+
+<div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--primary button--mini">Mini Primary Button</button>
+    <button class="button--secondary button--mini">Mini Secondary Button</button>
+</div>
+
+<!------- Content widget buttons ---------->
+
+<h2>Content Widget buttons</h2>
+<p>The content widget buttons are used by app editors to create lists and to build content within a modular page.</p>
+
+<p>Below is an example of the hover and active state of content widget buttons.</p>
+
+<div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--widget button--widget--content"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/list_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/page_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/existing_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/video_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/contact_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/webpage_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/file_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/rss_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/image_icon.svg"></button>
+    <button class="button--widget button--widget--content"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/text_icon.svg"></button>
+     <button class="button--widget button--widget--content"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/html_icon.svg"></button>
+</div>
+<div class="imageContainer imageContainer--two padding__50">
+    <img src="{{ site.baseurl }}/assets/images/cms/new_icons/content_widget_list_example.jpg" alt="list" /img>
+    <img src="{{ site.baseurl }}/assets/images/cms/new_icons/content_widget_page_example.jpg" alt="modular page" class="last" /img>
+    <p class="caption">Examples of content widget buttons on a list (left) and a modular page (right).</p>
+</div>
+<!------- Modular page widget controls  ---------->
+
+<h2>Widget Control buttons</h2>
+<p>The widget control buttons are used to organise the order and delete content widgets a modular page. </p>
+<div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--widget button--widget--control"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/up_arrow.svg"></button>
+    <button class="button--widget button--widget--control"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/down_arrow.svg"></button>
+    <button class="button--widget button--widget--control"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/delete_bin.svg"></button>
+    <button class="button--widget button--widget--control"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/add_widget.svg"></button>
+</div>
+<div class="imageContainer imageContainer--one padding__50">
+    <img src="{{ site.baseurl }}/assets/images/cms/new_icons/widget_controls_example.jpg" alt="list" /img>
+    <p class="caption">Examples of widget control buttons on a modular page.</p>
+</div>
+
+<h2>Links</h2>
+<p>Links are used instead of buttons for many other actions a user can take on a screen. For example, adding new users to channels or user groups. These blue links will often had a “+” in front of the text to indicate the adding action.</p>
+
+<p>Micro links are also used in the Editor section of the CMS to display the number of groups that can view content and link to the audience tab for that content.</p>
+
+<div class="main__content__block textWidth padding__50">
+    <a href="#" class="text--link padding__right15">Edit Permissions</a>
+    <a href="#" class="text--link padding__right15">+ Add New User</a>
+    <a href="#" class="text--link--micro padding__right15">12 Groups</a>
+    <a href="#" class="text--link--micro">Everyone</a>
+</div>
+
+<div class="imageContainer imageContainer--one padding__50">
+    <img src="{{ site.baseurl }}/assets/images/cms/buttons/links-add-new-group.jpg" alt="Adding new user groups to a user" /img>
+    <p class="caption">Adding new user groups to a user</p>
+</div>
+
+<!--------- upload buttons ------------------------>
+
+<h2>Upload Buttons</h2>
+<p>Upload buttons are used when adding an image, file or video to a modular page. They are present inside the image, file and video widgets before any content has been added. The widget control buttons are displayed beside the upload widget.</p>
+<p>Each button features an upload icon and link text underneath as label. The media library button is presented beside the upload buttons as an option too.</p>
+<div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--upload"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/upload_image_icon.svg"><span class="button--text">Upload an image</span></button>
+    <button class="button--upload"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/upload_video_icon.svg"><span class="button--text">Upload a video</span></button>
+    <button class="button--upload"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/upload_file_icon.svg"><span class="button--text">Upload a file</span></button>
+</div>
+
+<h2>Media Library Buttons</h2>
+<p>The media library button is used in the file, image and video upload widget when building content on a modular page.</p>
+<p>Below are the buttons used for the media library.</p>
+    <div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--upload"><img src="{{ site.baseurl }}/assets/images/cms/new_icons/media_library_icon.svg"><span class="button--text">Select an image from the Media Library</span></button>
+    <button class="button--drag"><span class="button--greytxt">Drag File to Upload or <span class="button--link2">Choose File</span></span></button>
+    </div>
+
+<div class="imageContainer imageContainer--two padding__50">
+    <img src="{{ site.baseurl }}/assets/images/cms/new_icons/upload_buttons_example.jpg" alt="list" /img>
+    <img src="{{ site.baseurl }}/assets/images/cms/new_icons/upload_media_library_button_example.jpg" alt="modular page" class="last" /img>
+    <p class="caption">Examples of upload buttons on a modular page (left) and media libary upload button (right).</p>
+</div>
