@@ -757,6 +757,12 @@ input[type="text"].searchUsers--searchBox {
 
 }
 
+.modal__container--remove {
+    
+    border: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .modal__container hr {
     opacity: 0.1;
     width: 95%;
@@ -778,12 +784,9 @@ input[type="text"].searchUsers--searchBox {
     background-position: right 20px top 20px;
     box-shadow: 0 1px 10px 4px rgba(0,0,0,0.13);
     border-radius: 8px;
-    height: 255px;
-    width: 75%;
     margin: 0 auto;
-    padding-top: 60px;
     text-align: center;
-    margin-bottom: 60px;
+    padding: 50px 0 20px 0;
 }
 
 .cms-modal__container p {
@@ -792,22 +795,25 @@ input[type="text"].searchUsers--searchBox {
 
 }
 
-.cms-modal__container--email img {
+.cms-modal__container--delete img {
     max-height: 150px;
     padding-bottom: 20px;
 
 }
-.cms-modal__container--email {
+.cms-modal__container--delete {
     height: auto;
     width: 75%;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.cms-modal--text {
-    
+.button--red {
+    background-color: $red;
+    border: $red;
+    &:hover {
+        background: darken($red, 5%);
+    }
 }
-
 /*Mini Modal
 -----------------------------------------------------------------------------------------------------*/
 
@@ -845,7 +851,6 @@ input[type="text"].searchUsers--searchBox {
     float: left;
     width: 85%;
 }
-
 
 
 .testfix::after {
