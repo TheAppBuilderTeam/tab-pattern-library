@@ -167,6 +167,25 @@ button {
     color: $cmsLink;
     margin-top: 2px;
 }
+
+.button--drag {
+    border: 1px dashed
+    $buttonSecondary;
+
+    
+}
+
+.button--greytxt {
+   color: $cmsGrey;
+}
+
+.button--link2 {
+    color: $cmsLink;
+    &:hover {
+        text-decoration: underline;
+    }
+    
+}
 .button--secondary {
     color: $buttonSecondaryText;
     background: $white;
