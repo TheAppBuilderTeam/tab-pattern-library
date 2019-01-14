@@ -143,6 +143,30 @@ button {
         background: darken($buttonWidget, 5%);
     }
 }
+
+.button--upload {
+    width: 230px;
+    height: 155px;
+    border: 1px solid $buttonSecondary;
+    &:hover:not(.active) {
+        webkit-box-shadow: 4px 5px 25px -4px rgba(141, 141, 141, 0.39);
+        moz-box-shadow: 4px 5px 25px -4px rgba(141, 141, 141, 0.39);
+        box-shadow: 4px 5px 25px -4px rgba(141, 141, 141, 0.39);
+    }
+    &:active {
+        background: darken($buttonWidget, 5%);
+    }
+}
+.button--upload img {
+    max-height: 74px;
+    max-width: 74px;
+}
+
+.button--text {
+    font-size: 11px;
+    color: $cmsLink;
+    margin-top: 2px;
+}
 .button--secondary {
     color: $buttonSecondaryText;
     background: $white;
