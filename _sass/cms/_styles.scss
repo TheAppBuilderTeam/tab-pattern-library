@@ -148,6 +148,11 @@ button {
     width: 230px;
     height: 155px;
     border: 1px solid $buttonSecondary;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    vertical-align:top;
     &:hover:not(.active) {
         webkit-box-shadow: 4px 5px 25px -4px rgba(141, 141, 141, 0.39);
         moz-box-shadow: 4px 5px 25px -4px rgba(141, 141, 141, 0.39);
@@ -171,8 +176,6 @@ button {
 .button--drag {
     border: 1px dashed
     $buttonSecondary;
-
-    
 }
 
 .button--greytxt {
@@ -665,7 +668,7 @@ input[type="text"].searchUsers--searchBox {
 .icon--colours  {
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(2, minmax(0px, 1fr));
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
     grid-auto-rows: 100px;
     margin-top: 20px;
     max-width: 400px;
