@@ -634,13 +634,18 @@ input[type="text"].searchUsers--searchBox {
 .space {
     padding-top: 30px;
 }
+
+.existing {
+    padding-top: 25px;
+}
 /*-----illustration------------*/
 
 .illustration-gallery {
     display: grid;
     grid-gap: 10px;
-    grid-auto-columns: 150px;
+    grid-auto-columns: 100px;
     grid-template-columns: repeat(3, minmax(0px, 1fr));
+    max-width: 595px;
 }
 
 .illustration {
@@ -657,9 +662,40 @@ input[type="text"].searchUsers--searchBox {
     }
 }
 
-.icon_colour {
-    max-height: 40px;
-    max-width: 40px;
+.icon--colours  {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+    grid-auto-rows: 100px;
+    margin-top: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.icon-colour {
+    img {
+        max-width: 200px;
+       max-height: 200px;
+        object-fit: cover;
+        opacity:  1;
+    }
+}
+
+.line--6 {
+    max-width: 250px;
+}
+.icon-colour {
+    text-align: center;
+    opacity: 1;
+}
+
+.line {
+    padding-top: 50px;
+
+}
+
+.line img {
+    max-width: 250px;
 }
 
 /*----------Navigation
