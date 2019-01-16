@@ -670,6 +670,7 @@ input[type="text"].searchUsers--searchBox {
     margin-top: 20px;
     max-width: 400px;
     margin: auto;
+    padding-bottom: 150px;
 }
 
 .icon-colour {
@@ -680,7 +681,6 @@ input[type="text"].searchUsers--searchBox {
         opacity:  1;
     }
 }
-
 .line--6 {
     max-width: 250px;
 }
@@ -696,6 +696,10 @@ input[type="text"].searchUsers--searchBox {
 
 .line img {
     max-width: 250px;
+}
+
+.missing--asset img {
+    opacity: .75;
 }
 
 /*----------Navigation
