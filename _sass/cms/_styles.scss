@@ -642,15 +642,12 @@ input[type="text"].searchUsers--searchBox {
     padding-top: 25px;
 }
 /*-----illustration------------*/
-
 .illustration-gallery {
-    display: grid;
-    grid-gap: 10px;
-    grid-auto-columns: 100px;
-    grid-template-columns: repeat(3, minmax(0px, 1fr));
-    max-width: 595px;
-}
-
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-columns: 100px;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  max-width: 595px; }
 .illustration {
     img {
         width: 100%;
@@ -705,6 +702,21 @@ input[type="text"].searchUsers--searchBox {
     opacity: .75;
 }
 
+
+.bad--gallery  {
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-columns: 100px;
+  grid-template-columns: repeat(2, minmax(0px, 1fr));
+  max-width: 595px; }
+
+.illustration {
+    img {
+        width: 100%;
+        //width: 150px;
+        object-fit: contain;
+    }
+}
 /*----------Navigation
 -----------------------------------------------------------------------------------------------------*/
 
