@@ -703,12 +703,13 @@ input[type="text"].searchUsers--searchBox {
 }
 
 
-.bad--gallery  {
+.bad-gallery  {
   display: grid;
   grid-gap: 10px;
   grid-auto-columns: 100px;
   grid-template-columns: repeat(2, minmax(0px, 1fr));
-  max-width: 595px; }
+  max-width: 600px; 
+}
 
 .illustration {
     img {
