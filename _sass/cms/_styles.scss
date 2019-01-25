@@ -121,6 +121,9 @@ button {
 
 .main__content .button--widget--content img {
     width: 100%;
+}
+
+.button--widget--content img {
     max-width: 40px;
     max-height: 40px;
 }
@@ -143,7 +146,24 @@ button {
         background: darken($buttonWidget, 5%);
     }
 }
+.bin {
+    width: 40px;
+    height: 40px;
+    border: 1px solid $buttonSecondary;
+    &:hover:not(.active) {
+    webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.42);
+    moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    }
+    &:active {
+        background: darken($buttonWidget, 5%);
+    }
+}
 
+.bin img {
+    
+    max-width: 25px;
+}
 .button--upload {
     width: 230px;
     height: 155px;
