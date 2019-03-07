@@ -174,7 +174,6 @@ button {
     overflow: hidden;
     vertical-align:top;
     &:hover:not(.active) {
-        webkit-box-shadow: 4px 5px 25px -4px rgba(141, 141, 141, 0.39);
         moz-box-shadow: 4px 5px 25px -4px rgba(141, 141, 141, 0.39);
         box-shadow: 4px 5px 25px -4px rgba(141, 141, 141, 0.39);
     }
@@ -422,6 +421,71 @@ th {
     padding-bottom: 5px;
 }
 
+/*-----------------------------------------Revision History table-----------------------------------------------------------------*/
+table {
+    margin: 0 auto;
+}
+
+.table-allUsers table {
+    border-collapse: collapse;
+}
+
+.table-columnOne {
+    color: #707070;
+}
+
+//.table-columnFive {
+  //  width: 50px;
+    //padding-left: 0px;
+    //color: #a73a5e;
+//}
+
+.table-RedRemove:hover {
+    cursor: pointer;
+}
+
+.table-RowOne {
+    cursor: pointer;
+}
+
+.table-allUsers1 tr {
+    font-size: 14px;
+    color: #707070;
+}
+
+.table-allUsers1 tr:nth-child(odd) {
+    background-color: #F7F7F7;
+}
+
+.table-allUsers1 th {
+    background-color: #a73a5e;
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.table-allUsers1 td,
+th {
+    padding: 10px 17px 10px 10px;
+    
+}
+
+.table-allUsers1 th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.links {
+    color: $cmsLink;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.name {
+    font-weight: 800; 
+}
 /*Search Users
 -----------------------------------------------------------------------------------------------------*/
 
