@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>close modal</title>
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Combined Shape</title>
     <desc>Created with Sketch.</desc>
-    <g id="UGC-Updates-2019" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="3.1---App-Editor---Review-modal" stroke="#C2C2C2" stroke-width="2.5">
-            <g id="close-modal">
-                <path d="M0,7.91845703 L7.91845703,0" id="Path-2"></path>
-                <path d="M0,7.91845703 L7.91845703,0" id="Path-2" transform="translate(3.959229, 3.959229) rotate(-90.000000) translate(-3.959229, -3.959229) "></path>
-            </g>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Existing-modal---no-results" transform="translate(-741.000000, -156.000000)" fill="#C2C2C2">
+            <path d="M744.902657,159.614075 L744.902657,155.314971 L747.482119,155.314971 L747.482119,159.614075 L751.781223,159.614075 L751.781223,162.193537 L747.482119,162.193537 L747.482119,166.492641 L744.902657,166.492641 L744.902657,162.193537 L740.603553,162.193537 L740.603553,159.614075 L744.902657,159.614075 Z" id="Combined-Shape" transform="translate(746.192388, 160.903806) rotate(-45.000000) translate(-746.192388, -160.903806) "></path>
         </g>
     </g>
 </svg>
