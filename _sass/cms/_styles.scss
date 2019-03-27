@@ -80,6 +80,32 @@ a.text--link--micro {
     }
 }
 
+.text--label {
+    @include latoBold;
+    font-size: 12px;
+    color: #657D98;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.text--contentLabel {
+    @include latoSemibold;
+    font-size: 15px;
+    color: $cmsGrey;
+    letter-spacing: -0.4px;
+    text-decoration: none;
+    
+}
+.text--placeholder {
+    @include latoRegular;
+    font-size: 16px;
+    color: $cmsPlaceholder;
+    letter-spacing: -0.3px;
+    text-decoration: none;
+    
+}
+
 button {
     @include fadeAnimation;
     @include latoSemibold;
@@ -95,7 +121,7 @@ button {
     background: $buttonPrimary;
     border: $buttonPrimary;
     &:hover {
-        background: darken($buttonPrimary, 5%);
+    background: darken($buttonPrimary, 5%);
     }
 }
 
