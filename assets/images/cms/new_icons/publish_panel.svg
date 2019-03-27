@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="267px" height="179px" viewBox="0 0 267 179" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Panel/SavePublish/Published</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Panels" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-90.000000, -281.000000)" id="Panel/SavePublish/Published">
+            <g transform="translate(91.000000, 281.531035)">
+                <g id="save/publish-panel">
+                    <path d="M11,0 L254,0 C260.075132,-1.11598369e-15 265,4.92486775 265,11 L265,166 C265,172.075132 260.075132,177 254,177 L11,177 C4.92486775,177 7.43989126e-16,172.075132 0,166 L0,11 C-7.43989126e-16,4.92486775 4.92486775,1.11598369e-15 11,0 Z" id="Rectangle-2" stroke="#E1E1E1" fill="#FFFFFF"></path>
+                    <g id="Buttons/Schedule" transform="translate(17.133621, 119.798780)">
+                        <g id="schedule-button" transform="translate(0.000000, 0.000000)">
+                            <rect id="Rectangle-7" stroke="#D2D9E1" x="-0.5" y="-0.5" width="232.145374" height="37.695122" rx="4"></rect>
+                            <text id="Schedule-Publish" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#657D98">
+                                <tspan x="72.4879383" y="23.847561">Schedule Publish</tspan>
+                            </text>
+                            <g id="clock" transform="translate(44.356637, 11.867699)" fill="#657D98" fill-rule="nonzero">
+                                <path d="M7.59394286,0 C3.40208646,0 0,3.14524694 0,7.02064037 C0,10.8960338 3.40208646,14.0412807 7.59394286,14.0412807 C11.7857993,14.0412807 15.1878857,10.8960338 15.1878857,7.02064037 C15.1878857,3.14524694 11.7857993,0 7.59394286,0 Z M7.59394286,2.49533617 C7.86298536,2.49533617 8.07995522,2.69592594 8.07995522,2.94465716 L8.07995522,6.83609774 L10.709629,9.26724532 C10.9005626,9.44376415 10.9005626,9.72458988 10.709629,9.90110872 C10.5186957,10.0776278 10.2149379,10.0776278 10.0153256,9.90110872 L7.31622159,7.39774898 C7.20339728,7.2934423 7.12528806,7.1971592 7.09925174,7.02064037 L7.09925174,2.94465716 C7.09925174,2.69592594 7.32490037,2.49533617 7.59394286,2.49533617 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Buttons/Primary/Large" transform="translate(17.133621, 69.073171)">
+                        <rect id="Rectangle-2" fill="#6EB81D" fill-rule="evenodd" x="1.13686838e-13" y="0" width="229.590517" height="36.695122" rx="3"></rect>
+                        <text id="Save" font-family="Lato-Bold, Lato" font-size="15" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="47.4865086" y="23.6341463">Save &amp; Publish Now</tspan>
+                        </text>
+                    </g>
+                    <g id="Buttons/Primary/Large" transform="translate(17.133621, 20.506098)">
+                        <rect id="Rectangle-2" fill="#00B5EB" fill-rule="evenodd" x="1.13686838e-13" y="0" width="229.590517" height="36.695122" rx="3"></rect>
+                        <text id="Save" font-family="Lato-Bold, Lato" font-size="15" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="98.9102586" y="23.6341463">Save</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

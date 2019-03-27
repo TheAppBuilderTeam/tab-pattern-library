@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="267px" height="211px" viewBox="0 0 267 211" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>publish_panel_select</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Panels" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-904.000000, -265.000000)" id="publish_panel_select">
+            <g transform="translate(905.000000, 266.000000)">
+                <g id="btns">
+                    <rect id="Rectangle-2" stroke="#E1E1E1" fill="#FFFFFF" x="0" y="0" width="265" height="209" rx="11"></rect>
+                    <g id="Buttons/Primary/Large" transform="translate(17.133621, 64.000000)">
+                        <rect id="Rectangle-2" fill="#6EB81D" fill-rule="evenodd" x="1.13686838e-13" y="0" width="229.590517" height="33.7198418" rx="3"></rect>
+                        <text id="Save" font-family="Lato-Bold, Lato" font-size="15" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="47.4865086" y="22.9340804">Save &amp; Publish Now</tspan>
+                        </text>
+                    </g>
+                    <g id="Buttons/Primary/Large" transform="translate(17.133621, 19.000000)">
+                        <rect id="Rectangle-2" fill="#00B5EB" fill-rule="evenodd" x="1.13686838e-13" y="0" width="229.590517" height="33.7198418" rx="3"></rect>
+                        <text id="Save" font-family="Lato-Bold, Lato" font-size="15" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="98.9102586" y="22.9340804">Save</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Icons/Time" transform="translate(50.000000, 121.500000)" fill="#657D98">
+                    <g id="clock">
+                        <path d="M6.50500011,0 C2.9142401,0 0,2.9142401 0,6.50500011 C0,10.0957601 2.9142401,13.0100002 6.50500011,13.0100002 C10.0957601,13.0100002 13.0100002,10.0957601 13.0100002,6.50500011 C13.0100002,2.9142401 10.0957601,0 6.50500011,0 Z M6.50500011,2.31206289 C6.73546293,2.31206289 6.92132013,2.49792008 6.92132013,2.7283829 L6.92132013,6.33401146 L9.17390864,8.58660018 C9.33746302,8.75015436 9.33746302,9.01035447 9.17390864,9.17390864 C9.01035447,9.33746302 8.75015436,9.33746302 8.5791657,9.17390864 L6.26710302,6.85441148 C6.17045729,6.75776575 6.10354864,6.66855429 6.08124583,6.50500011 L6.08124583,2.7283829 C6.08124583,2.49792008 6.27453729,2.31206289 6.50500011,2.31206289 Z" id="Shape" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+                <g id="Buttons/Disabled/Small" transform="translate(18.000000, 157.000000)">
+                    <g id="confirm-btn">
+                        <rect id="Rectangle-7" fill="#D2D9E1" x="0" y="0" width="112" height="34" rx="4"></rect>
+                        <text id="Confirm" font-family="Lato-Bold, Lato" font-size="15" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="27.7508333" y="23">Confirm</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Buttons/Secondary/Small" transform="translate(138.000000, 157.000000)">
+                    <g id="cancel-btn">
+                        <rect id="Rectangle-7" stroke="#AFBCCA" x="0.5" y="0.5" width="108" height="33" rx="4"></rect>
+                        <text id="Cancel" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#657D98">
+                            <tspan x="33.5175" y="22">Cancel</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="select-date" transform="translate(18.000000, 110.000000)">
+                    <path d="M0.5,4.00021236 L0.5,29.9997876 C0.5,31.9322543 2.06694732,33.5 3.99891791,33.5 L225.001082,33.5 C226.931536,33.5 228.5,31.9318419 228.5,29.9997876 L228.5,4.00021236 C228.5,2.06774574 226.933053,0.5 225.001082,0.5 L3.99891791,0.5 C2.0684644,0.5 0.5,2.06815806 0.5,4.00021236 Z" id="Rectangle-8" stroke="#D9D9D9"></path>
+                    <text id="Select-date-&amp;-time" font-family="Lato-Regular, Lato" font-size="15" font-weight="normal" letter-spacing="-0.299999923" fill="#9A9FA5">
+                        <tspan x="59" y="23">Select date &amp; time</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
