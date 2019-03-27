@@ -11,8 +11,11 @@
       <li><a href="{{ site.baseurl }}/cms/errors/" {% if page.selected == "cms-errors" %}class="active"{% endif %} >Errors &amp; Warnings</a></li>
   		<li><a href="{{ site.baseurl }}/cms/tables/" {% if page.selected == "cms-tables" %}class="active"{% endif %} >Using Tables</a></li>
   		<li><a href="{{ site.baseurl }}/cms/page/" {% if page.selected == "cms-page" %}class="active"{% endif %} >Styling a Page</a></li>
+        <li><a href="{{ site.baseurl }}/cms/panels/" {% if page.selected == "cms-panels" %}class="active"{% endif %} >Panels</a></li>
   		<li><a href="{{ site.baseurl }}/cms/modals/" {% if page.selected == "cms-modals" %}class="active"{% endif %} >Modals</a></li>
-      <li><a href="/cms/icons/" {% if page.selected == "cms-icons" %}class="active"{% endif %} >Icons</a></li>
+        <li><a href="{{ site.baseurl }}/cms/media-modals/" {% if page.selected == "cms-media-modals" %}class="active"{% endif %} >Media Modals</a></li>
+        <li><a href="/cms/icons/" {% if page.selected == "cms-icons" %}class="active"{% endif %} >Icons</a></li>
+        <li><a href="/cms/widgets/" {% if page.selected == "cms-widgets" %}class="active"{% endif %} >Widgets</a></li>
 
       <li class="platform"><a href="{{ site.baseurl }}/webapp/" {% if platform.selected == "webapp" %}class="active"{% endif %}>Webapp</a></li>
 			<li><a href="{{ site.baseurl }}/webapp/" {% if page.selected == "webapp-home" %}class="active"{% endif %} >Introduction</a></li>
@@ -37,8 +40,9 @@
 			<li><a href="{{ site.baseurl }}/native/search/" {% if page.selected == "native-search" %}class="active"{% endif %} >Search</a></li>
 		 <li><a href="{{ site.baseurl }}/native/list-layouts/" {% if page.selected == "native-list-layouts" %}class="active"{% endif %} >List Layouts</a></li>
 			<li><a href="{{ site.baseurl }}/native/icons/" {% if page.selected == "native-icons" %}class="active"{% endif %} >Icons</a></li>
+    
+        <li  class="platform"><a href="{{ site.baseurl }}/history/" {% if platform.selected == "history" %}class="active"{% endif %} >Revision History</a></li>
 
 		 </ul>
-        <li class="platform"><a href="{{ site.baseurl }}/history/" {% if platform.selected == "history" %}class="active"{% endif %}>Revision History</a></li>
-    </ul>
+
 </nav>
