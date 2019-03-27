@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>info icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-426.000000, -1519.000000)" id="info-icon">
+            <g transform="translate(427.000000, 1520.000000)">
+                <circle id="Oval-5" stroke="#C9CFDB" cx="17" cy="17" r="17"></circle>
+                <path d="M19.1,25 L15.7,25 C14.7616,25 14,24.2384 14,23.3 C14,22.3616 14.7616,21.6 15.7,21.6 L15.7,16.5 C14.7616,16.5 14,15.7384 14,14.8 C14,13.8616 14.7616,13.1 15.7,13.1 L19.1,13.1 L19.1,21.6 C20.0384,21.6 20.8,22.3616 20.8,23.3 C20.8,24.2384 20.0384,25 19.1,25 Z M16.9,11.4 C15.6856,11.4 14.7,10.4144 14.7,9.2 C14.7,7.9856 15.6856,7 16.9,7 C18.1144,7 19.1,7.9856 19.1,9.2 C19.1,10.4144 18.1144,11.4 16.9,11.4 Z" id="Shape" fill="#6D7C99" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

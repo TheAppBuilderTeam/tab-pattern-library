@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="8px" viewBox="0 0 8 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>add_link</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Lato-Regular, Lato" font-size="15" font-weight="normal" letter-spacing="-0.3">
+        <g transform="translate(-116.000000, -1694.000000)" fill="#067BBE" id="add_link">
+            <g transform="translate(116.000000, 1688.000000)">
+                <text id="+">
+                    <tspan x="0" y="15">+</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
