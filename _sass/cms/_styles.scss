@@ -106,6 +106,23 @@ a.text--link--micro {
     
 }
 
+
+.text--buttondark {
+    @include latoBold;
+    font-size: 14px;
+    color: #657D98;
+}
+
+.text--buttonlight {
+    @include latoBold;
+    font-size: 14px;
+    color: #fff;
+    background: #D2D9E1;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    padding-left: 10px;
+}
+
 button {
     @include fadeAnimation;
     @include latoSemibold;
@@ -448,6 +465,7 @@ th {
 }
 
 /*-----------------------------------------Revision History table-----------------------------------------------------------------*/
+
 table {
     margin: 0 auto;
 }
