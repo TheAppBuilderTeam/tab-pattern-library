@@ -56,28 +56,3 @@ title: Forms
        <input autocomplete="off" class="form-group" id="LastName" name="LastName" placeholder="Password" type="password" value=""/><p class="text-form--helper">Your password should contain an uppercase letter</p>
   </div>
 </div>
-      <!---------- Errors---------------->
-
-<h2>Errors</h2>
-<p>If the user makes an error when completing a form or their submission is not accepted, the fields containing the errors are highlighted. The border at the bottom of the field should be red and the error message should be presented underneath the field.</p>
-
-<div class="imageContainer imageContainer--one padding__50">
-	<img src="{{ site.baseurl }}/assets/images/webapp/examples/register-password-error.jpg" alt="login page" /img>
-	<p class="caption">The relevant fields that caused the error are highlighted</p>
-</div>
-
-<p>Error messages should be succinct and helpful to the end user, as they should quickly describe the issue so the user knows how to eradicate it. For example, if the user chooses a new password that does not comply with the password rules, instead of seeing the error message “This password is incorrect” they should be told what they need to include, e.g. “Password should contain an uppercase letter.”</p>
-
- <div class="main__content__block textWidth padding__30">
-  <div class="webapp-form-group webapp-form-group--header webapp-form-group--header--error">
-       <label for="LastName">Password</label>
-       <input autocomplete="off" class="form-group" id="LastName" name="LastName" placeholder="Password" type="password" value=""/><p class="text-form--error">Password is incorrect</p>
-  </div>
-</div>
-
-<p>There are some cases in which the error message will be shown above the form group and will not highlight the particular inputs that have caused the issue. For example, we show the error message "Your username or password is incorrect" in this style as it is against our security protocol to indicate which of these fields is incorrect.</p>
-
-<div class="imageContainer imageContainer--one padding__50">
-	<img src="{{ site.baseurl }}/assets/images/webapp/examples/login-incorrect-credentials.jpg" alt="login page" /img>
-	<p class="caption">Error message shown above form group in some cases</p>
-</div>
