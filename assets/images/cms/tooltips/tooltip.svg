@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="52px" viewBox="0 0 79 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Tooltips-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CMS-Tooltips---List-items-page" transform="translate(-329.000000, -221.000000)">
+            <g id="Group-9" transform="translate(329.500000, 220.500000)">
+                <g id="Group-3-Copy-4" fill="#6A6F75">
+                    <path d="M3.29351011,8.55409283 L32.8147499,8.69837419 L38.5331731,2.34857439 C39.2723485,1.527786 40.536949,1.46162555 41.3577374,2.20080089 C41.3938292,2.23330401 41.428725,2.26711108 41.4623554,2.30215487 L47.6006072,8.69837419 L75.39713,8.92803548 C77.0442567,8.94164443 78.3723442,10.2807502 78.3723442,11.9279331 L78.3723442,50.249998 C78.3723442,51.9068523 77.0291984,53.249998 75.3723442,53.249998 L3.27884816,53.249998 C1.62199391,53.249998 0.278848162,51.9068523 0.278848162,50.249998 L0.278848164,11.554057 C0.278848164,9.89720275 1.62199391,8.554057 3.27884816,8.554057 C3.2837355,8.554057 3.28862283,8.55406895 3.29351011,8.55409283 Z" id="Rectangle-Copy" transform="translate(39.325596, 26.999998) rotate(-180.000000) translate(-39.325596, -26.999998) "></path>
+                </g>
+                <text id="A-single-post-you-ca" font-family="Lato-Regular, Lato" font-size="10" font-weight="normal" letter-spacing="-0.300000012" fill="#FFFFFF">
+                    <tspan x="13.5025001" y="14.5">A single post </tspan>
+                    <tspan x="14.7125001" y="26.5">you can add </tspan>
+                    <tspan x="16.3675001" y="38.5">within a list</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

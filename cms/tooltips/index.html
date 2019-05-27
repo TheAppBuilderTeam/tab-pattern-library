@@ -1,0 +1,65 @@
+---
+layout: default
+platform: cms
+page: cms-tooltips
+selected: cms-tooltips
+title: Styling a Tooltip
+---
+
+<p>Tooltips are added in areas of the CMS that have FAQ's. They are carefully considered and only used when absolutely necessary. Examples where they could be are; when a control or button does not have a text label to support it, if a control benefits from a small description or further information or if a feature is rarely used or a feature that can be interpreted differently.</p>
+
+<p>Designs can be found in the Abstract collection linked <a href="https://share.goabstract.com/961e9f1a-512f-4b16-abd7-81fd38c728e4">right here!</a></p>
+
+<h2>Tooltips with a link</h2>
+
+<p>These tooltips provide a brief explanation of what the item is and an external link to the appropriate area of the docs site. When a user clicks on the light grey question mark, the tooltip will appear. The tooltip will disappear after 2 seconds of no interaction (including hovering on it) or if anywhere else in the UI is clicked.</p>
+<p>Overall styling for the tooltips are:
+<ul>
+<li>Background: #6A6F75 
+    </li>
+<li>Micro Text Style
+    </li>
+<li>Text Colour: #FFFFFF
+    </li></ul>
+</p>
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/cms/tooltips/tooltip_link_audience.jpg" alt="Tooltip on Audience Tab"/>
+	<p class="caption">Tooltip on the audience tab with external link to docs site</p>
+</div>
+
+<p>When the tooltip has been clicked and is showing the grey circle that contains the question mark should pulse slowly until the tooltip is dismissed/disappears.</p>
+
+<div class="imageContainer--one padding__50 tooltip-link">
+	<img src="{{ site.baseurl }}/assets/images/cms/tooltips/tooltip-with-link.svg" alt="Tooltip with link"/>
+	<p class="caption">Tooltip with link to docs site and pulsing question mark</p>
+</div>
+
+<p>Styling for the tooltip follows styles that are used throughout the CMS currently. The only unique part is the external link/learn more button. Button &amp; Tooltip colours can be found in <a href="{{ site.baseurl }}/cms/colours/">CMS Colours</a>. 
+</p>
+<p>The maximum height for this tooltip is 52px and the maximum width for this tooltip is 78px. The width should never change but the height of the tooltip is determined by the paragraph of text. The text should never be more than 3 lines. The learn more button should be centre aligned.</p>
+
+<p>The pulsing question mark colour is: #FFFFFF and the background is #EDF0F3 which is used for shading in illustration in the CMS.</p>
+
+<div class="main__content__block textWidth padding__50" markdown="0">
+    <button class="button--primary--tooltip">Learn More</button>
+    <p class="caption"> Button not to scale. Button background is<a href="{{ site.baseurl }}/cms/colours/"> $buttonSecondaryText </a>(#6D7C98) and the tooltip itself is <a href="{{ site.baseurl }}/cms/colours/"> $cmsGrey </a>(#6A6F75).</p>
+</div>
+
+<h2>Tooltips without a link</h2>
+
+<p>These tooltips provide a brief explanation of what the item is and doesn't require an external link button however, the styling is the same aside from this.</p>
+
+
+<div class="imageContainer imageContainer--one padding__50">
+	<img src="{{ site.baseurl }}/assets/images/cms/tooltips/tooltip_page.jpg" alt="Tooltip on Content Widget Buttons"/>
+	<p class="caption">Tooltip on a content widget button without an external link</p>
+</div>
+
+<p>The behaviour of these tooltips are different as they appear on a button. These content widget buttons have a hover state and active state, so the behaviour of the tooltip has to consider this.</p>
+<div class="imageContainer--one padding__50 tooltip-link">
+	<img src="{{ site.baseurl }}/assets/images/cms/tooltips/tooltip.svg" alt="Tooltip"/>
+	<p class="caption">Tooltip that would appear on a content widget button</p>
+</div>
+<p>Upon hover, the content widget button instantly shows a shadow, when the button has been hovered on for 1.5 seconds then the tooltips should appear. When the user's cursor is moved off the button the tooltip should disappear.</p>
+
+

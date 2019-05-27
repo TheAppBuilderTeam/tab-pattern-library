@@ -142,6 +142,18 @@ button {
     }
 }
 
+.button--primary--tooltip {
+    color: $white;
+    background: $buttonSecondaryText;
+    border: $buttonSecondaryText;
+    &:hover {
+    background: darken($buttonSecondaryText, 5%);
+    }
+   text-align: center;
+    margin-left: 10%;
+    
+}
+
 .button--widget {
     @include fadeAnimation;
     @include latoSemibold;
@@ -1205,4 +1217,10 @@ input[type="text"].searchUsers--searchBox {
     width: 300px;
     box-shadow: none;
     
+}
+
+/*------------------tooltips--------------*/
+
+.tooltip-link img {
+    max-width: 15%;
 }
