@@ -1,29 +1,62 @@
 li.colour__block {
-width: 22.6%;
-margin-right: 2%;
-height: 135px;
+width: 31%;
+margin-right: 1.8%;
+margin-bottom: 1.8%;
+height: 170px;
 display: inline-block;
 position: relative;
-border-radius: 7px; }
+border-radius: 7px;
+border: 1px solid #E5E6EA;
+}
 
 li.colour__block:last-child {
 margin-right: 0; }
 
 li.colour__block--PrimaryBodyColour {
-background: #343D4C; }
+background: #1A2D4C; }
 li.colour__block--SecondaryBodyColour {
-background: #637289; }
+background: #6D7C99; }
 li.colour__block--PlaceholderColour {
 background: #9CA9BC; }
 li.colour__block--MetaTextColour {
 background: #738BB2; }
-li.colour__block--BorderGrey {
+
+li.colour__block--LabelTextColour {
+background: #343D4C; }
+li.colour__block--LabelSecondaryTextColour {
+background: #76859B; }
+
+li.colour__block--ErrorColour {
+background: #FF4141; }
+li.colour__block--LinkColour {
+background: #106DE0; }
+
+
+li.colour__block--CommentDividerColour {
+background: #E5E6EA; }
+li.colour__block--CommentCTABorderColour {
+background: #D8D8D8; }
+li.colour__block--SoftBackgroundColour {
+background: #FAF8F9; }
+li.colour__block--ListDividerColour{
+background: #E0E0E0; }
+li.colour__block--FormDividerColour {
 background: #C9C9C9; }
-li.colour__block--SubtleGrey {
-background: #E2E2E2; }
+li.colour__block--VideoContentBackgroundColour {
+background: #555555; }
+
+
 li.colour__block--LikeIconColour {
 background: #D22B36; }
 li.colour__block--CommentIconColour {
 background: #738BB2; }
-li.colour__block--LinkColour {
-background: #106DE0; }
+li.colour__block--PostCommentButtonInactiveColour {
+background: #E1E1E1; }
+li.colour__block--PostCommentButtonActiveColour {
+background: #5798EA; }
+li.colour__block--CommentIconColour {
+background: #738BB2; }
+li.colour__block--NotificationReadColour {
+background: #FFFFFF; }
+li.colour__block--NotificationUnreadColour {
+background: #F1F7FF; }

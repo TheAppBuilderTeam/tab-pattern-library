@@ -56,6 +56,7 @@ DEPENDENCIES
   jekyll (= 3.6.3)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
+  rb-fsevent (<= 0.9.4)
   tzinfo-data
 
 BUNDLED WITH
