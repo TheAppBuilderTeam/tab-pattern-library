@@ -13,50 +13,57 @@ li.colour__block:last-child {
 margin-right: 0; }
 
 li.colour__block--PrimaryBodyColour {
-background: #1A2D4C; }
+background: #343D4C; }
 li.colour__block--SecondaryBodyColour {
-background: #6D7C99; }
+background: #637289; }
 li.colour__block--PlaceholderColour {
 background: #9CA9BC; }
 li.colour__block--MetaTextColour {
-background: #738BB2; }
-
+background: #6D7C99; }
 li.colour__block--LabelTextColour {
 background: #343D4C; }
-li.colour__block--LabelSecondaryTextColour {
-background: #76859B; }
 
-li.colour__block--ErrorColour {
-background: #FF4141; }
-li.colour__block--LinkColour {
-background: #106DE0; }
-
-
-li.colour__block--CommentDividerColour {
-background: #E5E6EA; }
-li.colour__block--CommentCTABorderColour {
-background: #D8D8D8; }
-li.colour__block--SoftBackgroundColour {
-background: #FAF8F9; }
-li.colour__block--ListDividerColour{
-background: #E0E0E0; }
-li.colour__block--FormDividerColour {
+li.colour__block--PrimaryDividerColour {
 background: #C9C9C9; }
-li.colour__block--VideoContentBackgroundColour {
-background: #555555; }
+li.colour__block--SubtleDividerColour{
+background: #E2E2E2; }
 
 
 li.colour__block--LikeIconColour {
 background: #D22B36; }
 li.colour__block--CommentIconColour {
 background: #738BB2; }
-li.colour__block--PostCommentButtonInactiveColour {
-background: #E1E1E1; }
-li.colour__block--PostCommentButtonActiveColour {
-background: #5798EA; }
-li.colour__block--CommentIconColour {
-background: #738BB2; }
+
+
+li.colour__block--ErrorColour {
+background: #D22B36; }
+li.colour__block--LinkColour {
+background: #106DE0; }
+
+// Buttons
+li.colour__block--ReplyingToButtonColour {
+background: #C9CEDA; }
+
+
+
+// Used in background colours in social, and the empty screens for notification center
+li.colour__block--SoftBackgroundColour {
+background: #FAF8F9; }
 li.colour__block--NotificationReadColour {
 background: #FFFFFF; }
 li.colour__block--NotificationUnreadColour {
 background: #F1F7FF; }
+
+// Dividing lines
+li.colour__block--CommentDividerColour {
+background: #E5E6EA; }
+// Used in notification center and user list
+li.colour__block--ListDividerColour{
+background: #E0E0E0; }
+
+
+// Backgrounds for videos and images (before they load in)
+li.colour__block--DarkBackgroundColour {
+background: #484647; }
+li.colour__block--ImageBackgroundColour {
+background: #C9C9C9; }
