@@ -142,3 +142,22 @@ a{
   font-size: 13px;
   @include latoRegular;
 }
+
+.mobileScreen__label{
+  color: $SecondaryBodyColour;
+  font-size: 12px;
+  @include latoBold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.mobileScreen__formInput{
+  color: $PrimaryBodyColour;
+  font-size: 18px;
+  @include latoRegular;
+}
+.mobileScreen__formPlaceholder{
+  color: $PlaceholderColour;
+  font-size: 18px;
+  @include latoRegular;
+}
