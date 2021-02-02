@@ -27,7 +27,8 @@ li.colour__block--softGreyColor{
 background: #E2E2E2; }
 li.colour__block--DarkGrey{
 background: #48484A; }
-
+li.colour__block--SubtleDividerColourDark{
+background: #2E2E2C; }
 li.colour__block--LikeIconColour {
 background: #D22B36; }
 li.colour__block--CommentIconColour {
@@ -38,6 +39,20 @@ li.colour__block--ErrorColour {
 background: #DF0604; }
 li.colour__block--LinkColour {
 background: #106DE0; }
+li.colour__block--LinkColourDark {
+    background: #0984FF; }
+// Dark mode variants
+
+li.colour__block--PrimaryBodyColourDark {
+background: #FFFFFF; }
+
+li.colour__block--SoftGreyDark {
+background: #2E2E2C; }
+
+li.colour__block--MetaTextColourDark {
+background: #999AB8; }
+li.colour__block--NotificationUnreadColourDark {
+background: #161B25; } 
 
 // Buttons
 li.colour__block--ReplyingToButtonColour {
@@ -51,7 +66,7 @@ background: #FAF8F9; }
 li.colour__block--NotificationReadColour {
 background: #FFFFFF; }
 li.colour__block--NotificationUnreadColour {
-background: #F1F7FF; }
+background: #F1F7FF; } 
 
 // Dividing lines
 li.colour__block--CommentDividerColour {
