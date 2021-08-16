@@ -176,8 +176,6 @@ title: Modals
 </div>
 
 <!-- [Element mini modal] -->
-
-
 <div class="main__content__block">
   <div class="miniModal__container">
     <div class="miniModal__header testfix">
@@ -198,9 +196,6 @@ title: Modals
     </div>
   </div>
 </div>
-
-
-
 
 <p>Standard modals are 617px by 455px tall, while the mini modals are 446px by 275px. If there is a lot of content to display it should be scrollable within the modal itself. The scrollable area is the main content area beneath the top title area and button area at the bottom. Both of these strips stay in place while the user scrolls the content behind. This ensures the context of the modal is always clear (as the title can be seen) and the action buttons are always in view.  </p>
 
@@ -229,7 +224,37 @@ title: Modals
     <p class="delete--modal">The delete modal is used throughout any instance in the CMS where delete or remove is an option.</p>
 
 <div class="imageContainer imageContainer--one padding__50">
-    <img src="{{ site.baseurl }}/assets/images/cms/widgets/delete_modal_1.jpg" alt="list" /img>
+    <img src="{{ site.baseurl }}/assets/images/cms/widgets/delete_modal_1.jpg" alt="list">
     <p class="caption">Delete modal on a modular page.</p>
-    
 </div>
+
+<h2>Progressive Modal</h2>
+<p>Progressive modals are 617px by 505px tall, slightly taller than our normal modals as they are only used for specific circumstances.</p>
+
+<p>The first step on all progrssive modals has the first tab in its hightlighted phase, background-colour: $buttonPrimary at 5% opacity with the text colour: $buttonPrimary. While the unfinished/additional tabs will be disabled.</p>
+<p>Slight footer change as well on the progessive modal. The 'Next Step' button is always bottom right to promote a natural flow when being guideed through the modal.</p>
+
+<div class="imageContainer imageContainer--one padding__50">
+    <img src="{{ site.baseurl }}/assets/images/cms/widgets/progressive_modal_1.jpg" alt="list">
+    <p class="caption">First Stage</p>
+</div>
+
+<p>When the user has progressed through the modal and completed previous steps, the previous tabs when are completed change to a 'complete' state. The background-colour: $buttonPrimary  with the text colour: white </p>
+
+<p>An additional button also appears in the footer, 'previous step', logically at the bottom left as the user will be going to the previous stage if selected.</p>
+
+<div class="imageContainer imageContainer--one padding__50">
+    <img src="{{ site.baseurl }}/assets/images/cms/widgets/progressive_modal_2.jpg" alt="list">
+    <p class="caption">Middle Stage</p>
+</div>
+
+<p>When the user is on the last tab, the bottom right button text would be custom to action which will be happen once clicked, in this case 'send now' as the user is sending a notification.</p>
+
+<p>Note: tabs are clickable and will take the user back to the selected tab once selected.</p>
+
+<div class="imageContainer imageContainer--one padding__50">
+    <img src="{{ site.baseurl }}/assets/images/cms/widgets/progressive_modal_3.jpg" alt="list">
+    <p class="caption">Last Stage</p>
+</div>
+
+
